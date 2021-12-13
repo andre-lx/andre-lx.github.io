@@ -9,6 +9,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
 </head>
 
 <body class="is-preload">
@@ -124,11 +125,22 @@
                         <p>Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt ipsum suspendisse ultrices gravida.</p>
                     </header>
                     <div class="content">
+
                         <div class="gallery spotlight-group" data-title="Bikinis" data-theme="white">
-                            <a href="images/gallery/fulls/01.jpg" data-description="lalaasdsadsad2" class="landscape spotlight"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-                            <a href="images/gallery/fulls/02.jpg" data-description="lalasdaaa3" class="spotlight"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-                            <a href="images/gallery/fulls/03.jpg" data-description="laaaaala" class="spotlight"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-                            <a href="images/gallery/fulls/04.jpg" data-description="laaaaala" class="landscape spotlight"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+                            <a data-fancybox="gallery" data-src="images/gallery/fulls/01.jpg" data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+                                <img src="images/gallery/thumbs/01.jpg" />
+                            </a>
+
+                            <a data-fancybox="gallery" data-src="images/gallery/fulls/02.jpg">
+                                <img src="images/gallery/thumbs/02.jpg" />
+                            </a>
+
+                            <a data-fancybox="gallery" data-src="images/gallery/fulls/03.jpg">
+                                <img src="images/gallery/thumbs/03.jpg" />
+                            </a>
+                            <a data-fancybox="gallery" data-src="images/gallery/fulls/04.jpg">
+                                <img src="images/gallery/thumbs/04.jpg" />
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -142,10 +154,21 @@
                         </p>
                     </header>
                     <div class="content">
-                        <div class="gallery spotlight-group" data-theme="white">
-                            <a href="images/gallery/fulls/05.jpg" class="landscape spotlight"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-                            <a href="images/gallery/fulls/06.jpg" class="spotlight"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-                            <a href="images/gallery/fulls/07.jpg" class="spotlight"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+                        <div class="gallery spotlight-group" data-title="Bikinis" data-theme="white">
+                            <a data-fancybox="gallery2" data-src="images/gallery/fulls/05.jpg" data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+                                <img src="images/gallery/thumbs/05.jpg" />
+                            </a>
+
+                            <a data-fancybox="gallery2" data-src="images/gallery/fulls/06.jpg">
+                                <img src="images/gallery/thumbs/06.jpg" />
+                            </a>
+
+                            <a data-fancybox="gallery2" data-src="images/gallery/fulls/07.jpg">
+                                <img src="images/gallery/thumbs/07.jpg" />
+                            </a>
+                            <a data-fancybox="gallery2" data-src="images/gallery/fulls/08.jpg">
+                                <img src="images/gallery/thumbs/08.jpg" />
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -157,10 +180,21 @@
                         <p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore. ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
                     </header>
                     <div class="content">
-                        <div class="gallery spotlight-group" data-theme="white">
-                            <a href="images/gallery/fulls/08.jpg" class="portrait spotlight"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-                            <a href="images/gallery/fulls/09.jpg" class="portrait spotlight"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-                            <a href="images/gallery/fulls/10.jpg" class="landscape spotlight"><img src="images/gallery/thumbs/10.jpg" alt="" /></a>
+                        <div class="gallery spotlight-group" data-title="Bikinis" data-theme="white">
+                            <a data-fancybox="gallery3" data-src="images/gallery/fulls/09.jpg" data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+                                <img src="images/gallery/thumbs/09.jpg" />
+                            </a>
+
+                            <a data-fancybox="gallery3" data-src="images/gallery/fulls/10.jpg">
+                                <img src="images/gallery/thumbs/10.jpg" />
+                            </a>
+
+                            <a data-fancybox="gallery3" data-src="images/gallery/fulls/08.jpg">
+                                <img src="images/gallery/thumbs/08.jpg" />
+                            </a>
+                            <a data-fancybox="gallery3" data-src="images/gallery/fulls/09.jpg">
+                                <img src="images/gallery/thumbs/09.jpg" />
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -554,7 +588,8 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js"></script>
+    <!--<script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </body>
 
 </html>

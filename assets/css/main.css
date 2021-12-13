@@ -2718,6 +2718,7 @@ a.arrow:before {
     outline: 0;
     position: relative;
     width: calc(50% - 1.25rem);
+    cursor: pointer;
 }
 
 .gallery a img {
