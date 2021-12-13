@@ -2957,10 +2957,11 @@ ul.feature-icons li:before {
     width: 3.25rem;
 }
 
-ul.feature-icons li:nth-child(1),
+
+/*ul.feature-icons li:nth-child(1),
 ul.feature-icons li:nth-child(2) {
     margin-top: 0;
-}
+}*/
 
 @media screen and (max-width: 736px) {
     ul.feature-icons {
