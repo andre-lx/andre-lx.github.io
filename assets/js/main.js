@@ -170,12 +170,12 @@
             }, 125);
 
         })
-        .on('keypress', '.modal', function(event) {
+        .on('keydown', '.modal', function(event) {
 
             var $modal = $(this);
 
             // Escape? Hide modal.
-            if (event.keyCode == 27)
+            if (event.keyCode === 27)
                 $modal.trigger('click');
 
         })
