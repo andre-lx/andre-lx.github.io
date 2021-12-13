@@ -2933,7 +2933,7 @@ ul.feature-icons:first-child {
 }
 
 ul.feature-icons li {
-    margin: 2.5rem 0 0 0;
+    /*margin: 2.5rem 0 0 0;*/
     padding: 0.5rem 0 0 4.5rem;
     position: relative;
     width: 50%;
@@ -3574,4 +3574,12 @@ body.is-ie #wrapper>section>.content>section {
     height: 76px !important;
     z-index: -999999;
     opacity: 0;
+}
+
+ul.feature-icons li {
+    /*margin: 2.5rem 0 0 0;*/
+    padding: 0.5rem 0 0 4.5rem;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5rem;
 }
