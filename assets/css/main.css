@@ -3595,3 +3595,23 @@ ul.feature-icons li {
 .projects_images:hover {
     transform: scale(1.1);
 }
+
+.fancybox__backdrop {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.carousel__button {
+    color: black;
+}
+
+.fancybox__counter {
+    color: black;
+}
+
+.fancybox__toolbar {
+    background: none;
+}
+
+.fancybox__spinner {
+    color: black;
+}
