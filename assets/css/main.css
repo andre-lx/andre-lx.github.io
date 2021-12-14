@@ -188,9 +188,10 @@ html {
     box-sizing: inherit;
 }
 
-html {
+
+/*html {
     overflow-x: hidden;
-}
+}*/
 
 body {
     background: #ffffff;
@@ -1656,7 +1657,7 @@ button,
     border-radius: 0.325rem;
     border: 0;
     box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-    color: #000000 !important;
+    /*color: #000000 !important;*/
     cursor: pointer;
     display: inline-block;
     font-family: "Raleway", Helvetica, sans-serif;
@@ -1677,7 +1678,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-    box-shadow: inset 0 0 0 2px #2ee4bb;
+    /*box-shadow: inset 0 0 0 2px #2ee4bb;*/
     color: #2ee4bb !important;
 }
 
@@ -1687,7 +1688,7 @@ input[type="button"]:active,
 button:active,
 .button:active {
     background-color: rgba(73, 252, 212, 0.25);
-    box-shadow: inset 0 0 0 2px #2ee4bb;
+    /*box-shadow: inset 0 0 0 2px #2ee4bb;*/
     color: #2ee4bb !important;
 }
 
@@ -2326,9 +2327,10 @@ ul {
     padding-left: 1rem;
 }
 
-ul li {
+
+/*ul li {
     padding-left: 0.325rem;
-}
+}*/
 
 ul.alt {
     list-style: none;
@@ -2529,8 +2531,8 @@ ul.icons li .icon {
     -webkit-transition: background-color 0.25s ease-in-out;
     -ms-transition: background-color 0.25s ease-in-out;
     transition: background-color 0.25s ease-in-out;
-    width: 2.25rem;
-    height: 2.25rem;
+    /*width: 2.25rem;
+    height: 2.25rem;*/
     text-align: center;
     line-height: 2.25rem;
     border-radius: 2.25rem;
@@ -2970,9 +2972,9 @@ ul.feature-icons li:nth-child(2) {
     ul.feature-icons li {
         width: 100%;
     }
-    ul.feature-icons li:nth-child(2) {
+    /*ul.feature-icons li:nth-child(2) {
         margin-top: 2rem;
-    }
+    }*/
 }
 
 
@@ -3584,4 +3586,12 @@ ul.feature-icons li {
     position: relative;
     width: 100%;
     margin-bottom: 1.5rem;
+}
+
+.projects_images {
+    transition: transform .5s;
+}
+
+.projects_images:hover {
+    transform: scale(1.1);
 }
