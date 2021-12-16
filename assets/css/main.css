@@ -3636,6 +3636,7 @@ ul.feature-icons li {
 
 .fancybox__backdrop {
     background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(25px);
 }
 
 .carousel__button {
@@ -3643,6 +3644,10 @@ ul.feature-icons li {
 }
 
 .fancybox__counter {
+    color: black;
+}
+
+.fancybox__caption {
     color: black;
 }
 
