@@ -193,6 +193,11 @@ html {
     overflow-x: hidden;
 }*/
 
+.fancybox__backdrop {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(20px);
+}
+
 body {
     background: #ffffff;
     overflow-x: hidden;
@@ -3641,11 +3646,6 @@ ul.feature-icons li {
 
 .projects_images:hover {
     transform: scale(1.1);
-}
-
-.fancybox__backdrop {
-    background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(20px);
 }
 
 .carousel__button {
