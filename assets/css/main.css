@@ -238,6 +238,9 @@ html {
     .color_white_small_screen {
         color: white
     }
+    .fancybox__backdrop {
+        backdrop-filter: blur(10px);
+    }
 }
 
 @media screen and (max-width: 736px) {
@@ -250,6 +253,9 @@ html {
     .color_white_small_screen {
         color: white
     }
+    .fancybox__backdrop {
+        backdrop-filter: blur(10px);
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -261,6 +267,9 @@ html {
     }
     .color_white_small_screen {
         color: white
+    }
+    .fancybox__backdrop {
+        backdrop-filter: blur(10px);
     }
 }
 
@@ -3636,7 +3645,7 @@ ul.feature-icons li {
 
 .fancybox__backdrop {
     background: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
 
 .carousel__button {
