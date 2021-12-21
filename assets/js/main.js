@@ -37,8 +37,18 @@
 
     Fancybox.bind("[data-fancybox]", {
         infinite: true,
+        click: "next",
         Image: {
             zoom: false,
+        },
+        Carousel: {
+            friction: 0.4,
+        },
+        Panzoom: {
+            zoomFriction: 0.99,
+            maxScale: 50,
+            step: 0.1,
+            baseScale: 2,
         },
         Toolbar: {
             display: [
@@ -49,6 +59,7 @@
                 "fullscreen",
                 "thumbs",
                 "close",
+                //"slideshow",
             ],
         }
     });
@@ -114,13 +125,15 @@
     $(projects).each(function(i, item) {
 
         var images = ""
+        var parent_title = item.title[lang]
+
         $(item.images).each(function(i, item) {
 
             not_visible_class = "hiddenimages"
             if (item.visible)
                 not_visible_class = ""
 
-            images += '<a class="projects_images ' + not_visible_class + '" data-fancybox="gallery" data-src="../images/gallery/fulls/' + item.fullimage + '" data-caption="' + item.caption[lang] + '">' +
+            images += '<a class="projects_images ' + not_visible_class + '" data-fancybox="gallery" data-src="../images/gallery/fulls/' + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '">' +
                 '<img src="../images/gallery/thumbs/' + item.thumbnail + '" />' +
                 '</a>'
         });

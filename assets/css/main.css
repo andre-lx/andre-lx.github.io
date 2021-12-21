@@ -3658,6 +3658,7 @@ ul.feature-icons li {
 
 .fancybox__caption {
     color: black;
+    text-align: center;
 }
 
 .fancybox__toolbar {
