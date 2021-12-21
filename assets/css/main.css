@@ -3715,6 +3715,10 @@ body:not(.is-using-mouse) .fancybox__container :focus {
     box-shadow: none;
 }
 
-#lastelementmargin {
+#skills_ul {
     margin-bottom: 0px;
+}
+
+.gallery .hiddenimages {
+    display: none;
 }

@@ -100,128 +100,106 @@
 
     }
 
-    //// Gallery.
-    //$('.gallery')
-    //    .on('click', 'a', function(event) {
+    // LANG
 
-    //        var $a = $(this),
-    //            $gallery = $a.parents('.gallery'),
-    //            $modal = $gallery.children('.modal'),
-    //            $modalImg = $modal.find('img'),
-    //            href = $a.attr('href');
+    //lang = "en"
+    var href = location.href;
+    lang = href.match(/([^\/]*)\/*$/)[1];
 
-    //        // Not an image? Bail.
-    //        if (!href.match(/\.(jpg|gif|png|mp4)$/))
-    //            return;
+    console.log(lang)
 
-    //        // Prevent default.
-    //        event.preventDefault();
-    //        event.stopPropagation();
+    if (lang != "en" || lang != "pt")
+        lang = "en"
 
-    //        // Locked? Bail.
-    //        if ($modal[0]._locked)
-    //            return;
+    $(projects).each(function(i, item) {
 
-    //        // Lock.
-    //        $modal[0]._locked = true;
+        var images = ""
+        $(item.images).each(function(i, item) {
 
-    //        // Set src.
-    //        $modalImg.attr('src', href);
+            not_visible_class = "hiddenimages"
+            if (item.visible)
+                not_visible_class = ""
 
-    //        // Set visible.
-    //        $modal.addClass('visible');
+            images += '<a class="projects_images ' + not_visible_class + '" data-fancybox="gallery" data-src="../images/gallery/fulls/' + item.fullimage + '" data-caption="' + item.caption[lang] + '">' +
+                '<img src="../images/gallery/thumbs/' + item.thumbnail + '" />' +
+                '</a>'
+        });
 
-    //        // Focus.
-    //        $modal.focus();
+        var section_element = '<section>' +
+            '<header>' +
+            '<h3 class="color_white">' + item.title[lang] + '</h3>' +
+            '<p class="color_white">' + item.description[lang] + '</p>' +
+            '</header>' +
+            '<div class="content">' +
+            '<div class="gallery">' +
+            images +
+            '</div>' +
+            '</div>' +
+            '</section>';
 
-    //        // Delay.
-    //        setTimeout(function() {
+        $("#all_projects").append(section_element)
+    })
 
-    //            // Unlock.
-    //            $modal[0]._locked = false;
+    $(main).each(function(i, item) {
 
-    //        }, 600);
+        //creating_opportunities
+        $("#creating_opportunities_title").html(item.creating_opportunities.title[lang])
+        $("#creating_opportunities_text").html(item.creating_opportunities.text[lang])
 
-    //    })
-    //    .on('click', '.modal', function(event) {
+        //projects
+        $("#projects_title").html(item.projects.title[lang])
+        $("#projects_text").html(item.projects.text[lang])
 
-    //        var $modal = $(this),
-    //            $modalImg = $modal.find('img');
+        //carrer_path
+        $("#carrer_path_title").html(item.carrer_path.title[lang])
 
-    //        // Locked? Bail.
-    //        if ($modal[0]._locked)
-    //            return;
+        //carrer_path_education
+        $("#carrer_path_subsections_education_title").html(item.carrer_path.subsections.education.title[lang])
+        $("#carrer_path_subsections_education_text").html(item.carrer_path.subsections.education.text[lang])
 
-    //        // Already hidden? Bail.
-    //        if (!$modal.hasClass('visible'))
-    //            return;
+        var education = ""
+        $(item.carrer_path.subsections.education.courses).each(function(i, item) {
+            education += '<li class="icon solid ' + item.favicon + '"> ' + item.name[lang] + '</li>'
+        });
+        $("#education_ul").append(education)
 
-    //        // Stop propagation.
-    //        event.stopPropagation();
+        //carrer_path_minicourses
+        $("#carrer_path_subsections_minicourses_title").html(item.carrer_path.subsections.education.minicourses.title[lang])
 
-    //        // Lock.
-    //        $modal[0]._locked = true;
+        var minicourses = ""
+        $(item.carrer_path.subsections.education.minicourses.items).each(function(i, item) {
+            minicourses += '<li class="icon solid ' + item.favicon + '"> ' + item.name[lang] + '</li>'
+        });
+        $("#ul_minicourses").append(minicourses)
 
-    //        // Clear visible, loaded.
-    //        $modal
-    //            .removeClass('loaded')
+        //carrer_path_work
+        $("#carrer_path_subsections_work_title").html(item.carrer_path.subsections.work.title[lang])
+        $("#carrer_path_subsections_work_text").html(item.carrer_path.subsections.work.text[lang])
 
-    //        // Delay.
-    //        setTimeout(function() {
+        var work = ""
+        $(item.carrer_path.subsections.work.items).each(function(i, item) {
+            work += '<li class="icon solid ' + item.favicon + '"> ' + item.name[lang] + '</li>'
+        });
+        $("#work_ul").append(work)
 
-    //            $modal
-    //                .removeClass('visible')
+        //carrer_path_skills
+        $("#carrer_path_subsections_skills_title").html(item.carrer_path.subsections.skills.title[lang])
+        $("#carrer_path_subsections_skilss_text").html(item.carrer_path.subsections.skills.text[lang])
 
-    //            setTimeout(function() {
+        var skills = ""
+        $(item.carrer_path.subsections.skills.items).each(function(i, item) {
+            skills += '<li class="icon solid ' + item.favicon + '"> ' + item.name[lang] + '</li>'
+        });
+        $("#skills_ul").append(skills)
 
-    //                // Clear src.
-    //                $modalImg.attr('src', '');
+        //get_in_touch
+        $("#getintouch_title").html(item.get_in_touch.title[lang])
+        $("#getintouch_text").html(item.get_in_touch.text[lang])
+        $("#getintouch_address").html(item.get_in_touch.address[lang])
+        $("#getintouch_elsewhere").html(item.get_in_touch.elsewhere[lang])
 
-    //                // Unlock.
-    //                $modal[0]._locked = false;
+    })
 
-    //                // Focus.
-    //                $body.focus();
-
-    //            }, 475);
-
-    //        }, 125);
-
-    //    })
-    //    .on('keydown', '.modal', function(event) {
-
-    //        var $modal = $(this);
-
-    //        // Escape? Hide modal.
-    //        if (event.keyCode === 27)
-    //            $modal.trigger('click');
-
-    //    })
-    //    .on('mouseup mousedown mousemove', '.modal', function(event) {
-
-    //        // Stop propagation.
-    //        event.stopPropagation();
-
-    //    })
-    //    .prepend('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /></div></div>')
-    //    .find('img')
-    //    .on('load', function(event) {
-
-    //        var $modalImg = $(this),
-    //            $modal = $modalImg.parents('.modal');
-
-    //        setTimeout(function() {
-
-    //            // No longer visible? Bail.
-    //            if (!$modal.hasClass('visible'))
-    //                return;
-
-    //            // Set loaded.
-    //            $modal.addClass('loaded');
-
-    //        }, 275);
-
-    //    });
 })(jQuery);
 
 // favicon light and dark
