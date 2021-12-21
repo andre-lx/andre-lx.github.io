@@ -108,7 +108,7 @@
 
     console.log(lang)
 
-    if (lang != "en" || lang != "pt")
+    if (lang != "en" && lang != "pt")
         lang = "en"
 
     $(projects).each(function(i, item) {
