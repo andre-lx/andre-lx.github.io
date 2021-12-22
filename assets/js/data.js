@@ -1,5 +1,9 @@
 const main = [{
+    intro: {
+        image: "../images/pic01.jpeg"
+    },
     creating_opportunities: {
+        image: "../images/pic02.jpeg",
         title: {
             pt: "Criando oportunidades",
             en: "Creating opportunities",
@@ -7,7 +11,7 @@ const main = [{
         text: {
             pt: "Apaixonada por",
             en: "Passionate about creativity and designing sustainable projects.<br>The world will not be entirely sustainable overnight, but with effort, dedication and making the right and well thought-out choices, we can build the best path for that. If the big companies don't do it, it's up to the small companies to change the world.",
-        },
+        }
     },
     projects: {
         title: {
@@ -184,7 +188,7 @@ const main = [{
         }
     },
     get_in_touch: {
-        sectionid: "getintouch",
+        image: "../images/pic03.jpeg",
         title: {
             pt: "Contactos",
             en: "GET IN TOUCH",
@@ -204,242 +208,254 @@ const main = [{
     },
 }, ]
 
-const projects = [{
-    title: {
-        pt: "Bikinis",
-        en: "Bikinis",
+const projects = {
+    config: {
+        paths: {
+            images: "../images/gallery/fulls/",
+            thumbnails: "../images/gallery/thumbs/",
+        }
     },
-    description: {
-        pt: "isto é a descrição do projeto",
-        en: "this is the project description",
-    },
-    images: [{
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem visivel",
-                en: "this is the visible image 1",
+    projects: [{
+            title: {
+                pt: "Bikinis",
+                en: "Bikinis",
             },
-            thumbnail: "011.png",
-            fullimage: "011.png"
+            description: {
+                pt: "isto é a descrição do projeto",
+                en: "this is the project description",
+            },
+            images: [{
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem visivel",
+                        en: "this is the visible image 1",
+                    },
+                    thumbnail: "011.png",
+                    fullimage: "011.png"
+                },
+                {
+                    visible: false,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 1",
+                        en: "this is a not visible image 1",
+                    },
+                    thumbnail: "011.png",
+                    fullimage: "011.png"
+                },
+                {
+                    visible: false,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2",
+                        en: "this is a not visible image 2",
+                    },
+                    thumbnail: "011.png",
+                    fullimage: "011.png"
+                },
+                {
+                    visible: false,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 3",
+                        en: "this is a not visible image 3",
+                    },
+                    thumbnail: "011.png",
+                    fullimage: "011.png"
+                },
+                {
+                    visible: false,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 4",
+                        en: "this is a not visible image 4",
+                    },
+                    thumbnail: "011.png",
+                    fullimage: "011.png"
+                },
+                {
+                    visible: false,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 5",
+                        en: "this is a not visible image 5",
+                    },
+                    thumbnail: "011.png",
+                    fullimage: "011.png"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2",
+                        en: "this is a not visible image 2",
+                    },
+                    thumbnail: "02.jpg",
+                    fullimage: "02.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 3",
+                        en: "this is a not visible image 3",
+                    },
+                    thumbnail: "03.jpg",
+                    fullimage: "03.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 4",
+                        en: "this is a not visible image 4",
+                    },
+                    thumbnail: "04.jpg",
+                    fullimage: "04.jpg"
+                },
+            ],
         },
         {
-            visible: false,
-            caption: {
-                pt: "isto é uma imagem invisivel 1",
-                en: "this is a not visible image 1",
+            title: {
+                pt: "Casacos",
+                en: "Coats",
             },
-            thumbnail: "011.png",
-            fullimage: "011.png"
+            description: {
+                pt: "isto é a descrição do projeto 2",
+                en: "this is the project description 2",
+            },
+            images: [{
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2.1",
+                        en: "this is a not visible image 2.1",
+                    },
+                    thumbnail: "05.jpg",
+                    fullimage: "05.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2.2",
+                        en: "this is a not visible image 2.2",
+                    },
+                    thumbnail: "06.jpg",
+                    fullimage: "06.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2.3",
+                        en: "this is a not visible image 2.3",
+                    },
+                    thumbnail: "07.jpg",
+                    fullimage: "07.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2.4",
+                        en: "this is a not visible image 2.4",
+                    },
+                    thumbnail: "08.jpg",
+                    fullimage: "08.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2.5",
+                        en: "this is a not visible image 2.5",
+                    },
+                    thumbnail: "011.png",
+                    fullimage: "011.png"
+                },
+            ],
         },
         {
-            visible: false,
-            caption: {
-                pt: "isto é uma imagem invisivel 2",
-                en: "this is a not visible image 2",
+            title: {
+                pt: "Camisas",
+                en: "Shirts",
             },
-            thumbnail: "011.png",
-            fullimage: "011.png"
+            description: {
+                pt: "isto é a descrição do projeto 3",
+                en: "this is the project description 3",
+            },
+            images: [{
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 3.1",
+                        en: "this is a not visible image 3.1",
+                    },
+                    thumbnail: "09.jpg",
+                    fullimage: "09.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 3.2",
+                        en: "this is a not visible image 3.2",
+                    },
+                    thumbnail: "10.jpg",
+                    fullimage: "10.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 3.3",
+                        en: "this is a not visible image 3.3",
+                    },
+                    thumbnail: "08.jpg",
+                    fullimage: "08.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 3.4",
+                        en: "this is a not visible image 3.4",
+                    },
+                    thumbnail: "09.jpg",
+                    fullimage: "09.jpg"
+                },
+            ],
         },
         {
-            visible: false,
-            caption: {
-                pt: "isto é uma imagem invisivel 3",
-                en: "this is a not visible image 3",
+            title: {
+                pt: "Calças",
+                en: "Pants",
             },
-            thumbnail: "011.png",
-            fullimage: "011.png"
-        },
-        {
-            visible: false,
-            caption: {
-                pt: "isto é uma imagem invisivel 4",
-                en: "this is a not visible image 4",
+            description: {
+                pt: "isto é a descrição do projeto 4",
+                en: "this is the project description 4",
             },
-            thumbnail: "011.png",
-            fullimage: "011.png"
-        },
-        {
-            visible: false,
-            caption: {
-                pt: "isto é uma imagem invisivel 5",
-                en: "this is a not visible image 5",
-            },
-            thumbnail: "011.png",
-            fullimage: "011.png"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 2",
-                en: "this is a not visible image 2",
-            },
-            thumbnail: "02.jpg",
-            fullimage: "02.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 3",
-                en: "this is a not visible image 3",
-            },
-            thumbnail: "03.jpg",
-            fullimage: "03.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 4",
-                en: "this is a not visible image 4",
-            },
-            thumbnail: "04.jpg",
-            fullimage: "04.jpg"
-        },
-    ],
-}, {
-    title: {
-        pt: "Casacos",
-        en: "Coats",
-    },
-    description: {
-        pt: "isto é a descrição do projeto 2",
-        en: "this is the project description 2",
-    },
-    images: [{
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 2.1",
-                en: "this is a not visible image 2.1",
-            },
-            thumbnail: "05.jpg",
-            fullimage: "05.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 2.2",
-                en: "this is a not visible image 2.2",
-            },
-            thumbnail: "06.jpg",
-            fullimage: "06.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 2.3",
-                en: "this is a not visible image 2.3",
-            },
-            thumbnail: "07.jpg",
-            fullimage: "07.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 2.4",
-                en: "this is a not visible image 2.4",
-            },
-            thumbnail: "08.jpg",
-            fullimage: "08.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 2.5",
-                en: "this is a not visible image 2.5",
-            },
-            thumbnail: "011.png",
-            fullimage: "011.png"
-        },
-    ],
-}, {
-    title: {
-        pt: "Camisas",
-        en: "Shirts",
-    },
-    description: {
-        pt: "isto é a descrição do projeto 3",
-        en: "this is the project description 3",
-    },
-    images: [{
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 3.1",
-                en: "this is a not visible image 3.1",
-            },
-            thumbnail: "09.jpg",
-            fullimage: "09.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 3.2",
-                en: "this is a not visible image 3.2",
-            },
-            thumbnail: "10.jpg",
-            fullimage: "10.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 3.3",
-                en: "this is a not visible image 3.3",
-            },
-            thumbnail: "08.jpg",
-            fullimage: "08.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 3.4",
-                en: "this is a not visible image 3.4",
-            },
-            thumbnail: "09.jpg",
-            fullimage: "09.jpg"
-        },
-    ],
-}, {
-    title: {
-        pt: "Calças",
-        en: "Pants",
-    },
-    description: {
-        pt: "isto é a descrição do projeto 4",
-        en: "this is the project description 4",
-    },
-    images: [{
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 4.1",
-                en: "this is a not visible image 4.1",
-            },
-            thumbnail: "09.jpg",
-            fullimage: "09.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 4.2",
-                en: "this is a not visible image 4.2",
-            },
-            thumbnail: "10.jpg",
-            fullimage: "10.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 4.3",
-                en: "this is a not visible image 4.3",
-            },
-            thumbnail: "08.jpg",
-            fullimage: "08.jpg"
-        },
-        {
-            visible: true,
-            caption: {
-                pt: "isto é uma imagem invisivel 4.4",
-                en: "this is a not visible image 4.4",
-            },
-            thumbnail: "09.jpg",
-            fullimage: "09.jpg"
-        },
-    ],
-}, ]
+            images: [{
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 4.1",
+                        en: "this is a not visible image 4.1",
+                    },
+                    thumbnail: "09.jpg",
+                    fullimage: "09.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 4.2",
+                        en: "this is a not visible image 4.2",
+                    },
+                    thumbnail: "10.jpg",
+                    fullimage: "10.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 4.3",
+                        en: "this is a not visible image 4.3",
+                    },
+                    thumbnail: "08.jpg",
+                    fullimage: "08.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 4.4",
+                        en: "this is a not visible image 4.4",
+                    },
+                    thumbnail: "09.jpg",
+                    fullimage: "09.jpg"
+                },
+            ],
+        }
+    ]
+}

@@ -1,9 +1,3 @@
-/*
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
     var $window = $(window),
@@ -35,6 +29,15 @@
     if (browser.mobile)
         $body.addClass('is-mobile');
 
+    // Scrolly.
+    $('.scrolly')
+        .scrolly({
+            offset: 100
+        });
+
+
+
+    // Fancybox
     Fancybox.bind("[data-fancybox]", {
         infinite: true,
         click: "next",
@@ -64,77 +67,29 @@
         }
     });
 
-    // Scrolly.
-    $('.scrolly')
-        .scrolly({
-            offset: 100
-        });
-
-    // Polyfill: Object fit.
-    if (!browser.canUse('object-fit')) {
-
-        $('.image[data-position]').each(function() {
-
-            var $this = $(this),
-                $img = $this.children('img');
-
-            // Apply img as background.
-            $this
-                .css('background-image', 'url("' + $img.attr('src') + '")')
-                .css('background-position', $this.data('position'))
-                .css('background-size', 'cover')
-                .css('background-repeat', 'no-repeat');
-
-            // Hide img.
-            $img
-                .css('opacity', '0');
-
-        });
-
-        $('.gallery > a').each(function() {
-
-            var $this = $(this),
-                $img = $this.children('img');
-
-            // Apply img as background.
-            $this
-                .css('background-image', 'url("' + $img.attr('src') + '")')
-                .css('background-position', 'center')
-                .css('background-size', 'cover')
-                .css('background-repeat', 'no-repeat');
-
-            // Hide img.
-            $img
-                .css('opacity', '0');
-
-        });
-
-    }
-
-    // LANG
-
+    // Fill up information
     //lang = "en"
     var href = location.href;
     lang = href.match(/([^\/]*)\/*$/)[1];
 
-    console.log(lang)
-
     if (lang != "en" && lang != "pt")
         lang = "en"
 
-    $(projects).each(function(i, item) {
+    $(projects.projects).each(function(i, item) {
+
+        var parent_title = item.title[lang]
+        var paths_images = projects.config.paths.images
+        var paths_thumbnails = projects.config.paths.thumbnails
 
         var images = ""
-        var parent_title = item.title[lang]
-
         $(item.images).each(function(i, item) {
 
             not_visible_class = "hiddenimages"
             if (item.visible)
                 not_visible_class = ""
 
-            images += '<a class="projects_images ' + not_visible_class + '" data-fancybox="gallery" data-src="../images/gallery/fulls/' + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '">' +
-                '<img src="../images/gallery/thumbs/' + item.thumbnail + '" />' +
+            images += '<a class="projects_images ' + not_visible_class + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '">' +
+                '<img src="' + paths_thumbnails + item.thumbnail + '" />' +
                 '</a>'
         });
 
@@ -155,9 +110,13 @@
 
     $(main).each(function(i, item) {
 
+        //intro
+        $("#mainImage").attr("src", item.intro.image)
+
         //creating_opportunities
         $("#creating_opportunities_title").html(item.creating_opportunities.title[lang])
         $("#creating_opportunities_text").html(item.creating_opportunities.text[lang])
+        $("#creating_opportunities_image").attr("src", item.creating_opportunities.image)
 
         //projects
         $("#projects_title").html(item.projects.title[lang])
@@ -206,6 +165,7 @@
         $("#skills_ul").append(skills)
 
         //get_in_touch
+        $("#getintouch_image").attr("src", item.get_in_touch.image)
         $("#getintouch_title").html(item.get_in_touch.title[lang])
         $("#getintouch_text").html(item.get_in_touch.text[lang])
         $("#getintouch_address").html(item.get_in_touch.address[lang])
