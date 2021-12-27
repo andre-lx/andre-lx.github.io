@@ -1,6 +1,6 @@
 const main = [{
     intro: {
-        image: "../images/pic01.jpeg"
+        image: "../images/pic19.JPG"
     },
     creating_opportunities: {
         image: "../images/pic02.jpeg",
@@ -189,6 +189,15 @@ const main = [{
     },
     get_in_touch: {
         image: "../images/pic03.jpeg",
+        email: "sonia.r.94@gmail.com",
+        addresstitle: {
+            pt: "Localização",
+            en: "Address",
+        },
+        address: {
+            pt: "Lisboa, PT",
+            en: "Lisbon, PT",
+        },
         title: {
             pt: "Contactos",
             en: "GET IN TOUCH",
@@ -196,10 +205,6 @@ const main = [{
         text: {
             pt: "Esteja a vontade",
             en: "Fell free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
-        },
-        address: {
-            pt: "Localização",
-            en: "Address",
         },
         elsewhere: {
             pt: "Outros",

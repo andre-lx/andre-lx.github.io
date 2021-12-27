@@ -168,9 +168,10 @@
         $("#getintouch_image").attr("src", item.get_in_touch.image)
         $("#getintouch_title").html(item.get_in_touch.title[lang])
         $("#getintouch_text").html(item.get_in_touch.text[lang])
-        $("#getintouch_address").html(item.get_in_touch.address[lang])
+        $("#getintouch_addresstitle").html(item.get_in_touch.addresstitle[lang])
         $("#getintouch_elsewhere").html(item.get_in_touch.elsewhere[lang])
-
+        $("#getintouch_address").html(item.get_in_touch.address[lang])
+        $("#getintouch_email").html(item.get_in_touch.email)
     })
 
 })(jQuery);
