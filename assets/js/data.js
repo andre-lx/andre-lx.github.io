@@ -16,7 +16,7 @@ const main = [{
     projects: {
         title: {
             pt: "Projectos",
-            en: "PROJECTS",
+            en: "Projects",
         },
         text: {
             pt: "lalala1",
@@ -148,7 +148,7 @@ const main = [{
             },
             skills: {
                 title: {
-                    pt: "Skills pt",
+                    pt: "Competências",
                     en: "Skills",
                 },
                 text: {
