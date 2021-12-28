@@ -1,9 +1,9 @@
 const main = [{
     intro: {
-        image: "../images/pic19.JPG"
+        image: "../images/index/pic01.JPG"
     },
     creating_opportunities: {
-        image: "../images/pic02.jpeg",
+        image: "../images/index/pic02.jpeg",
         title: {
             pt: "Criando oportunidades",
             en: "Creating opportunities",
@@ -144,13 +144,6 @@ const main = [{
                         },
                         favicon: "fa-shopping-bag"
                     },
-                    {
-                        name: {
-                            pt: "Vários restaurantes cafés, hoteis [2010-2017]",
-                            en: "Various restaurants, cafés, hotels [2010-2017]",
-                        },
-                        favicon: "fa-utensils"
-                    },
                 ]
             },
             skills: {
@@ -188,7 +181,7 @@ const main = [{
         }
     },
     get_in_touch: {
-        image: "../images/pic03.jpeg",
+        image: "../images/index/pic03.jpeg",
         email: "sonia.r.94@gmail.com",
         addresstitle: {
             pt: "Localização",
