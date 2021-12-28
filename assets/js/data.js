@@ -1,6 +1,6 @@
 const main = [{
     intro: {
-        image: "../images/index/pic01.JPG"
+        image: "../images/index/pic01.jpg"
     },
     creating_opportunities: {
         image: "../images/index/pic02.jpeg",
