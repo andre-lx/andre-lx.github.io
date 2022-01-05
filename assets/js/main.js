@@ -40,18 +40,20 @@
     // Fancybox
     Fancybox.bind("[data-fancybox]", {
         infinite: true,
-        click: "next",
+        click: false,
         Image: {
             zoom: false,
+            click: "toggleZoom",
+            wheel: "zoom",
+            Panzoom: {
+                //zoomFriction: 0.99,
+                maxScale: function() {
+                    return 3;
+                },
+            },
         },
         Carousel: {
             friction: 0.4,
-        },
-        Panzoom: {
-            zoomFriction: 0.99,
-            maxScale: 50,
-            step: 0.1,
-            baseScale: 2,
         },
         Toolbar: {
             display: [

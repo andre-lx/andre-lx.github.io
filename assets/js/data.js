@@ -1,9 +1,9 @@
 const main = [{
     intro: {
-        image: "../images/index/pic01.jpg"
+        image: "../assets/images/index/pic01.jpg"
     },
     creating_opportunities: {
-        image: "../images/index/pic02.jpeg",
+        image: "../assets/images/index/pic02.jpeg",
         title: {
             pt: "Criando oportunidades",
             en: "Creating opportunities",
@@ -181,7 +181,7 @@ const main = [{
         }
     },
     get_in_touch: {
-        image: "../images/index/pic03.jpeg",
+        image: "../assets/images/index/pic03.jpeg",
         email: "sonia.r.94@gmail.com",
         addresstitle: {
             pt: "Localização",
@@ -209,8 +209,8 @@ const main = [{
 const projects = {
     config: {
         paths: {
-            images: "../images/gallery/fulls/",
-            thumbnails: "../images/gallery/thumbs/",
+            images: "../assets/images/gallery/fulls/",
+            thumbnails: "../assets/images/gallery/thumbs/",
         }
     },
     projects: [{
