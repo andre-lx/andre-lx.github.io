@@ -228,44 +228,44 @@ const projects = {
                         pt: "isto é uma imagem visivel",
                         en: "this is the visible image 1",
                     },
-                    thumbnail: "011.png",
-                    fullimage: "011.png"
+                    thumbnail: "016.png",
+                    fullimage: "016.png"
                 },
                 {
-                    visible: false,
+                    visible: true,
                     caption: {
                         pt: "isto é uma imagem invisivel 1",
                         en: "this is a not visible image 1",
                     },
-                    thumbnail: "011.png",
-                    fullimage: "011.png"
+                    thumbnail: "017.png",
+                    fullimage: "017.png"
                 },
                 {
-                    visible: false,
+                    visible: true,
                     caption: {
                         pt: "isto é uma imagem invisivel 2",
                         en: "this is a not visible image 2",
                     },
-                    thumbnail: "011.png",
-                    fullimage: "011.png"
+                    thumbnail: "018.png",
+                    fullimage: "018.png"
                 },
                 {
-                    visible: false,
+                    visible: true,
                     caption: {
                         pt: "isto é uma imagem invisivel 3",
                         en: "this is a not visible image 3",
                     },
-                    thumbnail: "011.png",
-                    fullimage: "011.png"
+                    thumbnail: "019.png",
+                    fullimage: "019.png"
                 },
                 {
-                    visible: false,
+                    visible: true,
                     caption: {
                         pt: "isto é uma imagem invisivel 4",
                         en: "this is a not visible image 4",
                     },
-                    thumbnail: "011.png",
-                    fullimage: "011.png"
+                    thumbnail: "020.png",
+                    fullimage: "020.png"
                 },
                 {
                     visible: false,

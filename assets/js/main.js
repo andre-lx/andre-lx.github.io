@@ -90,7 +90,7 @@
             if (item.visible)
                 not_visible_class = ""
 
-            images += '<a class="projects_images ' + not_visible_class + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '">' +
+            images += '<a class="projects_images ' + not_visible_class + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '<br>' + item.fullimage + '">' +
                 '<img src="' + paths_thumbnails + item.thumbnail + '" />' +
                 '</a>'
         });
