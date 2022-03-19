@@ -39,6 +39,7 @@
 
     // Fancybox
     Fancybox.bind("[data-fancybox]", {
+		hash : true,
         infinite: true,
         click: false,
         Image: {
@@ -52,9 +53,9 @@
                 },
             },
         },
-        Carousel: {
-            friction: 0.4,
-        },
+		Carousel: {
+			friction: 0.4
+		  },
         Toolbar: {
             display: [
                 { id: "prev", position: "center" },
@@ -80,8 +81,8 @@
     $(projects.projects).each(function(i, item) {
 
         var parent_title = item.title[lang]
-        var paths_images = projects.config.paths.images
-        var paths_thumbnails = projects.config.paths.thumbnails
+        var paths_images = item.config.paths.images
+        var paths_thumbnails = item.config.paths.thumbnails
 
         var images = ""
         $(item.images).each(function(i, item) {
@@ -90,9 +91,11 @@
             if (item.visible)
                 not_visible_class = ""
 
-            images += '<a class="projects_images ' + not_visible_class + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '<br>' + item.fullimage + '">' +
+            images += '<div class="fotorama" data-width="100%" data-height="100%"><div><a class="project_images ' + not_visible_class + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '<br>' + item.fullimage + '">' +
                 '<img src="' + paths_thumbnails + item.thumbnail + '" />' +
-                '</a>'
+                '</a></div><div><a class="project_images ' + not_visible_class + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '<br>' + item.fullimage + '">' +
+                '<img src="' + paths_thumbnails + item.thumbnail + '" />' +
+                '</a></div></div>'
         });
 
         var section_element = '<section>' +
@@ -101,7 +104,7 @@
             '<p class="color_white">' + item.description[lang] + '</p>' +
             '</header>' +
             '<div class="content">' +
-            '<div class="gallery">' +
+            '<div class="gallery carousel">' +
             images +
             '</div>' +
             '</div>' +
@@ -109,6 +112,46 @@
 
         $("#all_projects").append(section_element)
     })
+
+	const myCarousel = new Carousel(document.querySelector(".carousel"), {
+		slidesPerPage: 1,
+		infinite: false,
+		fill: false,
+		center: true,
+	  });
+
+	  const myCarousel2 = new Carousel(document.querySelector(".carousel2"), {
+		slidesPerPage: 1,
+		infinite: false,
+		fill: false,
+		center: true,
+	  });
+
+	$('.fotorama').fotorama({
+		maxwidth: '100%',
+		arrows: 'always',
+		nav: 'dots',
+		fit: 'contain',
+		arrows: 'true'
+	  });
+
+	//const myCarousel = new Carousel(document.querySelector(".carousel"), {
+	//	infinite: false,
+    //    slidesPerPage: 1,
+	//	center: true,
+	//	fill: false,
+	//	friction: 0.8,
+	//	Dots: false,
+	//	Navigation: true,
+	//  });
+
+	//  const myCarousel2 = new Carousel(document.querySelector("#carousel_beachware2"), {
+	//	infinite: false,
+    //    slidesPerPage: 1,
+	//	center: true,
+	//	fill: true,
+	//	friction: 0.8
+	//  });
 
     $(main).each(function(i, item) {
 

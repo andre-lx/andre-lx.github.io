@@ -215,13 +215,118 @@ const projects = {
     },
     projects: [{
             title: {
-                pt: "Bikinis",
-                en: "Bikinis",
+                pt: "Beachwear",
+                en: "Beachwear",
             },
             description: {
                 pt: "isto é a descrição do projeto",
                 en: "this is the project description",
             },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/fulls/",
+					thumbnails: "../assets/images/gallery/thumbs/",
+				}
+			},
+            images: [{
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem visivel",
+                        en: "this is the visible image 1",
+                    },
+                    thumbnail: "016.png",
+                    fullimage: "016.png"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 1",
+                        en: "this is a not visible image 1",
+                    },
+                    thumbnail: "017.png",
+                    fullimage: "017.png"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2",
+                        en: "this is a not visible image 2",
+                    },
+                    thumbnail: "018.png",
+                    fullimage: "018.png"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 3",
+                        en: "this is a not visible image 3",
+                    },
+                    thumbnail: "019.png",
+                    fullimage: "019.png"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 4",
+                        en: "this is a not visible image 4",
+                    },
+                    thumbnail: "020.png",
+                    fullimage: "020.png"
+                },
+                {
+                    visible: false,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 5",
+                        en: "this is a not visible image 5",
+                    },
+                    thumbnail: "011.png",
+                    fullimage: "011.png"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 2",
+                        en: "this is a not visible image 2",
+                    },
+                    thumbnail: "02.jpg",
+                    fullimage: "02.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 3",
+                        en: "this is a not visible image 3",
+                    },
+                    thumbnail: "03.jpg",
+                    fullimage: "03.jpg"
+                },
+                {
+                    visible: true,
+                    caption: {
+                        pt: "isto é uma imagem invisivel 4",
+                        en: "this is a not visible image 4",
+                    },
+                    thumbnail: "04.jpg",
+                    fullimage: "04.jpg"
+                },
+            ],
+        },
+		{
+			// empty title to be inside beachwear category
+            title: {
+                pt: "",
+                en: "",
+            },
+            description: {
+                pt: "Bikini Tops",
+                en: "Bikini Tops",
+            },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/fulls/",
+					thumbnails: "../assets/images/gallery/thumbs/",
+				}
+			},
             images: [{
                     visible: true,
                     caption: {
@@ -314,6 +419,12 @@ const projects = {
                 pt: "isto é a descrição do projeto 2",
                 en: "this is the project description 2",
             },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/fulls/",
+					thumbnails: "../assets/images/gallery/thumbs/",
+				}
+			},
             images: [{
                     visible: true,
                     caption: {
@@ -370,6 +481,12 @@ const projects = {
                 pt: "isto é a descrição do projeto 3",
                 en: "this is the project description 3",
             },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/fulls/",
+					thumbnails: "../assets/images/gallery/thumbs/",
+				}
+			},
             images: [{
                     visible: true,
                     caption: {
@@ -417,6 +534,12 @@ const projects = {
                 pt: "isto é a descrição do projeto 4",
                 en: "this is the project description 4",
             },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/fulls/",
+					thumbnails: "../assets/images/gallery/thumbs/",
+				}
+			},
             images: [{
                     visible: true,
                     caption: {
