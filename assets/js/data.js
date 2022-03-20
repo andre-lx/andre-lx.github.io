@@ -510,6 +510,172 @@ const projects = {
 		{
             category: {
                 pt: "",
+                en: "Tops, T-Shirts & Blouses",
+            },
+            description: {
+                pt: "",
+                en: "",
+            },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/tops-tshirts-blouses/",
+					thumbnails: "../assets/images/gallery/tops-tshirts-blouses/",
+				}
+			},
+			pieces: [
+			{
+				name: {
+					pt: "",
+					en: "Floral Blouse",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-blouse-006.png",
+						fullimage: "floral-blouse-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-blouse-001.png",
+						fullimage: "floral-blouse-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-blouse-003.png",
+						fullimage: "floral-blouse-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-blouse-details-001.png",
+						fullimage: "floral-blouse-details-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-blouse-details-002.png",
+						fullimage: "floral-blouse-details-002.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Floral Top",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-top-006.png",
+						fullimage: "floral-top-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-top-001.png",
+						fullimage: "floral-top-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-top-002.png",
+						fullimage: "floral-top-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-top-003.png",
+						fullimage: "floral-top-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "floral-top-004.png",
+						fullimage: "floral-top-004.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Tie Dye T-Shirt",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-tshirt-002.png",
+						fullimage: "tie-dye-tshirt-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-tshirt-001.png",
+						fullimage: "tie-dye-tshirt-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-tshirt-002.png",
+						fullimage: "tie-dye-tshirt-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-tshirt-003.png",
+						fullimage: "tie-dye-tshirt-003.png"
+					},
+				]
+			},
+		]
+        },
+		{
+            category: {
+                pt: "",
                 en: "Beachwear",
             },
             description: {
