@@ -99,9 +99,15 @@
 					parent_category = "Beachwear"
 				}
 
+				if (i == 0) {
+					src_image = "src"
+				} else {
+					src_image = "data-lazy-src"
+				}
+
 				carousel_slides += '<div class="carousel__slide">' + 
 							'<a class="project_images " data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_category + '</strong><br>' + piece_name + '<br>">' +
-								'<img class="carousel_img" data-lazy-src="' + paths_images + item.fullimage + '">' +
+								'<img class="carousel_img" ' + src_image + '="' + paths_images + item.fullimage + '">' +
 							'</a>' +
 						'</div>'
 			});
