@@ -126,17 +126,17 @@
             '</section>';
 
         $("#all_projects").append(section_element)
-
-		for(var n = index; n > 0 ; n--) {
-			console.log(n)
-			new Carousel(document.querySelector(".carousel" + n), {
-				slidesPerPage: 1,
-				infinite: false,
-				fill: false,
-				center: true,
-				});
-		}
     })
+
+	for(var n = index; n > 0 ; n--) {
+		console.log(n)
+		new Carousel(document.querySelector(".carousel" + n), {
+			slidesPerPage: 1,
+			infinite: false,
+			fill: false,
+			center: true,
+			});
+	}
 
     $(main).each(function(i, item) {
 

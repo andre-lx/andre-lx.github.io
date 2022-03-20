@@ -2736,7 +2736,7 @@ a.arrow:before {
 }
 
 .gallery {
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
     margin: -1.25rem 0 0 -1.25rem;
     width: calc(100% + 1.25rem);
@@ -2923,7 +2923,7 @@ a.arrow:before {
     }
     .gallery a {
         margin: 0.625rem 0 0 0.625rem;
-        width: calc(50% - 0.625rem);
+        /*width: calc(50% - 0.625rem);*/
     }
     .gallery a img {
         height: 20rem;
