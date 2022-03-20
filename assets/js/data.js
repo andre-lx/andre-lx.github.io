@@ -9,7 +9,7 @@ const main = [{
             en: "Creating opportunities",
         },
         text: {
-            pt: "Apaixonada por",
+            pt: "Apaixonada por criatividade e por projetar projetos sustentáveis.<br>O mundo não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para isso. Se as grandes empresas não o fazem, cabe às pequenas empresas mudar o mundo.",
             en: "Passionate about creativity and designing sustainable projects.<br>The world will not be entirely sustainable overnight, but with effort, dedication and making the right and well thought-out choices, we can build the best path for that. If the big companies don't do it, it's up to the small companies to change the world.",
         }
     },
@@ -19,7 +19,7 @@ const main = [{
             en: "Projects",
         },
         text: {
-            pt: "lalala1",
+            pt: "Projetos escolares e pessoais",
             en: "Personal and school projects",
         },
     },
@@ -29,7 +29,7 @@ const main = [{
             en: "Career Path",
         },
         text: {
-            pt: "",
+            pt: "Todos os passos contam. A minha jornada do nada a alguma coisa",
             en: "Every step counts. My journey from nothing to something.<br><br>",
         },
         subsections: {
@@ -39,27 +39,27 @@ const main = [{
                     en: "Education",
                 },
                 text: {
-                    pt: "Cada passo conta. A minha jornada do nada a alguma coisa.",
+                    pt: "Aprende algo novo todos os dias<br><br>Cursos",
                     en: "Learn something new every day<br><br>Courses",
                 },
                 courses: [{
                         name: {
-                            pt: "LSD - Lisbon School Design - Modelista [2020-2021]",
-                            en: "LSD - Lisbon School Design - Patternmaker [2020-2021]",
+                            pt: "Modelista - LSD - Lisbon School Design [2020-2021]",
+                            en: "Patternmaker - LSD - Lisbon School Design [2020-2021]",
                         },
                         favicon: "fa-tshirt"
                     },
                     {
                         name: {
-                            pt: "IEFP - Design gráfico [2018-2020]",
-                            en: "IEFP - Graphic Design [2018-2020]",
+                            pt: "Design Gráfico - IEFP [2018-2020]",
+                            en: "Graphic Design - IEFP [2018-2020]",
                         },
                         favicon: "fa-paint-roller"
                     },
                     {
                         name: {
-                            pt: "Colégio São Miguel - [2010-2013]",
-                            en: "Fátima São Miguel Highschool - Design, Ceramics and Sculpture [2010-2013]",
+                            pt: "Design, Cerâmica e Escultura - Colégio São Miguel Fátima [2010-2013]",
+                            en: "Design, Ceramics and Sculpture - Fátima São Miguel Highschool [2010-2013]",
                         },
                         favicon: "fa-chalkboard-teacher"
                     }
@@ -71,22 +71,22 @@ const main = [{
                     },
                     items: [                   {
                         name: {
-                            pt: "Modatex - Moda Praia 2 [2021]",
-                            en: "Modatex - BeashWear 2 [2021]",
+                            pt: "Moda Praia 2 - Modatex [2021]",
+                            en: "BeashWear 2 - Modatex [2021]",
                         },
                         favicon: "fa-umbrella-beach"
                     },
                     {
                         name: {
-                            pt: "Modatex - Moda Praia [2020]",
-                            en: "Modatex - Beachwear [2020]",
+                            pt: "Moda Praia - Modatex [2020]",
+                            en: "Beachwear - Modatex [2020]",
                         },
                         favicon: "fa-umbrella-beach"
                     },
 					{
                         name: {
-                            pt: "Modatex - Técnicas de Arranjos em Confeção [2020]",
-							en: "Modatex - Arrangement Techniques in Clothing [2020]",
+                            pt: "Técnicas de Arranjos em Confeção - Modatex [2020]",
+							en: "Arrangement Techniques in Clothing - Modatex [2020]",
                         },
                         favicon: "fa-cut"
                     },
@@ -100,36 +100,36 @@ const main = [{
                     items: [
 						{
                             name: {
-                                pt: "ANCC - Media Digital [2021-2022]",
-                                en: "ANCC - Digital Media [2021-2022]",
+                                pt: "Media Digital - ANCC [2021-2022]",
+                                en: "Digital Media - ANCC [2021-2022]",
                             },
                             favicon: "fa-photo-video"
                         },
 						{
                             name: {
-                                pt: "Modatex - Digital Marketing in Fashion [2021-2022]",
-                                en: "Modatex - Digital Marketing in Fashion [2021-2022]",
+                                pt: "Marketing Digital na Moda - Modatex [2021-2022]",
+                                en: "Digital Marketing in Fashion - Modatex [2021-2022]",
                             },
                             favicon: "fa-ad"
                         },
                         {
                             name: {
-                                pt: "Modatex - Interpretação de croquis técnicos [2021-2022]",
-                                en: "Modatex - Interpretation of Fashion Flats [2021-2022]",
+                                pt: "Interpretação de croquis técnicos - Modatex [2021-2022]",
+                                en: "Interpretation of Fashion Flats - Modatex [2021-2022]",
                             },
                             favicon: "fa-wrench"
                         },
                         {
                             name: {
-                                pt: "Modatex - Plano de negócio - Criação de micronegócio [2020]",
-                                en: "Modatex - Business plan - Microbusiness creation [2020]",
+                                pt: "Plano de negócio - Criação de micronegócio - Modatex [2020]",
+                                en: "Business plan - Microbusiness creation - Modatex [2020]",
                             },
                             favicon: "fa-tasks"
                         },
 						{
                             name: {
-                                pt: "Modatex -  [2020]",
-                                en: "Modatex - Fabric Characteristics [2020]",
+                                pt: "Caracteristicas dos Tecidos - Modatex [2020]",
+                                en: "Fabric Characteristics - Modatex [2020]",
                             },
                             favicon: "fa-project-diagram"
                         },
@@ -142,27 +142,27 @@ const main = [{
                     en: "Work",
                 },
                 text: {
-                    pt: "",
+                    pt: "Põe em prática",
                     en: "Put it in practice",
                 },
                 items: [{
                         name: {
-                            pt: "LIP Lisboa - Design gráfico [MAR 2020-presente]",
-                            en: "LIP Lisbon - Graphic Designer [MAR 2020-present]",
+                            pt: "Design Gráfico - LIP Lisboa [MAR 2020-presente]",
+                            en: "Graphic Designer - LIP Lisbon [MAR 2020-present]",
                         },
                         favicon: "fa-edit"
                     },
                     {
                         name: {
-                            pt: "Ajudante de Costureira [2017-presente]",
-                            en: "Seamstress Assistant [2017-present]",
+                            pt: "Ajudante de Costureira - Alma Atelier [2017-presente]",
+                            en: "Seamstress Assistant - Alma Atelier [2017-present]",
                         },
                         favicon: "fa-female"
                     },
                     {
                         name: {
-                            pt: "Zara - Assistente de vendas [2019-2020]",
-                            en: "Zara - Sales assistant [2019-2020]",
+                            pt: "Assistente de Vendas - Zara [2019-2020]",
+                            en: "Sales Assistant - Zara [2019-2020]",
                         },
                         favicon: "fa-shopping-bag"
                     },
@@ -174,20 +174,20 @@ const main = [{
                     en: "Skills",
                 },
                 text: {
-                    pt: "",
+                    pt: "Com as ferramentas e competências necessárias",
                     en: "With the necessary tools and skills",
                 },
                 items: [{
                         name: {
-                            pt: "Photoshop",
-                            en: "Photoshop",
+                            pt: "Adobe Photoshop",
+                            en: "Adobe Photoshop",
                         },
                         favicon: "fa-images"
                     },
                     {
                         name: {
-                            pt: "Illustrator",
-                            en: "Illustrator",
+                            pt: "Adobe Illustrator",
+                            en: "Adobe Illustrator",
                         },
                         favicon: "fa-pencil-ruler"
                     },
@@ -206,7 +206,7 @@ const main = [{
                     en: "Languages",
                 },
                 text: {
-                    pt: "",
+                    pt: "Em múltiplas línguas",
                     en: "In multiple languages",
                 },
                 items: [
@@ -247,11 +247,11 @@ const main = [{
             en: "Lisbon, PT",
         },
         title: {
-            pt: "Contactos",
+            pt: "CONTACTOS",
             en: "GET IN TOUCH",
         },
         text: {
-            pt: "Esteja a vontade",
+            pt: "Fique a vontade para entrar em contato comigo. Estou sempre aberta a discutir novos projetos, ideias criativas ou oportunidades para fazer parte das suas visões.",
             en: "Fell free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
         },
         elsewhere: {
@@ -658,16 +658,198 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-002.png",
-						fullimage: "tie-dye-tshirt-002.png"
+						thumbnail: "tie-dye-tshirt-003.png",
+						fullimage: "tie-dye-tshirt-003.png"
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-003.png",
-						fullimage: "tie-dye-tshirt-003.png"
+						thumbnail: "tie-dye-tshirt-004.png",
+						fullimage: "tie-dye-tshirt-004.png"
+					},
+				]
+			},
+		]
+        },
+		{
+            category: {
+                pt: "",
+                en: "Skirts & Jeans",
+            },
+            description: {
+                pt: "",
+                en: "",
+            },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/skirts-jeans/",
+					thumbnails: "../assets/images/gallery/skirts-jeans/",
+				}
+			},
+			pieces: [
+			{
+				name: {
+					pt: "",
+					en: "Pencil Skirt",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "pencil-skirt-006.png",
+						fullimage: "pencil-skirt-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "pencil-skirt-001.png",
+						fullimage: "pencil-skirt-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "pencil-skirt-002.png",
+						fullimage: "pencil-skirt-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "pencil-skirt-004.png",
+						fullimage: "pencil-skirt-004.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "pencil-skirt-details-001.png",
+						fullimage: "pencil-skirt-details-001.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Khaki Corsairs Pants",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "khaki-corsairs-pants-006.png",
+						fullimage: "khaki-corsairs-pants-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "khaki-corsairs-pants-001.png",
+						fullimage: "khaki-corsairs-pants-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "khaki-corsairs-pants-002.png",
+						fullimage: "khaki-corsairs-pants-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "khaki-corsairs-pants-003.png",
+						fullimage: "khaki-corsairs-pants-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "khaki-corsairs-pants-details-001.png",
+						fullimage: "khaki-corsairs-pants-details-001.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Brown Corduroy Pants",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "brown-corduroy-pants-006.png",
+						fullimage: "brown-corduroy-pants-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "brown-corduroy-pants-001.png",
+						fullimage: "brown-corduroy-pants-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "brown-corduroy-pants-003.png",
+						fullimage: "brown-corduroy-pants-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "brown-corduroy-pants-004.png",
+						fullimage: "brown-corduroy-pants-004.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "brown-corduroy-pants-details-001.png",
+						fullimage: "brown-corduroy-pants-details-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "brown-corduroy-pants-details-002.png",
+						fullimage: "brown-corduroy-pants-details-002.png"
 					},
 				]
 			},
