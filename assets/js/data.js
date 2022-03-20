@@ -266,6 +266,250 @@ const projects = {
 		{
             category: {
                 pt: "",
+                en: "Coats & Blazers",
+            },
+            description: {
+                pt: "",
+                en: "",
+            },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/coats-blazers/",
+					thumbnails: "../assets/images/gallery/coats-blazers/",
+				}
+			},
+			pieces: [
+				{
+				name: {
+					pt: "",
+					en: "Crossed Blazer Black",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "crossed-blazer-black-006.png",
+						fullimage: "crossed-blazer-black-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "crossed-blazer-black-001.png",
+						fullimage: "crossed-blazer-black-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "crossed-blazer-black-004.png",
+						fullimage: "crossed-blazer-black-004.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "crossed-blazer-black-005.png",
+						fullimage: "crossed-blazer-black-005.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "crossed-blazer-black-details-001.png",
+						fullimage: "crossed-blazer-black-details-001.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Beige Trench Coat",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "beige-trench-coat-006.png",
+						fullimage: "beige-trench-coat-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "beige-trench-coat-001-closed.png",
+						fullimage: "beige-trench-coat-001-closed.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "beige-trench-coat-003.png",
+						fullimage: "beige-trench-coat-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "beige-trench-coat-004.png",
+						fullimage: "beige-trench-coat-004.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "beige-trench-coat-details-001.png",
+						fullimage: "beige-trench-coat-details-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "beige-trench-coat-details-002.png",
+						fullimage: "beige-trench-coat-details-002.png"
+					},
+				]
+			},
+		]
+        },
+		{
+            category: {
+                pt: "",
+                en: "Dresses & Jumpsuits",
+            },
+            description: {
+                pt: "",
+                en: "",
+            },
+			config: {
+				paths: {
+					images: "../assets/images/gallery/dresses-jumpsuits/",
+					thumbnails: "../assets/images/gallery/dresses-jumpsuits/",
+				}
+			},
+			pieces: [
+			{
+				name: {
+					pt: "",
+					en: "Long Dress",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "long-dress-006.png",
+						fullimage: "long-dress-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "long-dress-001.png",
+						fullimage: "long-dress-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "long-dress-003.png",
+						fullimage: "long-dress-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "long-dress-details-001.png",
+						fullimage: "long-dress-details-001.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Tie Dye Jumpsuit",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-jumpsuit-006.png",
+						fullimage: "tie-dye-jumpsuit-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-jumpsuit-001.png",
+						fullimage: "tie-dye-jumpsuit-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-jumpsuit-002.png",
+						fullimage: "tie-dye-jumpsuit-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-jumpsuit-003.png",
+						fullimage: "tie-dye-jumpsuit-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "tie-dye-jumpsuit-004.png",
+						fullimage: "tie-dye-jumpsuit-004.png"
+					},
+				]
+			},
+		]
+        },
+		{
+            category: {
+                pt: "",
                 en: "Beachwear",
             },
             description: {

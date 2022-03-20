@@ -3743,3 +3743,10 @@ img {
 .p_titles {
 	margin-bottom: 0px;
 }
+
+.anchor_main {
+	cursor: pointer;
+    color: white;
+	text-decoration: none;
+	border-bottom-style: none;
+}
