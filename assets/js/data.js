@@ -20,7 +20,7 @@ const main = [{
         },
         text: {
             pt: "lalala1",
-            en: "Integer mollis egestas nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.",
+            en: "Personal and school projects",
         },
     },
     carrer_path: {
@@ -30,7 +30,7 @@ const main = [{
         },
         text: {
             pt: "",
-            en: "",
+            en: "Every step counts. My journey from nothing to something.<br><br>",
         },
         subsections: {
             education: {
@@ -40,35 +40,14 @@ const main = [{
                 },
                 text: {
                     pt: "Cada passo conta. A minha jornada do nada a alguma coisa.",
-                    en: "Every step counts. My journey from nothing to something.",
+                    en: "Learn something new every day<br><br>Courses",
                 },
                 courses: [{
                         name: {
-                            pt: "LSD - Lisbon School Design - Modelista [2021]",
-                            en: "LSD - Lisbon School Design - Pattern Maker [2021]",
+                            pt: "LSD - Lisbon School Design - Modelista [2020-2021]",
+                            en: "LSD - Lisbon School Design - Patternmaker [2020-2021]",
                         },
                         favicon: "fa-tshirt"
-                    },
-                    {
-                        name: {
-                            pt: "Modatex - Workshop - Moda Praia 2 [2021]",
-                            en: "Modatex - Workshop - BeashWear 2 [2021]",
-                        },
-                        favicon: "fa-umbrella-beach"
-                    },
-                    {
-                        name: {
-                            pt: "Modatex - Workshop - Moda Praia [2020]",
-                            en: "Modatex - Workshop - Beachwear [2020]",
-                        },
-                        favicon: "fa-umbrella-beach"
-                    },
-                    {
-                        name: {
-                            pt: "Modatex - Técnicas de Arranjos em Confeção [2020]",
-                            en: "Modatex - Técnicas de Arranjos em Confeção en [2020]",
-                        },
-                        favicon: "fa-cut"
                     },
                     {
                         name: {
@@ -79,37 +58,80 @@ const main = [{
                     },
                     {
                         name: {
-                            pt: "Colégio São Miguel - Design",
-                            en: "Fátima São Miguel Highschool - Design",
+                            pt: "Colégio São Miguel - [2010-2013]",
+                            en: "Fátima São Miguel Highschool - Design, Ceramics and Sculpture [2010-2013]",
                         },
                         favicon: "fa-chalkboard-teacher"
                     }
                 ],
+				workshops: {
+                    title: {
+                        pt: "Workshops",
+                        en: "Workshops",
+                    },
+                    items: [                   {
+                        name: {
+                            pt: "Modatex - Moda Praia 2 [2021]",
+                            en: "Modatex - BeashWear 2 [2021]",
+                        },
+                        favicon: "fa-umbrella-beach"
+                    },
+                    {
+                        name: {
+                            pt: "Modatex - Moda Praia [2020]",
+                            en: "Modatex - Beachwear [2020]",
+                        },
+                        favicon: "fa-umbrella-beach"
+                    },
+					{
+                        name: {
+                            pt: "Modatex - Técnicas de Arranjos em Confeção [2020]",
+							en: "Modatex - Arrangement Techniques in Clothing [2020]",
+                        },
+                        favicon: "fa-cut"
+                    },
+                    ]
+                },
                 minicourses: {
                     title: {
-                        pt: "mini-cursos",
-                        en: "mini-courses",
+                        pt: "Mini-cursos",
+                        en: "Mini-courses",
                     },
-                    items: [{
+                    items: [
+						{
                             name: {
-                                pt: "Modatex - Marketing Digital de Moda [2021-2022]",
-                                en: "Modatex - Fashion Digital Marketing [2021-2022]",
+                                pt: "ANCC - Media Digital [2021-2022]",
+                                en: "ANCC - Digital Media [2021-2022]",
                             },
-                            favicon: "fa-search-dollar"
+                            favicon: "fa-photo-video"
+                        },
+						{
+                            name: {
+                                pt: "Modatex - Digital Marketing in Fashion [2021-2022]",
+                                en: "Modatex - Digital Marketing in Fashion [2021-2022]",
+                            },
+                            favicon: "fa-ad"
                         },
                         {
                             name: {
                                 pt: "Modatex - Interpretação de croquis técnicos [2021-2022]",
-                                en: "Modatex - Interpretação de croquis técnicos en [2021-2022]",
+                                en: "Modatex - Interpretation of Fashion Flats [2021-2022]",
                             },
                             favicon: "fa-wrench"
                         },
                         {
                             name: {
                                 pt: "Modatex - Plano de negócio - Criação de micronegócio [2020]",
-                                en: "Modatex - business - - Criação de micronegócio [2020]",
+                                en: "Modatex - Business plan - Microbusiness creation [2020]",
                             },
                             favicon: "fa-tasks"
+                        },
+						{
+                            name: {
+                                pt: "Modatex -  [2020]",
+                                en: "Modatex - Fabric Characteristics [2020]",
+                            },
+                            favicon: "fa-project-diagram"
                         },
                     ]
                 },
@@ -120,20 +142,20 @@ const main = [{
                     en: "Work",
                 },
                 text: {
-                    pt: "Aprende algo novo todos os dias",
-                    en: "Learn something new every day.",
+                    pt: "",
+                    en: "Put it in practice",
                 },
                 items: [{
                         name: {
                             pt: "LIP Lisboa - Design gráfico [MAR 2020-presente]",
-                            en: "LIP Lisboa - Graphic Designer [MAR 2020-present]",
+                            en: "LIP Lisbon - Graphic Designer [MAR 2020-present]",
                         },
                         favicon: "fa-edit"
                     },
                     {
                         name: {
-                            pt: "Ajudante de costureira [2017-presente]",
-                            en: "Ajudante de costureira en [2017-present]",
+                            pt: "Ajudante de Costureira [2017-presente]",
+                            en: "Seamstress Assistant [2017-present]",
                         },
                         favicon: "fa-female"
                     },
@@ -152,8 +174,8 @@ const main = [{
                     en: "Skills",
                 },
                 text: {
-                    pt: "Põe em prática.",
-                    en: "Put it in practice",
+                    pt: "",
+                    en: "With the necessary tools and skills",
                 },
                 items: [{
                         name: {
@@ -175,6 +197,39 @@ const main = [{
                             en: "... +skills en??? ...",
                         },
                         favicon: "fa-arrow-alt-circle-right"
+                    },
+                ]
+            },
+            languages: {
+                title: {
+                    pt: "Línguas",
+                    en: "Languages",
+                },
+                text: {
+                    pt: "",
+                    en: "In multiple languages",
+                },
+                items: [
+					{
+                        name: {
+                            pt: "Português",
+                            en: "Portuguese",
+                        },
+                        favicon: "fa-globe-europe"
+                    },
+					{
+                        name: {
+                            pt: "Inglês",
+                            en: "English",
+                        },
+                        favicon: "fa-globe-americas"
+                    },
+					{
+                        name: {
+                            pt: "Espanhol",
+                            en: "Spanish",
+                        },
+                        favicon: "fa-globe-europe"
                     },
                 ]
             }
@@ -207,376 +262,434 @@ const main = [{
 }, ]
 
 const projects = {
-    config: {
-        paths: {
-            images: "../assets/images/gallery/fulls/",
-            thumbnails: "../assets/images/gallery/thumbs/",
-        }
-    },
-    projects: [{
-            title: {
-                pt: "Beachwear",
+    projects: [
+		{
+            category: {
+                pt: "",
                 en: "Beachwear",
             },
             description: {
-                pt: "isto é a descrição do projeto",
-                en: "this is the project description",
+                pt: "",
+                en: "One-piece Swimsuits",
             },
 			config: {
 				paths: {
-					images: "../assets/images/gallery/fulls/",
-					thumbnails: "../assets/images/gallery/thumbs/",
+					images: "../assets/images/gallery/beachwear/one-piece-swimsuits/",
+					thumbnails: "../assets/images/gallery/beachwear/one-piece-swimsuits/",
 				}
 			},
-            images: [{
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem visivel",
-                        en: "this is the visible image 1",
-                    },
-                    thumbnail: "016.png",
-                    fullimage: "016.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 1",
-                        en: "this is a not visible image 1",
-                    },
-                    thumbnail: "017.png",
-                    fullimage: "017.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2",
-                        en: "this is a not visible image 2",
-                    },
-                    thumbnail: "018.png",
-                    fullimage: "018.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 3",
-                        en: "this is a not visible image 3",
-                    },
-                    thumbnail: "019.png",
-                    fullimage: "019.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 4",
-                        en: "this is a not visible image 4",
-                    },
-                    thumbnail: "020.png",
-                    fullimage: "020.png"
-                },
-                {
-                    visible: false,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 5",
-                        en: "this is a not visible image 5",
-                    },
-                    thumbnail: "011.png",
-                    fullimage: "011.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2",
-                        en: "this is a not visible image 2",
-                    },
-                    thumbnail: "02.jpg",
-                    fullimage: "02.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 3",
-                        en: "this is a not visible image 3",
-                    },
-                    thumbnail: "03.jpg",
-                    fullimage: "03.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 4",
-                        en: "this is a not visible image 4",
-                    },
-                    thumbnail: "04.jpg",
-                    fullimage: "04.jpg"
-                },
-            ],
+			pieces: [
+				{
+				name: {
+					pt: "",
+					en: "One-piece Swimsuit V-Neck Tropical",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-006.png",
+						fullimage: "one-piece-swimsuit-v-neck-tropical-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-001.png",
+						fullimage: "one-piece-swimsuit-v-neck-tropical-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-004.png",
+						fullimage: "one-piece-swimsuit-v-neck-tropical-004.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-005.png",
+						fullimage: "one-piece-swimsuit-v-neck-tropical-005.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-details-001.png",
+						fullimage: "one-piece-swimsuit-v-neck-tropical-details-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-details-002.png",
+						fullimage: "one-piece-swimsuit-v-neck-tropical-details-002.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "One-piece Swimsuit One Shoulder Pink",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "one-piece-swimsuit-one-shoulder-pink-006.png",
+						fullimage: "one-piece-swimsuit-one-shoulder-pink-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail:"one-piece-swimsuit-one-shoulder-pink-001.png",
+						fullimage: "one-piece-swimsuit-one-shoulder-pink-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail:"one-piece-swimsuit-one-shoulder-pink-002.png",
+						fullimage: "one-piece-swimsuit-one-shoulder-pink-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail:"one-piece-swimsuit-one-shoulder-pink-004.png",
+						fullimage: "one-piece-swimsuit-one-shoulder-pink-004.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "One-piece Swimsuit Mayo Tropical",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "one-piece-swimsuit-mayo-tropical-006.png",
+						fullimage: "one-piece-swimsuit-mayo-tropical-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail:"one-piece-swimsuit-mayo-tropical-001.png",
+						fullimage: "one-piece-swimsuit-mayo-tropical-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail:"one-piece-swimsuit-mayo-tropical-004.png",
+						fullimage: "one-piece-swimsuit-mayo-tropical-004.png"
+					},
+				]
+			},
+		]
         },
 		{
-			// empty title to be inside beachwear category
-            title: {
+            category: {
+				// empty to be inside beachwear
                 pt: "",
                 en: "",
             },
             description: {
-                pt: "Bikini Tops",
-                en: "Bikini Tops",
+                pt: "",
+                en: "Bikini Sets",
             },
 			config: {
 				paths: {
-					images: "../assets/images/gallery/fulls/",
-					thumbnails: "../assets/images/gallery/thumbs/",
+					images: "../assets/images/gallery/beachwear/bikini-sets/",
+					thumbnails: "../assets/images/gallery/beachwear/bikini-sets/",
 				}
 			},
-            images: [{
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem visivel",
-                        en: "this is the visible image 1",
-                    },
-                    thumbnail: "016.png",
-                    fullimage: "016.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 1",
-                        en: "this is a not visible image 1",
-                    },
-                    thumbnail: "017.png",
-                    fullimage: "017.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2",
-                        en: "this is a not visible image 2",
-                    },
-                    thumbnail: "018.png",
-                    fullimage: "018.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 3",
-                        en: "this is a not visible image 3",
-                    },
-                    thumbnail: "019.png",
-                    fullimage: "019.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 4",
-                        en: "this is a not visible image 4",
-                    },
-                    thumbnail: "020.png",
-                    fullimage: "020.png"
-                },
-                {
-                    visible: false,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 5",
-                        en: "this is a not visible image 5",
-                    },
-                    thumbnail: "011.png",
-                    fullimage: "011.png"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2",
-                        en: "this is a not visible image 2",
-                    },
-                    thumbnail: "02.jpg",
-                    fullimage: "02.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 3",
-                        en: "this is a not visible image 3",
-                    },
-                    thumbnail: "03.jpg",
-                    fullimage: "03.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 4",
-                        en: "this is a not visible image 4",
-                    },
-                    thumbnail: "04.jpg",
-                    fullimage: "04.jpg"
-                },
-            ],
+			pieces: [
+				{
+				name: {
+					pt: "",
+					en: "Bikini Set Brazilian Twisted Bandeau Tropical",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-006.png",
+						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-002.png",
+						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-003.png",
+						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-004.png",
+						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-004.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-details-001.png",
+						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-details-001.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Bikini Set High Cut Sporty Crop Floral",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-high-cut-sporty-crop-floral-006.png",
+						fullimage: "bikini-set-high-cut-sporty-crop-floral-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-high-cut-sporty-crop-floral-001.png",
+						fullimage: "bikini-set-high-cut-sporty-crop-floral-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-high-cut-sporty-crop-floral-005.png",
+						fullimage: "bikini-set-high-cut-sporty-crop-floral-005.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Bikini Set High Waist Sporty Crop Floral",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-high-waist-sporty-crop-floral-006.png",
+						fullimage: "bikini-set-high-waist-sporty-crop-floral-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-high-waist-sporty-crop-floral-001.png",
+						fullimage: "bikini-set-high-waist-sporty-crop-floral-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-set-high-waist-sporty-crop-floral-003.png",
+						fullimage: "bikini-set-high-waist-sporty-crop-floral-003.png"
+					},
+				]
+			},
+		]
         },
-        {
-            title: {
-                pt: "Casacos",
-                en: "Coats",
+		{
+            category: {
+				// empty to be inside beachwear
+                pt: "",
+                en: "",
             },
             description: {
-                pt: "isto é a descrição do projeto 2",
-                en: "this is the project description 2",
+                pt: "",
+                en: "Bikini Bottoms",
             },
 			config: {
 				paths: {
-					images: "../assets/images/gallery/fulls/",
-					thumbnails: "../assets/images/gallery/thumbs/",
+					images: "../assets/images/gallery/beachwear/bikini-bottoms/",
+					thumbnails: "../assets/images/gallery/beachwear/bikini-bottoms/",
 				}
 			},
-            images: [{
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2.1",
-                        en: "this is a not visible image 2.1",
-                    },
-                    thumbnail: "05.jpg",
-                    fullimage: "05.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2.2",
-                        en: "this is a not visible image 2.2",
-                    },
-                    thumbnail: "06.jpg",
-                    fullimage: "06.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2.3",
-                        en: "this is a not visible image 2.3",
-                    },
-                    thumbnail: "07.jpg",
-                    fullimage: "07.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2.4",
-                        en: "this is a not visible image 2.4",
-                    },
-                    thumbnail: "08.jpg",
-                    fullimage: "08.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 2.5",
-                        en: "this is a not visible image 2.5",
-                    },
-                    thumbnail: "011.png",
-                    fullimage: "011.png"
-                },
-            ],
+			pieces: [
+				{
+				name: {
+					pt: "",
+					en: "Bikini Bottom High Waist Bow Blue",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-high-waist-bow-blue-002.png",
+						fullimage: "bikini-bottom-high-waist-bow-blue-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-high-waist-bow-blue-003.png",
+						fullimage: "bikini-bottom-high-waist-bow-blue-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-high-waist-bow-blue-details-001.png",
+						fullimage: "bikini-bottom-high-waist-bow-blue-details-001.png"
+					}
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Bikini Bottom High Waist Crossover Black",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-high-waist-crossover-black-002.png",
+						fullimage: "bikini-bottom-high-waist-crossover-black-002.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-high-waist-crossover-black-006.png",
+						fullimage: "bikini-bottom-high-waist-crossover-black-006.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-high-waist-crossover-black-003.png",
+						fullimage: "bikini-bottom-high-waist-crossover-black-003.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-high-waist-crossover-black-details-001.png",
+						fullimage: "bikini-bottom-high-waist-crossover-black-details-001.png"
+					},
+				]
+			},
+			{
+				name: {
+					pt: "",
+					en: "Bikini Bottom Tie Side Floral",
+				},
+				description: {
+					pt: "",
+					en: "",
+				},
+				images: [
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-tie-side-floral-001.png",
+						fullimage: "bikini-bottom-tie-side-floral-001.png"
+					},
+					{
+						caption: {
+							pt: "",
+							en: "",
+						},
+						thumbnail: "bikini-bottom-tie-side-floral-004.png",
+						fullimage: "bikini-bottom-tie-side-floral-004.png"
+					},
+				]
+			}
+		]
         },
-        {
-            title: {
-                pt: "Camisas",
-                en: "Shirts",
-            },
-            description: {
-                pt: "isto é a descrição do projeto 3",
-                en: "this is the project description 3",
-            },
-			config: {
-				paths: {
-					images: "../assets/images/gallery/fulls/",
-					thumbnails: "../assets/images/gallery/thumbs/",
-				}
-			},
-            images: [{
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 3.1",
-                        en: "this is a not visible image 3.1",
-                    },
-                    thumbnail: "09.jpg",
-                    fullimage: "09.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 3.2",
-                        en: "this is a not visible image 3.2",
-                    },
-                    thumbnail: "10.jpg",
-                    fullimage: "10.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 3.3",
-                        en: "this is a not visible image 3.3",
-                    },
-                    thumbnail: "08.jpg",
-                    fullimage: "08.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 3.4",
-                        en: "this is a not visible image 3.4",
-                    },
-                    thumbnail: "09.jpg",
-                    fullimage: "09.jpg"
-                },
-            ],
-        },
-        {
-            title: {
-                pt: "Calças",
-                en: "Pants",
-            },
-            description: {
-                pt: "isto é a descrição do projeto 4",
-                en: "this is the project description 4",
-            },
-			config: {
-				paths: {
-					images: "../assets/images/gallery/fulls/",
-					thumbnails: "../assets/images/gallery/thumbs/",
-				}
-			},
-            images: [{
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 4.1",
-                        en: "this is a not visible image 4.1",
-                    },
-                    thumbnail: "09.jpg",
-                    fullimage: "09.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 4.2",
-                        en: "this is a not visible image 4.2",
-                    },
-                    thumbnail: "10.jpg",
-                    fullimage: "10.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 4.3",
-                        en: "this is a not visible image 4.3",
-                    },
-                    thumbnail: "08.jpg",
-                    fullimage: "08.jpg"
-                },
-                {
-                    visible: true,
-                    caption: {
-                        pt: "isto é uma imagem invisivel 4.4",
-                        en: "this is a not visible image 4.4",
-                    },
-                    thumbnail: "09.jpg",
-                    fullimage: "09.jpg"
-                },
-            ],
-        }
     ]
 }

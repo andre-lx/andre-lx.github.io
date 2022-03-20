@@ -78,80 +78,65 @@
     if (lang != "en" && lang != "pt")
         lang = "en"
 
+	var index = 0
+
     $(projects.projects).each(function(i, item) {
 
-        var parent_title = item.title[lang]
+        var parent_category = item.category[lang]
         var paths_images = item.config.paths.images
         var paths_thumbnails = item.config.paths.thumbnails
 
-        var images = ""
-        $(item.images).each(function(i, item) {
+		var pieces = ""
 
-            not_visible_class = "hiddenimages"
-            if (item.visible)
-                not_visible_class = ""
+		$(item.pieces).each(function(i, item) {
 
-            images += '<div class="fotorama" data-width="100%" data-height="100%"><div><a class="project_images ' + not_visible_class + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '<br>' + item.fullimage + '">' +
-                '<img src="' + paths_thumbnails + item.thumbnail + '" />' +
-                '</a></div><div><a class="project_images ' + not_visible_class + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_title + '</strong><br>' + item.caption[lang] + '<br>' + item.fullimage + '">' +
-                '<img src="' + paths_thumbnails + item.thumbnail + '" />' +
-                '</a></div></div>'
-        });
+			var piece_name = item.name[lang]
+
+			var carousel_slides = ""
+			$(item.images).each(function(i, item) {
+
+				if (parent_category == "") {
+					parent_category = "Beachwear"
+				}
+
+				carousel_slides += '<div class="carousel__slide">' + 
+							'<a class="project_images " data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_category + '</strong><br>' + piece_name + '<br>">' +
+								'<img class="carousel_img" data-lazy-src="' + paths_images + item.fullimage + '">' +
+							'</a>' +
+						'</div>'
+			});
+
+			index = index + 1
+			pieces += '<div class="carousel carousel' + index + '">' + 
+					carousel_slides + 
+					'</div>'
+		});
+
 
         var section_element = '<section>' +
             '<header>' +
-            '<h3 class="color_white">' + item.title[lang] + '</h3>' +
+            '<h3 class="color_white">' + item.category[lang] + '</h3>' +
             '<p class="color_white">' + item.description[lang] + '</p>' +
             '</header>' +
             '<div class="content">' +
-            '<div class="gallery carousel">' +
-            images +
+            '<div class="gallery">' +
+            pieces +
             '</div>' +
             '</div>' +
             '</section>';
 
         $("#all_projects").append(section_element)
+
+		for(var n = index; n > 0 ; n--) {
+			console.log(n)
+			new Carousel(document.querySelector(".carousel" + n), {
+				slidesPerPage: 1,
+				infinite: false,
+				fill: false,
+				center: true,
+				});
+		}
     })
-
-	const myCarousel = new Carousel(document.querySelector(".carousel"), {
-		slidesPerPage: 1,
-		infinite: false,
-		fill: false,
-		center: true,
-	  });
-
-	  const myCarousel2 = new Carousel(document.querySelector(".carousel2"), {
-		slidesPerPage: 1,
-		infinite: false,
-		fill: false,
-		center: true,
-	  });
-
-	$('.fotorama').fotorama({
-		maxwidth: '100%',
-		arrows: 'always',
-		nav: 'dots',
-		fit: 'contain',
-		arrows: 'true'
-	  });
-
-	//const myCarousel = new Carousel(document.querySelector(".carousel"), {
-	//	infinite: false,
-    //    slidesPerPage: 1,
-	//	center: true,
-	//	fill: false,
-	//	friction: 0.8,
-	//	Dots: false,
-	//	Navigation: true,
-	//  });
-
-	//  const myCarousel2 = new Carousel(document.querySelector("#carousel_beachware2"), {
-	//	infinite: false,
-    //    slidesPerPage: 1,
-	//	center: true,
-	//	fill: true,
-	//	friction: 0.8
-	//  });
 
     $(main).each(function(i, item) {
 
@@ -169,6 +154,7 @@
 
         //carrer_path
         $("#carrer_path_title").html(item.carrer_path.title[lang])
+		$("#carrer_path_description").html(item.carrer_path.text[lang])
 
         //carrer_path_education
         $("#carrer_path_subsections_education_title").html(item.carrer_path.subsections.education.title[lang])
@@ -179,6 +165,15 @@
             education += '<li class="icon solid ' + item.favicon + '"> ' + item.name[lang] + '</li>'
         });
         $("#education_ul").append(education)
+
+        //carrer_path_workshops
+        $("#carrer_path_subsections_workshops_title").html(item.carrer_path.subsections.education.workshops.title[lang])
+
+        var workshops = ""
+        $(item.carrer_path.subsections.education.workshops.items).each(function(i, item) {
+            workshops += '<li class="icon solid ' + item.favicon + '"> ' + item.name[lang] + '</li>'
+        });
+        $("#ul_workshops").append(workshops)
 
         //carrer_path_minicourses
         $("#carrer_path_subsections_minicourses_title").html(item.carrer_path.subsections.education.minicourses.title[lang])
@@ -208,6 +203,16 @@
             skills += '<li class="icon solid ' + item.favicon + '"> ' + item.name[lang] + '</li>'
         });
         $("#skills_ul").append(skills)
+
+		//langugaes
+		$("#carrer_path_subsections_languages_title").html(item.carrer_path.subsections.languages.title[lang])
+		$("#carrer_path_subsections_languages_text").html(item.carrer_path.subsections.languages.text[lang])
+
+		var languages = ""
+		$(item.carrer_path.subsections.languages.items).each(function(i, item) {
+			languages += '<li class="icon solid ' + item.favicon + '"> ' + item.name[lang] + '</li>'
+		});
+		$("#languages_ul").append(languages)
 
         //get_in_touch
         $("#getintouch_image").attr("src", item.get_in_touch.image)

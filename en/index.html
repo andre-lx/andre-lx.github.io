@@ -44,7 +44,6 @@
     />
 
     <link rel="stylesheet" href="../assets/css/fancybox.css" />
-	<link rel="stylesheet" href="../assets/css/fotorama.css" />
     <link rel="stylesheet" href="../assets/css/main.css" />
   </head>
 
@@ -91,50 +90,6 @@
         </header>
         <div class="content projects" id="all_projects">
           <p id="projects_text"></p>
-          <section>
-            <header>
-              <h3 class="color_white">Beachwear</h3>
-              <p class="color_white">this is the project description</p>
-            </header>
-            <div class="content">
-				<div class=" carousel">
-					<div class="carousel__slide">
-						<a class="project_images " data-fancybox="gallery" data-src="../assets/images/gallery/fulls/016.png" data-caption="<strong>Beachwear</strong><br>this is the visible image 1<br>016.png">
-							<img class="carousel_img" src="../assets/images/gallery/thumbs/016.png">
-						</a>
-					</div>
-					<div class="carousel__slide">
-						<a class="project_images " data-fancybox="gallery" data-src="../assets/images/gallery/fulls/016.png" data-caption="<strong>Beachwear</strong><br>this is the visible image 1<br>016.png">
-							<img class="carousel_img" src="../assets/images/gallery/thumbs/019.png">
-						</a>
-					</div>
-					<div class="carousel__slide">
-						<a class="project_images " data-fancybox="gallery" data-src="../assets/images/gallery/fulls/016.png" data-caption="<strong>Beachwear</strong><br>this is the visible image 1<br>016.png">
-							<img class="carousel_img" src="../assets/images/gallery/thumbs/016.png">
-						</a>
-					</div>
-				  </div>
-
-				  <div class=" carousel carousel2">
-					<div class="carousel__slide">
-						<a class="project_images " data-fancybox="gallery" data-src="../assets/images/gallery/fulls/016.png" data-caption="<strong>Beachwear</strong><br>this is the visible image 1<br>016.png">
-							<img class="carousel_img" src="../assets/images/gallery/thumbs/019.png">
-						</a>
-					</div>
-					<div class="carousel__slide">
-						<a class="project_images " data-fancybox="gallery" data-src="../assets/images/gallery/fulls/016.png" data-caption="<strong>Beachwear</strong><br>this is the visible image 1<br>016.png">
-							<img class="carousel_img" src="../assets/images/gallery/thumbs/016.png">
-						</a>
-					</div>
-					<div class="carousel__slide">
-						<a class="project_images " data-fancybox="gallery" data-src="../assets/images/gallery/fulls/016.png" data-caption="<strong>Beachwear</strong><br>this is the visible image 1<br>016.png">
-							<img class="carousel_img" src="../assets/images/gallery/thumbs/016.png">
-						</a>
-					</div>
-				  </div>
-			
-         
-          </section>
         </div>
       </section>
 
@@ -148,6 +103,7 @@
         </header>
 
         <div class="content">
+		  <p id="carrer_path_description"></p>
           <!-- Section -->
           <section>
             <header>
@@ -157,9 +113,11 @@
               ></h3>
             </header>
             <div class="content">
-              <p id="carrer_path_subsections_education_text"></p>
+              <p class="p_titles" id="carrer_path_subsections_education_text"></p>
               <ul class="feature-icons" id="education_ul"></ul>
-              <p id="carrer_path_subsections_minicourses_title"></p>
+			  <p class="p_titles" id="carrer_path_subsections_workshops_title"></p>
+              <ul class="feature-icons" id="ul_workshops"></ul>
+              <p class="p_titles" id="carrer_path_subsections_minicourses_title"></p>
               <ul class="feature-icons" id="ul_minicourses"></ul>
             </div>
           </section>
@@ -173,7 +131,7 @@
               ></h3>
             </header>
             <div class="content">
-              <p id="carrer_path_subsections_work_text"></p>
+              <p class="p_titles" id="carrer_path_subsections_work_text"></p>
               <ul class="feature-icons" id="work_ul"></ul>
             </div>
           </section>
@@ -187,10 +145,24 @@
               ></h3>
             </header>
             <div class="content">
-              <p id="carrer_path_subsections_skilss_text"></p>
+              <p class="p_titles" id="carrer_path_subsections_skilss_text"></p>
               <ul class="feature-icons" id="skills_ul"></ul>
             </div>
           </section>
+
+		<!-- Section -->
+		<section>
+			<header>
+				<h3
+				class="color_white color_white_small_screen"
+				id="carrer_path_subsections_languages_title"
+				></h3>
+			</header>
+			<div class="content">
+				<p class="p_titles" id="carrer_path_subsections_languages_text"></p>
+				<ul class="feature-icons" id="languages_ul"></ul>
+			</div>
+			</section>
         </div>
       </section>
 
@@ -244,7 +216,6 @@
     <script src="../assets/js/browser.min.js"></script>
     <script src="../assets/js/breakpoints.min.js"></script>
     <script src="../assets/js/fancybox.umd.js"></script>
-	<script src="../assets/js/fotorama.js"></script>
 
     <script src="../assets/js/data.js"></script>
     <script src="../assets/js/util.js"></script>

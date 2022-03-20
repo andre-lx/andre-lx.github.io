@@ -2758,7 +2758,7 @@ a.arrow:before {
     min-height: 18rem;*/
     object-fit: cover;
     object-position: center;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .gallery a.landscape {
@@ -2958,6 +2958,7 @@ ul.feature-icons {
     list-style: none;
     margin: 3rem 0;
     padding-left: 0;
+	margin-top: 0px;
 }
 
 ul.feature-icons:first-child {
@@ -2966,7 +2967,7 @@ ul.feature-icons:first-child {
 
 ul.feature-icons li {
     /*margin: 2.5rem 0 0 0;*/
-    padding: 0.5rem 0 0 4.5rem;
+    padding: 0.5rem 0 0 3rem;
     position: relative;
     width: 50%;
 }
@@ -3630,7 +3631,7 @@ ul.feature-icons li {
     position: relative;
     width: 100%;
     /* margin-bottom: 1rem; */
-    min-height: 4rem;
+    /*min-height: 4rem;*/
 }
 
 .projects_images {
@@ -3684,11 +3685,8 @@ ul.feature-icons li {
     margin-top: 7rem;
 }
 
-#education_ul {
-    margin-bottom: 2rem;
-}
-
-#carrer_path_subsections_minicourses_title {
+#education_ul,
+#ul_workshops {
     margin-bottom: 1rem;
 }
 
@@ -3709,10 +3707,6 @@ body:not(.is-using-mouse) .fancybox__container :focus {
     box-shadow: none;
 }
 
-#skills_ul {
-    margin-bottom: 0px;
-}
-
 .gallery .hiddenimages {
     display: none;
 }
@@ -3723,11 +3717,6 @@ img {
 
 .carousel__slide {
     width: 100%;
-}
-
-.fotorama ,
-.fotorama__stage__shaft {
-	width: 50%;
 }
 
 /*.carousel {
@@ -3745,8 +3734,12 @@ img {
 }
 
 .carousel_img {
-	width: 80%;
+	width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
 } 
+
+.p_titles {
+	margin-bottom: 0px;
+}
