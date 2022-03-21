@@ -44,6 +44,7 @@
 				zoom: false,
 				click: "toggleZoom",
 				wheel: "zoom",
+				fit: "cover",
 				Panzoom: {
 					//zoomFriction: 0.99,
 					maxScale: function() {
