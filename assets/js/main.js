@@ -46,7 +46,6 @@
 
     // Fancybox
     Fancybox.bind("[data-fancybox]", {
-		hash : false,
         infinite: true,
         click: false,
         Image: {
@@ -76,6 +75,7 @@
             ],
         }
     });
+	Fancybox.defaults.Hash = false;
 
     // Fill up information
     //lang = "en"
