@@ -46,7 +46,7 @@
 
     // Fancybox
     Fancybox.bind("[data-fancybox]", {
-		hash : true,
+		hash : false,
         infinite: true,
         click: false,
         Image: {
