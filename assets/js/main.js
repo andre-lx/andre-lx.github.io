@@ -1,5 +1,4 @@
 (function($) {
-
     var $window = $(window),
         $body = $('body');
 
@@ -14,12 +13,20 @@
         xxsmall: [null, '360px']
     });
 
+	
+
     // Play initial animations on page load.
     $window.on('load', function() {
         window.setTimeout(function() {
             $body.removeClass('is-preload');
         }, 100);
     });
+
+	$(window).on('load', function() { // makes sure the whole site is loaded 
+		$('#status').fadeOut(); // will first fade out the loading animation 
+		$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+		$('body').delay(350).css({'overflow-y':'visible'});
+	  })
 
     // Hack: Enable IE workarounds.
     if (browser.name == 'ie')
@@ -106,7 +113,7 @@
 				}
 
 				carousel_slides += '<div class="carousel__slide">' + 
-							'<a class="project_images " data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_category + '</strong><br>' + piece_name + '<br>">' +
+							'<a class="project_images " data-thumb="' + paths_images + item.thumbnail + '" data-fancybox="gallery" data-src="' + paths_images + item.fullimage + '" data-caption="<strong>' + parent_category + '</strong><br>' + piece_name + '<br>">' +
 								'<img class="carousel_img" ' + src_image + '="' + paths_images + item.fullimage + '">' +
 							'</a>' +
 						'</div>'
@@ -135,7 +142,6 @@
     })
 
 	for(var n = index; n > 0 ; n--) {
-		console.log(n)
 		new Carousel(document.querySelector(".carousel" + n), {
 			slidesPerPage: 1,
 			infinite: false,

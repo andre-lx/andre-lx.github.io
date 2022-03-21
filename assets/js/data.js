@@ -294,7 +294,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-006.png",
+						thumbnail: "crossed-blazer-black-006-thumbnail.png",
 						fullimage: "crossed-blazer-black-006.png"
 					},
 					{
@@ -302,7 +302,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-001.png",
+						thumbnail: "crossed-blazer-black-001-thumbnail.png",
 						fullimage: "crossed-blazer-black-001.png"
 					},
 					{
@@ -310,7 +310,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-004.png",
+						thumbnail: "crossed-blazer-black-004-thumbnail.png",
 						fullimage: "crossed-blazer-black-004.png"
 					},
 					{
@@ -318,7 +318,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-005.png",
+						thumbnail: "crossed-blazer-black-005-thumbnail.png",
 						fullimage: "crossed-blazer-black-005.png"
 					},
 					{
@@ -326,7 +326,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-details-001.png",
+						thumbnail: "crossed-blazer-black-details-001-thumbnail.png",
 						fullimage: "crossed-blazer-black-details-001.png"
 					},
 				]
@@ -346,7 +346,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-006.png",
+						thumbnail: "beige-trench-coat-006-thumbnail.png",
 						fullimage: "beige-trench-coat-006.png"
 					},
 					{
@@ -354,7 +354,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-001-closed.png",
+						thumbnail: "beige-trench-coat-001-closed-thumbnail.png",
 						fullimage: "beige-trench-coat-001-closed.png"
 					},
 					{
@@ -362,7 +362,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-003.png",
+						thumbnail: "beige-trench-coat-003-thumbnail.png",
 						fullimage: "beige-trench-coat-003.png"
 					},
 					{
@@ -370,7 +370,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-004.png",
+						thumbnail: "beige-trench-coat-004-thumbnail.png",
 						fullimage: "beige-trench-coat-004.png"
 					},
 					{
@@ -378,7 +378,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-details-001.png",
+						thumbnail: "beige-trench-coat-details-001-thumbnail.png",
 						fullimage: "beige-trench-coat-details-001.png"
 					},
 					{
@@ -386,7 +386,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-details-002.png",
+						thumbnail: "beige-trench-coat-details-002-thumbnail.png",
 						fullimage: "beige-trench-coat-details-002.png"
 					},
 				]
@@ -424,7 +424,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "long-dress-006.png",
+						thumbnail: "long-dress-006-thumbnail.png",
 						fullimage: "long-dress-006.png"
 					},
 					{
@@ -432,7 +432,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "long-dress-001.png",
+						thumbnail: "long-dress-001-thumbnail.png",
 						fullimage: "long-dress-001.png"
 					},
 					{
@@ -440,7 +440,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "long-dress-003.png",
+						thumbnail: "long-dress-003-thumbnail.png",
 						fullimage: "long-dress-003.png"
 					},
 					{
@@ -448,7 +448,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "long-dress-details-001.png",
+						thumbnail: "long-dress-details-001-thumbnail.png",
 						fullimage: "long-dress-details-001.png"
 					},
 				]
@@ -468,7 +468,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-006.png",
+						thumbnail: "tie-dye-jumpsuit-006-thumbnail.png",
 						fullimage: "tie-dye-jumpsuit-006.png"
 					},
 					{
@@ -476,7 +476,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-001.png",
+						thumbnail: "tie-dye-jumpsuit-001-thumbnail.png",
 						fullimage: "tie-dye-jumpsuit-001.png"
 					},
 					{
@@ -484,7 +484,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-002.png",
+						thumbnail: "tie-dye-jumpsuit-002-thumbnail.png",
 						fullimage: "tie-dye-jumpsuit-002.png"
 					},
 					{
@@ -492,7 +492,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-003.png",
+						thumbnail: "tie-dye-jumpsuit-003-thumbnail.png",
 						fullimage: "tie-dye-jumpsuit-003.png"
 					},
 					{
@@ -500,7 +500,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-004.png",
+						thumbnail: "tie-dye-jumpsuit-004-thumbnail.png",
 						fullimage: "tie-dye-jumpsuit-004.png"
 					},
 				]
@@ -538,7 +538,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-006.png",
+						thumbnail: "floral-blouse-006-thumbnail.png",
 						fullimage: "floral-blouse-006.png"
 					},
 					{
@@ -546,7 +546,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-001.png",
+						thumbnail: "floral-blouse-001-thumbnail.png",
 						fullimage: "floral-blouse-001.png"
 					},
 					{
@@ -554,7 +554,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-003.png",
+						thumbnail: "floral-blouse-003-thumbnail.png",
 						fullimage: "floral-blouse-003.png"
 					},
 					{
@@ -562,7 +562,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-details-001.png",
+						thumbnail: "floral-blouse-details-001-thumbnail.png",
 						fullimage: "floral-blouse-details-001.png"
 					},
 					{
@@ -570,7 +570,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-details-002.png",
+						thumbnail: "floral-blouse-details-002-thumbnail.png",
 						fullimage: "floral-blouse-details-002.png"
 					},
 				]
@@ -590,7 +590,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-006.png",
+						thumbnail: "floral-top-006-thumbnail.png",
 						fullimage: "floral-top-006.png"
 					},
 					{
@@ -598,7 +598,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-001.png",
+						thumbnail: "floral-top-001-thumbnail.png",
 						fullimage: "floral-top-001.png"
 					},
 					{
@@ -606,7 +606,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-002.png",
+						thumbnail: "floral-top-002-thumbnail.png",
 						fullimage: "floral-top-002.png"
 					},
 					{
@@ -614,7 +614,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-003.png",
+						thumbnail: "floral-top-003-thumbnail.png",
 						fullimage: "floral-top-003.png"
 					},
 					{
@@ -622,7 +622,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-004.png",
+						thumbnail: "floral-top-004-thumbnail.png",
 						fullimage: "floral-top-004.png"
 					},
 				]
@@ -642,7 +642,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-002.png",
+						thumbnail: "tie-dye-tshirt-002-thumbnail.png",
 						fullimage: "tie-dye-tshirt-002.png"
 					},
 					{
@@ -650,7 +650,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-001.png",
+						thumbnail: "tie-dye-tshirt-001-thumbnail.png",
 						fullimage: "tie-dye-tshirt-001.png"
 					},
 					{
@@ -658,7 +658,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-003.png",
+						thumbnail: "tie-dye-tshirt-003-thumbnail.png",
 						fullimage: "tie-dye-tshirt-003.png"
 					},
 					{
@@ -666,7 +666,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-004.png",
+						thumbnail: "tie-dye-tshirt-004-thumbnail.png",
 						fullimage: "tie-dye-tshirt-004.png"
 					},
 				]
@@ -704,7 +704,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-006.png",
+						thumbnail: "pencil-skirt-006-thumbnail.png",
 						fullimage: "pencil-skirt-006.png"
 					},
 					{
@@ -712,7 +712,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-001.png",
+						thumbnail: "pencil-skirt-001-thumbnail.png",
 						fullimage: "pencil-skirt-001.png"
 					},
 					{
@@ -720,7 +720,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-002.png",
+						thumbnail: "pencil-skirt-002-thumbnail.png",
 						fullimage: "pencil-skirt-002.png"
 					},
 					{
@@ -728,7 +728,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-004.png",
+						thumbnail: "pencil-skirt-004-thumbnail.png",
 						fullimage: "pencil-skirt-004.png"
 					},
 					{
@@ -736,7 +736,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-details-001.png",
+						thumbnail: "pencil-skirt-details-001-thumbnail.png",
 						fullimage: "pencil-skirt-details-001.png"
 					},
 				]
@@ -756,7 +756,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-006.png",
+						thumbnail: "khaki-corsairs-pants-006-thumbnail.png",
 						fullimage: "khaki-corsairs-pants-006.png"
 					},
 					{
@@ -764,7 +764,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-001.png",
+						thumbnail: "khaki-corsairs-pants-001-thumbnail.png",
 						fullimage: "khaki-corsairs-pants-001.png"
 					},
 					{
@@ -772,7 +772,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-002.png",
+						thumbnail: "khaki-corsairs-pants-002-thumbnail.png",
 						fullimage: "khaki-corsairs-pants-002.png"
 					},
 					{
@@ -780,7 +780,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-003.png",
+						thumbnail: "khaki-corsairs-pants-003-thumbnail.png",
 						fullimage: "khaki-corsairs-pants-003.png"
 					},
 					{
@@ -788,7 +788,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-details-001.png",
+						thumbnail: "khaki-corsairs-pants-details-001-thumbnail.png",
 						fullimage: "khaki-corsairs-pants-details-001.png"
 					},
 				]
@@ -808,7 +808,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-006.png",
+						thumbnail: "brown-corduroy-pants-006-thumbnail.png",
 						fullimage: "brown-corduroy-pants-006.png"
 					},
 					{
@@ -816,7 +816,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-001.png",
+						thumbnail: "brown-corduroy-pants-001-thumbnail.png",
 						fullimage: "brown-corduroy-pants-001.png"
 					},
 					{
@@ -824,7 +824,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-003.png",
+						thumbnail: "brown-corduroy-pants-003-thumbnail.png",
 						fullimage: "brown-corduroy-pants-003.png"
 					},
 					{
@@ -832,7 +832,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-004.png",
+						thumbnail: "brown-corduroy-pants-004-thumbnail.png",
 						fullimage: "brown-corduroy-pants-004.png"
 					},
 					{
@@ -840,7 +840,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-details-001.png",
+						thumbnail: "brown-corduroy-pants-details-001-thumbnail.png",
 						fullimage: "brown-corduroy-pants-details-001.png"
 					},
 					{
@@ -848,7 +848,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-details-002.png",
+						thumbnail: "brown-corduroy-pants-details-002-thumbnail.png",
 						fullimage: "brown-corduroy-pants-details-002.png"
 					},
 				]
@@ -886,7 +886,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-006.png",
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-006-thumbnail.png",
 						fullimage: "one-piece-swimsuit-v-neck-tropical-006.png"
 					},
 					{
@@ -894,7 +894,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-001.png",
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-001-thumbnail.png",
 						fullimage: "one-piece-swimsuit-v-neck-tropical-001.png"
 					},
 					{
@@ -902,7 +902,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-004.png",
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-004-thumbnail.png",
 						fullimage: "one-piece-swimsuit-v-neck-tropical-004.png"
 					},
 					{
@@ -910,7 +910,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-005.png",
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-005-thumbnail.png",
 						fullimage: "one-piece-swimsuit-v-neck-tropical-005.png"
 					},
 					{
@@ -918,7 +918,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-details-001.png",
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-details-001-thumbnail.png",
 						fullimage: "one-piece-swimsuit-v-neck-tropical-details-001.png"
 					},
 					{
@@ -926,7 +926,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-details-002.png",
+						thumbnail: "one-piece-swimsuit-v-neck-tropical-details-002-thumbnail.png",
 						fullimage: "one-piece-swimsuit-v-neck-tropical-details-002.png"
 					},
 				]
@@ -946,7 +946,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-one-shoulder-pink-006.png",
+						thumbnail: "one-piece-swimsuit-one-shoulder-pink-006-thumbnail.png",
 						fullimage: "one-piece-swimsuit-one-shoulder-pink-006.png"
 					},
 					{
@@ -954,7 +954,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-one-shoulder-pink-001.png",
+						thumbnail:"one-piece-swimsuit-one-shoulder-pink-001-thumbnail.png",
 						fullimage: "one-piece-swimsuit-one-shoulder-pink-001.png"
 					},
 					{
@@ -962,7 +962,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-one-shoulder-pink-002.png",
+						thumbnail:"one-piece-swimsuit-one-shoulder-pink-002-thumbnail.png",
 						fullimage: "one-piece-swimsuit-one-shoulder-pink-002.png"
 					},
 					{
@@ -970,7 +970,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-one-shoulder-pink-004.png",
+						thumbnail:"one-piece-swimsuit-one-shoulder-pink-004-thumbnail.png",
 						fullimage: "one-piece-swimsuit-one-shoulder-pink-004.png"
 					},
 				]
@@ -990,7 +990,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-mayo-tropical-006.png",
+						thumbnail: "one-piece-swimsuit-mayo-tropical-006-thumbnail.png",
 						fullimage: "one-piece-swimsuit-mayo-tropical-006.png"
 					},
 					{
@@ -998,7 +998,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-mayo-tropical-001.png",
+						thumbnail:"one-piece-swimsuit-mayo-tropical-001-thumbnail.png",
 						fullimage: "one-piece-swimsuit-mayo-tropical-001.png"
 					},
 					{
@@ -1006,7 +1006,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-mayo-tropical-004.png",
+						thumbnail:"one-piece-swimsuit-mayo-tropical-004-thumbnail.png",
 						fullimage: "one-piece-swimsuit-mayo-tropical-004.png"
 					},
 				]
@@ -1045,7 +1045,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-006.png",
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-006-thumbnail.png",
 						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-006.png"
 					},
 					{
@@ -1053,7 +1053,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-002.png",
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-002-thumbnail.png",
 						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-002.png"
 					},
 					{
@@ -1061,7 +1061,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-003.png",
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-003-thumbnail.png",
 						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-003.png"
 					},
 					{
@@ -1069,7 +1069,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-004.png",
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-004-thumbnail.png",
 						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-004.png"
 					},
 					{
@@ -1077,7 +1077,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-details-001.png",
+						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-details-001-thumbnail.png",
 						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-details-001.png"
 					},
 				]
@@ -1097,7 +1097,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-cut-sporty-crop-floral-006.png",
+						thumbnail: "bikini-set-high-cut-sporty-crop-floral-006-thumbnail.png",
 						fullimage: "bikini-set-high-cut-sporty-crop-floral-006.png"
 					},
 					{
@@ -1105,7 +1105,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-cut-sporty-crop-floral-001.png",
+						thumbnail: "bikini-set-high-cut-sporty-crop-floral-001-thumbnail.png",
 						fullimage: "bikini-set-high-cut-sporty-crop-floral-001.png"
 					},
 					{
@@ -1113,7 +1113,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-cut-sporty-crop-floral-005.png",
+						thumbnail: "bikini-set-high-cut-sporty-crop-floral-005-thumbnail.png",
 						fullimage: "bikini-set-high-cut-sporty-crop-floral-005.png"
 					},
 				]
@@ -1133,7 +1133,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-waist-sporty-crop-floral-006.png",
+						thumbnail: "bikini-set-high-waist-sporty-crop-floral-006-thumbnail.png",
 						fullimage: "bikini-set-high-waist-sporty-crop-floral-006.png"
 					},
 					{
@@ -1141,7 +1141,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-waist-sporty-crop-floral-001.png",
+						thumbnail: "bikini-set-high-waist-sporty-crop-floral-001-thumbnail.png",
 						fullimage: "bikini-set-high-waist-sporty-crop-floral-001.png"
 					},
 					{
@@ -1149,7 +1149,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-waist-sporty-crop-floral-003.png",
+						thumbnail: "bikini-set-high-waist-sporty-crop-floral-003-thumbnail.png",
 						fullimage: "bikini-set-high-waist-sporty-crop-floral-003.png"
 					},
 				]
@@ -1188,7 +1188,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-bow-blue-002.png",
+						thumbnail: "bikini-bottom-high-waist-bow-blue-002-thumbnail.png",
 						fullimage: "bikini-bottom-high-waist-bow-blue-002.png"
 					},
 					{
@@ -1196,7 +1196,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-bow-blue-003.png",
+						thumbnail: "bikini-bottom-high-waist-bow-blue-003-thumbnail.png",
 						fullimage: "bikini-bottom-high-waist-bow-blue-003.png"
 					},
 					{
@@ -1204,7 +1204,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-bow-blue-details-001.png",
+						thumbnail: "bikini-bottom-high-waist-bow-blue-details-001-thumbnail.png",
 						fullimage: "bikini-bottom-high-waist-bow-blue-details-001.png"
 					}
 				]
@@ -1224,7 +1224,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-crossover-black-002.png",
+						thumbnail: "bikini-bottom-high-waist-crossover-black-002-thumbnail.png",
 						fullimage: "bikini-bottom-high-waist-crossover-black-002.png"
 					},
 					{
@@ -1232,7 +1232,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-crossover-black-006.png",
+						thumbnail: "bikini-bottom-high-waist-crossover-black-006-thumbnail.png",
 						fullimage: "bikini-bottom-high-waist-crossover-black-006.png"
 					},
 					{
@@ -1240,7 +1240,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-crossover-black-003.png",
+						thumbnail: "bikini-bottom-high-waist-crossover-black-003-thumbnail.png",
 						fullimage: "bikini-bottom-high-waist-crossover-black-003.png"
 					},
 					{
@@ -1248,7 +1248,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-crossover-black-details-001.png",
+						thumbnail: "bikini-bottom-high-waist-crossover-black-details-001-thumbnail.png",
 						fullimage: "bikini-bottom-high-waist-crossover-black-details-001.png"
 					},
 				]
@@ -1268,7 +1268,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-tie-side-floral-001.png",
+						thumbnail: "bikini-bottom-tie-side-floral-001-thumbnail.png",
 						fullimage: "bikini-bottom-tie-side-floral-001.png"
 					},
 					{
@@ -1276,7 +1276,7 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-tie-side-floral-004.png",
+						thumbnail: "bikini-bottom-tie-side-floral-004-thumbnail.png",
 						fullimage: "bikini-bottom-tie-side-floral-004.png"
 					},
 				]
