@@ -2902,18 +2902,7 @@ a.arrow:before {
 }
 
 @media screen and (max-width: 1152px) {
-    .gallery a img {
-        height: 20rem;
-    }
-    .gallery a.landscape img {
-        height: 25rem;
-    }
-    .gallery a.portrait img {
-        height: 25rem;
-    }
-    .gallery .modal .inner img {
-        max-width: 100vw;
-    }
+
 }
 
 @media screen and (max-width: 736px) {
@@ -2937,16 +2926,7 @@ a.arrow:before {
 }
 
 @media screen and (max-width: 480px) {
-    .gallery a img {
-        height: 12rem;
-        min-height: 0;
-    }
-    .gallery a.landscape img {
-        height: 12rem;
-    }
-    .gallery a.portrait img {
-        height: 14rem;
-    }
+
 }
 
 

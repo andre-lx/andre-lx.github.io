@@ -52,6 +52,7 @@
             zoom: false,
             click: "toggleZoom",
             wheel: "zoom",
+			fit: "cover",
             Panzoom: {
                 //zoomFriction: 0.99,
                 maxScale: function() {
@@ -113,7 +114,7 @@
 				}
 
 				carousel_slides += '<div class="carousel__slide">' + 
-							'<a class="project_images " data-thumb="' + paths_images + item.name + '-75.png" data-fancybox="gallery" data-src="' + paths_images + item.name + '.png" data-caption="<strong>' + parent_category + '</strong><br>' + piece_name + '<br>">' +
+							'<a class="project_images " data-thumb="' + paths_images + item.name + '-75.png" data-fancybox="gallery" data-srcset="' + paths_images + item.name + '.png" data-caption="<strong>' + parent_category + '</strong><br>' + piece_name + '<br>">' +
 								'<img class="carousel_img" ' + src_image + '="' + paths_images + item.name + '-50.png">' +
 							'</a>' +
 						'</div>'
