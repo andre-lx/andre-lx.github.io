@@ -33,8 +33,77 @@
         $body.addClass('is-ie');
 
     // Mobile?
-    if (browser.mobile)
-        $body.addClass('is-mobile');
+    if (browser.mobile) {
+		$body.addClass('is-mobile');
+
+		// Fancybox
+		Fancybox.bind("[data-fancybox]", {
+			infinite: true,
+			click: false,
+			Image: {
+				zoom: false,
+				click: "toggleZoom",
+				wheel: "zoom",
+				fit: "cover",
+				Panzoom: {
+					//zoomFriction: 0.99,
+					maxScale: function() {
+						return 3;
+					},
+				},
+			},
+			Carousel: {
+				friction: 0.4
+			  },
+			Toolbar: {
+				display: [
+					{ id: "prev", position: "center" },
+					{ id: "counter", position: "center" },
+					{ id: "next", position: "center" },
+					//"zoom",
+					"fullscreen",
+					"thumbs",
+					"close",
+					//"slideshow",
+				],
+			}
+		});
+		Fancybox.defaults.Hash = false;
+	} else {
+		// Fancybox
+		Fancybox.bind("[data-fancybox]", {
+			infinite: true,
+			click: false,
+			Image: {
+				zoom: false,
+				click: "toggleZoom",
+				wheel: "zoom",
+				Panzoom: {
+					//zoomFriction: 0.99,
+					maxScale: function() {
+						return 3;
+					},
+				},
+			},
+			Carousel: {
+				friction: 0.4
+			  },
+			Toolbar: {
+				display: [
+					{ id: "prev", position: "center" },
+					{ id: "counter", position: "center" },
+					{ id: "next", position: "center" },
+					"zoom",
+					"fullscreen",
+					"thumbs",
+					"close",
+					//"slideshow",
+				],
+			}
+		});
+		Fancybox.defaults.Hash = false;
+	}
+        
 
     // Scrolly.
     $('.scrolly')
@@ -42,41 +111,6 @@
             offset: 100
         });
 
-
-
-    // Fancybox
-    Fancybox.bind("[data-fancybox]", {
-        infinite: true,
-        click: false,
-        Image: {
-            zoom: false,
-            click: "toggleZoom",
-            wheel: "zoom",
-			fit: "cover",
-            Panzoom: {
-                //zoomFriction: 0.99,
-                maxScale: function() {
-                    return 3;
-                },
-            },
-        },
-		Carousel: {
-			friction: 0.4
-		  },
-        Toolbar: {
-            display: [
-                { id: "prev", position: "center" },
-                { id: "counter", position: "center" },
-                { id: "next", position: "center" },
-                "zoom",
-                "fullscreen",
-                "thumbs",
-                "close",
-                //"slideshow",
-            ],
-        }
-    });
-	Fancybox.defaults.Hash = false;
 
     // Fill up information
     //lang = "en"
