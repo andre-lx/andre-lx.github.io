@@ -51,7 +51,6 @@
 				zoom: false,
 				click: "toggleZoom",
 				wheel: "zoom",
-				fit: "cover",
 				Panzoom: {
 					//zoomFriction: 0.99,
 					maxScale: function() {
@@ -67,7 +66,7 @@
 					{ id: "prev", position: "center" },
 					{ id: "counter", position: "center" },
 					{ id: "next", position: "center" },
-					//"zoom",
+					"zoom",
 					"fullscreen",
 					"thumbs",
 					"close",
