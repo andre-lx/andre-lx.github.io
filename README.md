@@ -2,11 +2,11 @@
 
 ## Images size
 
-Gallery (original) images: 1080x900px
+Gallery (original) images: **1080x900px** - `image-name.png`
 
-Gallery thumbnails: 270x225px `[ 75% smaller than the original image* ]`
+Gallery thumbnails: **270x225px** `[ 75% smaller than the original image* ]` - `image-name-75.png`
 
-Home page (caroussel) images: 540x450px `[ 50% smaller than the original image* ]`
+Home page (caroussel) images: **540x450px** `[ 50% smaller than the original image* ]` - `image-name-50.png`
 
 
 `* use this tool to do the resizing`
