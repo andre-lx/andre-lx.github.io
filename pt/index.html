@@ -43,22 +43,40 @@
       content="https://soniaribeiro.studio/assets/images/index/pic01.jpg"
     />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JSQ39V7Y73"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-JSQ39V7Y73");
+    </script>
+
     <link rel="stylesheet" href="../assets/css/fancybox.css" />
     <link rel="stylesheet" href="../assets/css/main.css" />
   </head>
 
   <body class="is-preload">
-	  <!-- Preloader -->
-<div id="preloader">
-	<div id="status">&nbsp;</div>
-  </div>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
     <!-- Wrapper -->
     <div id="wrapper">
       <!-- Intro -->
       <section class="intro">
         <header>
           <h1 class="color_white color_white_small_screen">Sónia Ribeiro</h1>
-          <p class="color_white color_white_small_screen"><a href="#projects_title" class="anchor_main">Portfolio</a> | <a href="#carrer_path_title" class="anchor_main">Bio</a></p>
+          <p class="color_white color_white_small_screen">
+            <a href="#projects_title" class="anchor_main">Portfolio</a> |
+            <a href="#carrer_path_title" class="anchor_main">Bio</a>
+          </p>
         </header>
         <div class="content">
           <span class="image fill" data-position="center"
@@ -107,7 +125,7 @@
         </header>
 
         <div class="content">
-		  <p id="carrer_path_description"></p>
+          <p id="carrer_path_description"></p>
           <!-- Section -->
           <section>
             <header>
@@ -117,11 +135,20 @@
               ></h3>
             </header>
             <div id="carrer_path_content" class="content">
-              <p class="p_titles" id="carrer_path_subsections_education_text"></p>
+              <p
+                class="p_titles"
+                id="carrer_path_subsections_education_text"
+              ></p>
               <ul class="feature-icons" id="education_ul"></ul>
-			  <p class="p_titles" id="carrer_path_subsections_workshops_title"></p>
+              <p
+                class="p_titles"
+                id="carrer_path_subsections_workshops_title"
+              ></p>
               <ul class="feature-icons" id="ul_workshops"></ul>
-              <p class="p_titles" id="carrer_path_subsections_minicourses_title"></p>
+              <p
+                class="p_titles"
+                id="carrer_path_subsections_minicourses_title"
+              ></p>
               <ul class="feature-icons" id="ul_minicourses"></ul>
             </div>
           </section>
@@ -154,19 +181,22 @@
             </div>
           </section>
 
-		<!-- Section -->
-		<section>
-			<header>
-				<h3
-				class="color_white color_white_small_screen"
-				id="carrer_path_subsections_languages_title"
-				></h3>
-			</header>
-			<div class="content">
-				<p class="p_titles" id="carrer_path_subsections_languages_text"></p>
-				<ul class="feature-icons" id="languages_ul"></ul>
-			</div>
-			</section>
+          <!-- Section -->
+          <section>
+            <header>
+              <h3
+                class="color_white color_white_small_screen"
+                id="carrer_path_subsections_languages_title"
+              ></h3>
+            </header>
+            <div class="content">
+              <p
+                class="p_titles"
+                id="carrer_path_subsections_languages_text"
+              ></p>
+              <ul class="feature-icons" id="languages_ul"></ul>
+            </div>
+          </section>
         </div>
       </section>
 
@@ -214,7 +244,7 @@
     </div>
 
     <!-- Scripts -->
-	
+
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/jquery.scrolly.min.js"></script>
     <script src="../assets/js/browser.min.js"></script>
