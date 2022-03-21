@@ -10,7 +10,7 @@ const main = [{
         },
         text: {
             pt: "Apaixonada por criatividade e por projetar projetos sustentáveis.<br>O mundo não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para isso. Se as grandes empresas não o fazem, cabe às pequenas empresas mudar o mundo.",
-            en: "Passionate about creativity and designing sustainable projects.<br>The world will not be entirely sustainable overnight, but with effort, dedication and making the right and well thought-out choices, we can build the best path for that. If the big companies don't do it, it's up to the small companies to change the world.",
+            en: "Passionated about creativity and designing sustainable projects.<br>The world will not be entirely sustainable overnight, but with effort, dedication and making the right and well thought-out choices, we can build the best path for that. If the big companies don't do it, it's up to the small companies to change the world.",
         }
     },
     projects: {
@@ -29,7 +29,7 @@ const main = [{
             en: "Career Path",
         },
         text: {
-            pt: "Todos os passos contam. A minha jornada do nada a alguma coisa",
+            pt: "Todos os passos contam. A minha jornada do nada a alguma coisa.<br><br>",
             en: "Every step counts. My journey from nothing to something.<br><br>",
         },
         subsections: {
@@ -39,8 +39,8 @@ const main = [{
                     en: "Education",
                 },
                 text: {
-                    pt: "Aprende algo novo todos os dias<br><br>Cursos",
-                    en: "Learn something new every day<br><br>Courses",
+                    pt: "Aprendendo algo novo todos os dias<br><br>Cursos",
+                    en: "Learning something new every day<br><br>Courses",
                 },
                 courses: [{
                         name: {
@@ -243,8 +243,8 @@ const main = [{
             en: "Address",
         },
         address: {
-            pt: "Lisboa, PT",
-            en: "Lisbon, PT",
+            pt: "PT",
+            en: "PT",
         },
         title: {
             pt: "CONTACTOS",
@@ -252,7 +252,7 @@ const main = [{
         },
         text: {
             pt: "Fique a vontade para entrar em contato comigo. Estou sempre aberta a discutir novos projetos, ideias criativas ou oportunidades para fazer parte das suas visões.",
-            en: "Fell free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
+            en: "Fell free to get in touch with me. I am always open to discuss new projects, creative ideas or opportunities to be part of your visions.",
         },
         elsewhere: {
             pt: "Outros",
@@ -275,7 +275,6 @@ const projects = {
 			config: {
 				paths: {
 					images: "../assets/images/gallery/coats-blazers/",
-					thumbnails: "../assets/images/gallery/coats-blazers/",
 				}
 			},
 			pieces: [
@@ -294,40 +293,35 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-006-thumbnail.png",
-						fullimage: "crossed-blazer-black-006.png"
+						name: "crossed-blazer-black-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-001-thumbnail.png",
-						fullimage: "crossed-blazer-black-001.png"
+						name: "crossed-blazer-black-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-004-thumbnail.png",
-						fullimage: "crossed-blazer-black-004.png"
+						name: "crossed-blazer-black-004",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-005-thumbnail.png",
-						fullimage: "crossed-blazer-black-005.png"
+						name: "crossed-blazer-black-005"
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "crossed-blazer-black-details-001-thumbnail.png",
-						fullimage: "crossed-blazer-black-details-001.png"
+						name: "crossed-blazer-black-details-001",
 					},
 				]
 			},
@@ -346,48 +340,42 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-006-thumbnail.png",
-						fullimage: "beige-trench-coat-006.png"
+						name: "beige-trench-coat-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-001-closed-thumbnail.png",
-						fullimage: "beige-trench-coat-001-closed.png"
+						name: "beige-trench-coat-001-closed",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-003-thumbnail.png",
-						fullimage: "beige-trench-coat-003.png"
+						name: "beige-trench-coat-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-004-thumbnail.png",
-						fullimage: "beige-trench-coat-004.png"
+						name: "beige-trench-coat-004",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-details-001-thumbnail.png",
-						fullimage: "beige-trench-coat-details-001.png"
+						name: "beige-trench-coat-details-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "beige-trench-coat-details-002-thumbnail.png",
-						fullimage: "beige-trench-coat-details-002.png"
+						name: "beige-trench-coat-details-002",
 					},
 				]
 			},
@@ -405,7 +393,6 @@ const projects = {
 			config: {
 				paths: {
 					images: "../assets/images/gallery/dresses-jumpsuits/",
-					thumbnails: "../assets/images/gallery/dresses-jumpsuits/",
 				}
 			},
 			pieces: [
@@ -424,32 +411,28 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "long-dress-006-thumbnail.png",
-						fullimage: "long-dress-006.png"
+						name: "long-dress-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "long-dress-001-thumbnail.png",
-						fullimage: "long-dress-001.png"
+						name: "long-dress-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "long-dress-003-thumbnail.png",
-						fullimage: "long-dress-003.png"
+						name: "long-dress-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "long-dress-details-001-thumbnail.png",
-						fullimage: "long-dress-details-001.png"
+						name: "long-dress-details-001",
 					},
 				]
 			},
@@ -468,40 +451,35 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-006-thumbnail.png",
-						fullimage: "tie-dye-jumpsuit-006.png"
+						name: "tie-dye-jumpsuit-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-001-thumbnail.png",
-						fullimage: "tie-dye-jumpsuit-001.png"
+						name: "tie-dye-jumpsuit-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-002-thumbnail.png",
-						fullimage: "tie-dye-jumpsuit-002.png"
+						name: "tie-dye-jumpsuit-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-003-thumbnail.png",
-						fullimage: "tie-dye-jumpsuit-003.png"
+						name: "tie-dye-jumpsuit-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-jumpsuit-004-thumbnail.png",
-						fullimage: "tie-dye-jumpsuit-004.png"
+						name: "tie-dye-jumpsuit-004",
 					},
 				]
 			},
@@ -519,7 +497,6 @@ const projects = {
 			config: {
 				paths: {
 					images: "../assets/images/gallery/tops-tshirts-blouses/",
-					thumbnails: "../assets/images/gallery/tops-tshirts-blouses/",
 				}
 			},
 			pieces: [
@@ -538,40 +515,35 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-006-thumbnail.png",
-						fullimage: "floral-blouse-006.png"
+						name: "floral-blouse-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-001-thumbnail.png",
-						fullimage: "floral-blouse-001.png"
+						name: "floral-blouse-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-003-thumbnail.png",
-						fullimage: "floral-blouse-003.png"
+						name: "floral-blouse-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-details-001-thumbnail.png",
-						fullimage: "floral-blouse-details-001.png"
+						name: "floral-blouse-details-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-blouse-details-002-thumbnail.png",
-						fullimage: "floral-blouse-details-002.png"
+						name: "floral-blouse-details-002",
 					},
 				]
 			},
@@ -590,40 +562,35 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-006-thumbnail.png",
-						fullimage: "floral-top-006.png"
+						name: "floral-top-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-001-thumbnail.png",
-						fullimage: "floral-top-001.png"
+						name: "floral-top-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-002-thumbnail.png",
-						fullimage: "floral-top-002.png"
+						name: "floral-top-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-003-thumbnail.png",
-						fullimage: "floral-top-003.png"
+						name: "floral-top-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "floral-top-004-thumbnail.png",
-						fullimage: "floral-top-004.png"
+						name: "floral-top-004",
 					},
 				]
 			},
@@ -642,32 +609,28 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-002-thumbnail.png",
-						fullimage: "tie-dye-tshirt-002.png"
+						name: "tie-dye-tshirt-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-001-thumbnail.png",
-						fullimage: "tie-dye-tshirt-001.png"
+						name: "tie-dye-tshirt-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-003-thumbnail.png",
-						fullimage: "tie-dye-tshirt-003.png"
+						name: "tie-dye-tshirt-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "tie-dye-tshirt-004-thumbnail.png",
-						fullimage: "tie-dye-tshirt-004.png"
+						name: "tie-dye-tshirt-004",
 					},
 				]
 			},
@@ -685,7 +648,6 @@ const projects = {
 			config: {
 				paths: {
 					images: "../assets/images/gallery/skirts-jeans/",
-					thumbnails: "../assets/images/gallery/skirts-jeans/",
 				}
 			},
 			pieces: [
@@ -704,40 +666,35 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-006-thumbnail.png",
-						fullimage: "pencil-skirt-006.png"
+						name: "pencil-skirt-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-001-thumbnail.png",
-						fullimage: "pencil-skirt-001.png"
+						name: "pencil-skirt-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-002-thumbnail.png",
-						fullimage: "pencil-skirt-002.png"
+						name: "pencil-skirt-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-004-thumbnail.png",
-						fullimage: "pencil-skirt-004.png"
+						name: "pencil-skirt-004",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "pencil-skirt-details-001-thumbnail.png",
-						fullimage: "pencil-skirt-details-001.png"
+						name: "pencil-skirt-details-001",
 					},
 				]
 			},
@@ -756,40 +713,35 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-006-thumbnail.png",
-						fullimage: "khaki-corsairs-pants-006.png"
+						name: "khaki-corsairs-pants-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-001-thumbnail.png",
-						fullimage: "khaki-corsairs-pants-001.png"
+						name: "khaki-corsairs-pants-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-002-thumbnail.png",
-						fullimage: "khaki-corsairs-pants-002.png"
+						name: "khaki-corsairs-pants-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-003-thumbnail.png",
-						fullimage: "khaki-corsairs-pants-003.png"
+						name: "khaki-corsairs-pants-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "khaki-corsairs-pants-details-001-thumbnail.png",
-						fullimage: "khaki-corsairs-pants-details-001.png"
+						name: "khaki-corsairs-pants-details-001",
 					},
 				]
 			},
@@ -808,48 +760,42 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-006-thumbnail.png",
-						fullimage: "brown-corduroy-pants-006.png"
+						name: "brown-corduroy-pants-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-001-thumbnail.png",
-						fullimage: "brown-corduroy-pants-001.png"
+						name: "brown-corduroy-pants-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-003-thumbnail.png",
-						fullimage: "brown-corduroy-pants-003.png"
+						name: "brown-corduroy-pants-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-004-thumbnail.png",
-						fullimage: "brown-corduroy-pants-004.png"
+						name: "brown-corduroy-pants-004",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-details-001-thumbnail.png",
-						fullimage: "brown-corduroy-pants-details-001.png"
+						name: "brown-corduroy-pants-details-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "brown-corduroy-pants-details-002-thumbnail.png",
-						fullimage: "brown-corduroy-pants-details-002.png"
+						name: "brown-corduroy-pants-details-002",
 					},
 				]
 			},
@@ -867,7 +813,6 @@ const projects = {
 			config: {
 				paths: {
 					images: "../assets/images/gallery/beachwear/one-piece-swimsuits/",
-					thumbnails: "../assets/images/gallery/beachwear/one-piece-swimsuits/",
 				}
 			},
 			pieces: [
@@ -886,48 +831,42 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-006-thumbnail.png",
-						fullimage: "one-piece-swimsuit-v-neck-tropical-006.png"
+						name: "one-piece-swimsuit-v-neck-tropical-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-001-thumbnail.png",
-						fullimage: "one-piece-swimsuit-v-neck-tropical-001.png"
+						name: "one-piece-swimsuit-v-neck-tropical-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-004-thumbnail.png",
-						fullimage: "one-piece-swimsuit-v-neck-tropical-004.png"
+						name: "one-piece-swimsuit-v-neck-tropical-004",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-005-thumbnail.png",
-						fullimage: "one-piece-swimsuit-v-neck-tropical-005.png"
+						name: "one-piece-swimsuit-v-neck-tropical-005",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-details-001-thumbnail.png",
-						fullimage: "one-piece-swimsuit-v-neck-tropical-details-001.png"
+						name: "one-piece-swimsuit-v-neck-tropical-details-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-v-neck-tropical-details-002-thumbnail.png",
-						fullimage: "one-piece-swimsuit-v-neck-tropical-details-002.png"
+						name: "one-piece-swimsuit-v-neck-tropical-details-002",
 					},
 				]
 			},
@@ -946,32 +885,28 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-one-shoulder-pink-006-thumbnail.png",
-						fullimage: "one-piece-swimsuit-one-shoulder-pink-006.png"
+						name: "one-piece-swimsuit-one-shoulder-pink-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-one-shoulder-pink-001-thumbnail.png",
-						fullimage: "one-piece-swimsuit-one-shoulder-pink-001.png"
+						name:"one-piece-swimsuit-one-shoulder-pink-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-one-shoulder-pink-002-thumbnail.png",
-						fullimage: "one-piece-swimsuit-one-shoulder-pink-002.png"
+						name:"one-piece-swimsuit-one-shoulder-pink-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-one-shoulder-pink-004-thumbnail.png",
-						fullimage: "one-piece-swimsuit-one-shoulder-pink-004.png"
+						name:"one-piece-swimsuit-one-shoulder-pink-004",
 					},
 				]
 			},
@@ -990,24 +925,21 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "one-piece-swimsuit-mayo-tropical-006-thumbnail.png",
-						fullimage: "one-piece-swimsuit-mayo-tropical-006.png"
+						name: "one-piece-swimsuit-mayo-tropical-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-mayo-tropical-001-thumbnail.png",
-						fullimage: "one-piece-swimsuit-mayo-tropical-001.png"
+						name:"one-piece-swimsuit-mayo-tropical-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail:"one-piece-swimsuit-mayo-tropical-004-thumbnail.png",
-						fullimage: "one-piece-swimsuit-mayo-tropical-004.png"
+						name:"one-piece-swimsuit-mayo-tropical-004",
 					},
 				]
 			},
@@ -1026,7 +958,6 @@ const projects = {
 			config: {
 				paths: {
 					images: "../assets/images/gallery/beachwear/bikini-sets/",
-					thumbnails: "../assets/images/gallery/beachwear/bikini-sets/",
 				}
 			},
 			pieces: [
@@ -1045,40 +976,35 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-006-thumbnail.png",
-						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-006.png"
+						name: "bikini-set-brazilian-twisted-bandeau-tropical-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-002-thumbnail.png",
-						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-002.png"
+						name: "bikini-set-brazilian-twisted-bandeau-tropical-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-003-thumbnail.png",
-						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-003.png"
+						name: "bikini-set-brazilian-twisted-bandeau-tropical-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-004-thumbnail.png",
-						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-004.png"
+						name: "bikini-set-brazilian-twisted-bandeau-tropical-004",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-brazilian-twisted-bandeau-tropical-details-001-thumbnail.png",
-						fullimage: "bikini-set-brazilian-twisted-bandeau-tropical-details-001.png"
+						name: "bikini-set-brazilian-twisted-bandeau-tropical-details-001",
 					},
 				]
 			},
@@ -1097,24 +1023,21 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-cut-sporty-crop-floral-006-thumbnail.png",
-						fullimage: "bikini-set-high-cut-sporty-crop-floral-006.png"
+						name: "bikini-set-high-cut-sporty-crop-floral-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-cut-sporty-crop-floral-001-thumbnail.png",
-						fullimage: "bikini-set-high-cut-sporty-crop-floral-001.png"
+						name: "bikini-set-high-cut-sporty-crop-floral-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-cut-sporty-crop-floral-005-thumbnail.png",
-						fullimage: "bikini-set-high-cut-sporty-crop-floral-005.png"
+						name: "bikini-set-high-cut-sporty-crop-floral-005",
 					},
 				]
 			},
@@ -1133,24 +1056,21 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-waist-sporty-crop-floral-006-thumbnail.png",
-						fullimage: "bikini-set-high-waist-sporty-crop-floral-006.png"
+						name: "bikini-set-high-waist-sporty-crop-floral-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-waist-sporty-crop-floral-001-thumbnail.png",
-						fullimage: "bikini-set-high-waist-sporty-crop-floral-001.png"
+						name: "bikini-set-high-waist-sporty-crop-floral-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-set-high-waist-sporty-crop-floral-003-thumbnail.png",
-						fullimage: "bikini-set-high-waist-sporty-crop-floral-003.png"
+						name: "bikini-set-high-waist-sporty-crop-floral-003",
 					},
 				]
 			},
@@ -1169,7 +1089,6 @@ const projects = {
 			config: {
 				paths: {
 					images: "../assets/images/gallery/beachwear/bikini-bottoms/",
-					thumbnails: "../assets/images/gallery/beachwear/bikini-bottoms/",
 				}
 			},
 			pieces: [
@@ -1188,24 +1107,21 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-bow-blue-002-thumbnail.png",
-						fullimage: "bikini-bottom-high-waist-bow-blue-002.png"
+						name: "bikini-bottom-high-waist-bow-blue-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-bow-blue-003-thumbnail.png",
-						fullimage: "bikini-bottom-high-waist-bow-blue-003.png"
+						name: "bikini-bottom-high-waist-bow-blue-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-bow-blue-details-001-thumbnail.png",
-						fullimage: "bikini-bottom-high-waist-bow-blue-details-001.png"
+						name: "bikini-bottom-high-waist-bow-blue-details-001",
 					}
 				]
 			},
@@ -1224,32 +1140,28 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-crossover-black-002-thumbnail.png",
-						fullimage: "bikini-bottom-high-waist-crossover-black-002.png"
+						name: "bikini-bottom-high-waist-crossover-black-002",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-crossover-black-006-thumbnail.png",
-						fullimage: "bikini-bottom-high-waist-crossover-black-006.png"
+						name: "bikini-bottom-high-waist-crossover-black-006",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-crossover-black-003-thumbnail.png",
-						fullimage: "bikini-bottom-high-waist-crossover-black-003.png"
+						name: "bikini-bottom-high-waist-crossover-black-003",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-high-waist-crossover-black-details-001-thumbnail.png",
-						fullimage: "bikini-bottom-high-waist-crossover-black-details-001.png"
+						name: "bikini-bottom-high-waist-crossover-black-details-001",
 					},
 				]
 			},
@@ -1268,16 +1180,14 @@ const projects = {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-tie-side-floral-001-thumbnail.png",
-						fullimage: "bikini-bottom-tie-side-floral-001.png"
+						name: "bikini-bottom-tie-side-floral-001",
 					},
 					{
 						caption: {
 							pt: "",
 							en: "",
 						},
-						thumbnail: "bikini-bottom-tie-side-floral-004-thumbnail.png",
-						fullimage: "bikini-bottom-tie-side-floral-004.png"
+						name: "bikini-bottom-tie-side-floral-004",
 					},
 				]
 			}
