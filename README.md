@@ -1,6 +1,12 @@
 # sonia-ribeiro
 
-## Images size
+## Images 
+
+### Information
+
+https://docs.google.com/spreadsheets/d/1TPz65Inpo5Rm9UsqVdHtOD9OYnj3ZPSdGRtNMN60IHc/edit#gid=0
+
+## Size
 
 Gallery (original) images: **1080x900px** - `image-name.png`
 
