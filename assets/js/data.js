@@ -1,10 +1,10 @@
 const main = [
   {
     intro: {
-      image: "../assets/images/index/pic01.jpg",
+      image: "../assets/images/homepage/pic01.jpg",
     },
     creating_opportunities: {
-      image: "../assets/images/index/pic02.jpeg",
+      image: "../assets/images/homepage/pic02.jpeg",
       title: {
         pt: "Criando oportunidades",
         en: "Creating opportunities",
@@ -241,7 +241,7 @@ const main = [
       },
     },
     get_in_touch: {
-      image: "../assets/images/index/pic03.jpeg",
+      image: "../assets/images/homepage/pic03.jpeg",
       email: "sonia.r.94@gmail.com",
       addresstitle: {
         pt: "Localização",

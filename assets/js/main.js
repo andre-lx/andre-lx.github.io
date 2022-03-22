@@ -30,6 +30,28 @@
   // Hack: Enable IE workarounds.
   if (browser.name == "ie") $body.addClass("is-ie");
 
+  //lang = "en"
+  var href = location.href;
+  lang = href.match(/([^\/]*)\/*$/)[1];
+
+  if (lang != "en" && lang != "pt") lang = "en";
+
+  if (lang == "pt") {
+    $("#language_a").attr("href", "../en/");
+
+    if (browser.mobile)
+      $("#language_img").attr("src", "../assets/images/languages/en-white.png");
+    else
+      $("#language_img").attr("src", "../assets/images/languages/en-grey.png");
+  } else {
+    $("#language_a").attr("href", "../pt/");
+
+    if (browser.mobile)
+      $("#language_img").attr("src", "../assets/images/languages/pt-white.png");
+    else
+      $("#language_img").attr("src", "../assets/images/languages/pt-grey.png");
+  }
+
   // Mobile?
   if (browser.mobile) $body.addClass("is-mobile");
 
@@ -72,34 +94,27 @@
   Fancybox.defaults.Hash = false;
 
   // Fill up information
-  //lang = "en"
-  var href = location.href;
-  lang = href.match(/([^\/]*)\/*$/)[1];
-
-  if (lang != "en" && lang != "pt") lang = "en";
-
   var index = 0;
-
   $(projects.categorys).each(function (i, item) {
     var category_name = item.name[lang];
     var category_path_images = item.config.paths.images;
 
     $(item.subcategorys).each(function (i, item) {
-	  var subcategory_name = item.name[lang];
-	  var subcategory_path_images = item.config.paths.images;
+      var subcategory_name = item.name[lang];
+      var subcategory_path_images = item.config.paths.images;
 
       var pieces = "";
       $(item.pieces).each(function (i, item) {
         var piece_name = item.name[lang];
-		
+
         var carousel_slides = "";
         $(item.images).each(function (i, item) {
-		  var image_caption = item.caption[lang]
+          var image_caption = item.caption[lang];
 
           if (i == 0) src_image = "src";
           else src_image = "data-lazy-src";
 
-		  var paths_images = category_path_images + subcategory_path_images
+          var paths_images = category_path_images + subcategory_path_images;
 
           carousel_slides +=
             '<div class="carousel__slide">' +
@@ -112,12 +127,12 @@
             '.png" data-caption="<strong>' +
             category_name +
             "</strong> > <strong>" +
-			subcategory_name +
-			"</strong><br>" +
+            subcategory_name +
+            "</strong><br>" +
             piece_name +
-            '<br>' +
-			image_caption +
-			'<br>">' +
+            "<br>" +
+            image_caption +
+            '<br>">' +
             '<img class="carousel_img" ' +
             src_image +
             '="' +
@@ -137,9 +152,9 @@
           "</div>";
       });
 
-	  var category_on_first_piece = ""
-	  if (i == 0) category_on_first_piece = category_name;
-	  else category_on_first_piece = "";	  
+      var category_on_first_piece = "";
+      if (i == 0) category_on_first_piece = category_name;
+      else category_on_first_piece = "";
 
       var section_element =
         "<section>" +

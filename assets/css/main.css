@@ -3741,26 +3741,26 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  background-image: url(../images/index/loading.gif);
+  background-image: url(../images/custom/loading.gif);
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
 }
 /**/
 
-.flag {
+.language {
     margin-left: auto;
     margin-right: auto;
 }
 
-#flags_div {
+#language_div {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    right: 10px;
 	z-index: 9999;
 }
 
-#flags_div a {
+#language_div a {
 	text-decoration: none;
 	border-bottom-style: none;
 }
