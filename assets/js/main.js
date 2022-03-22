@@ -105,7 +105,7 @@
     var category_name = item.name[lang];
     var category_path_images = item.config.paths.images;
 
-    $(item.subcategorys).each(function (i, item) {
+    $(item.subcategories).each(function (i, item) {
       var subcategory_name = item.name[lang];
       var subcategory_path_images = item.config.paths.images;
 

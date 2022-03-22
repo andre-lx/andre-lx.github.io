@@ -279,7 +279,7 @@ const projects = {
           images: "../assets/images/gallery/blazers-coats/",
         },
       },
-      subcategorys: [
+      subcategories: [
         {
           name: {
             pt: "Blazers",
@@ -411,7 +411,7 @@ const projects = {
           images: "../assets/images/gallery/dresses-jumpsuits/",
         },
       },
-      subcategorys: [
+      subcategories: [
         {
           name: {
             pt: "Vestidos",
@@ -529,7 +529,7 @@ const projects = {
           images: "../assets/images/gallery/blouses-tops-tshirts/",
         },
       },
-      subcategorys: [
+      subcategories: [
         {
           name: {
             pt: "Blusas",
@@ -703,7 +703,7 @@ const projects = {
           images: "../assets/images/gallery/skirts-jeans/",
         },
       },
-      subcategorys: [
+      subcategories: [
         {
           name: {
             pt: "Saias",
@@ -878,7 +878,7 @@ const projects = {
           images: "../assets/images/gallery/swimsuits-bikinis/",
         },
       },
-      subcategorys: [
+      subcategories: [
         {
           name: {
             pt: "Fatos de Banho",
