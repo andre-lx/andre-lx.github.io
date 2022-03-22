@@ -30,13 +30,17 @@
   // Hack: Enable IE workarounds.
   if (browser.name == "ie") $body.addClass("is-ie");
 
+  // Language icon
   //lang = "en"
   var href = location.href;
   lang = href.match(/([^\/]*)\/*$/)[1];
 
   if (lang != "en" && lang != "pt") lang = "en";
 
-  if (browser.mobile) $("#language_div").css("right", "-10px");
+  if (browser.mobile) {
+	$("#language_div").css("right", "-15px");
+	$("#language_img").css("width", "60%");
+  }
 
   if (lang == "pt") {
     $("#language_a").attr("href", "../en/");
