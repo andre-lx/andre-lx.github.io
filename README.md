@@ -20,3 +20,16 @@ Home page (caroussel) images: **540x450px** `[ 50% smaller than the original ima
 https://www.iloveimg.com/resize-image
 
 ![image](https://user-images.githubusercontent.com/44682155/159338069-62dd62b6-592a-41ea-9b9b-1584dd882f22.png)
+
+
+## Metadata TAGs
+
+Metatag image: **1200x628** - `pic01_metatags.jpeg`
+
+Use this tool to do the crop:
+
+https://www.iloveimg.com/crop-image
+
+Use this tool to test metadata tags:
+
+https://metatags.io/
