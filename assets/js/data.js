@@ -10,7 +10,7 @@ const main = [
         en: "Creating opportunities",
       },
       text: {
-        pt: "Apaixonada por criatividade e por projetar projetos sustentáveis.<br>O mundo não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para isso. Se as grandes empresas não o fazem, cabe às pequenas empresas mudar o mundo.",
+        pt: "Apaixonada pela criatividade dos projetos sustentáveis.<br>O mundo não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para tal. Se as grandes empresas não o fazem, cabe às pequenas empresas mudar o mundo.",
         en: "Passionated about creativity and designing sustainable projects.<br>The world will not be entirely sustainable overnight, but with effort, dedication and making the right and well thought-out choices, we can build the best path for that. If the big companies don't do it, it's up to the small companies to change the world.",
       },
     },
@@ -46,8 +46,8 @@ const main = [
           courses: [
             {
               name: {
-                pt: "Modelista - LSD - Lisbon School Design [2020-2021]",
-                en: "Patternmaker - LSD - Lisbon School Design [2020-2021]",
+                pt: "Modelagem e Confeção de Vestuário - LSD - Lisbon School Design [2020-2021]",
+                en: "Patternmaker and Clothing Maker - LSD - Lisbon School Design [2020-2021]",
               },
               favicon: "fa-tshirt",
             },
@@ -117,14 +117,14 @@ const main = [
               },
               {
                 name: {
-                  pt: "Interpretação de croquis técnicos - Modatex [2021-2022]",
+                  pt: "Interpretação de Croquis Técnicos - Modatex [2021-2022]",
                   en: "Interpretation of Fashion Flats - Modatex [2021-2022]",
                 },
                 favicon: "fa-wrench",
               },
               {
                 name: {
-                  pt: "Plano de negócio - Criação de micronegócio - Modatex [2020]",
+                  pt: "Plano de negócio - Criação de Micronegócio - Modatex [2020]",
                   en: "Business plan - Microbusiness creation - Modatex [2020]",
                 },
                 favicon: "fa-tasks",
@@ -145,13 +145,13 @@ const main = [
             en: "Work",
           },
           text: {
-            pt: "Põe em prática",
+            pt: "Pondo em prática",
             en: "Put it in practice",
           },
           items: [
             {
               name: {
-                pt: "Design Gráfico - LIP Lisboa [MAR 2020-presente]",
+                pt: "Designer Gráfico - LIP Lisboa [MAR 2020-presente]",
                 en: "Graphic Designer - LIP Lisbon [MAR 2020-present]",
               },
               favicon: "fa-edit",
@@ -248,8 +248,8 @@ const main = [
         en: "Address",
       },
       address: {
-        pt: "PT",
-        en: "PT",
+        pt: "Lisboa, PT",
+        en: "Lisbon, PT",
       },
       title: {
         pt: "CONTACTOS",
