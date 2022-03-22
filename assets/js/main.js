@@ -36,6 +36,8 @@
 
   if (lang != "en" && lang != "pt") lang = "en";
 
+  if (browser.mobile) $("#language_div").css("right", "-10px");
+
   if (lang == "pt") {
     $("#language_a").attr("href", "../en/");
 
