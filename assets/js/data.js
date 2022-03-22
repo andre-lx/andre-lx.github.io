@@ -268,932 +268,956 @@ const main = [
 ];
 
 const projects = {
-  projects: [
+  categorys: [
     {
-      category: {
+      name: {
         pt: "Blazers & Casacos",
         en: "Blazers & Coats",
       },
-      description: {
-        pt: "",
-        en: "",
-      },
       config: {
         paths: {
-          images: "../assets/images/gallery/coats-blazers/",
+          images: "../assets/images/gallery/blazers-coats/",
         },
       },
-      pieces: [
+      subcategorys: [
         {
           name: {
-            pt: "Blazer Cruzado Preto",
-            en: "Crossed Blazer Black",
+            pt: "Blazers",
+            en: "Blazers",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "blazers/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Blazer Cruzado Preto",
+                en: "Crossed Blazer Black",
               },
-              name: "crossed-blazer-black-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "crossed-blazer-black-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "crossed-blazer-black-004",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "crossed-blazer-black-005",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "crossed-blazer-black-details-001",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "crossed-blazer-black-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "crossed-blazer-black-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "crossed-blazer-black-004",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "crossed-blazer-black-005",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "crossed-blazer-black-details-001",
+                },
+              ],
             },
           ],
         },
         {
           name: {
-            pt: "Gabardine Beje",
-            en: "Beige Trench Coat",
+            pt: "Casacos",
+            en: "Coats",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "coats/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Gabardine Beje",
+                en: "Beige Trench Coat",
               },
-              name: "beige-trench-coat-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "beige-trench-coat-001-closed",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "beige-trench-coat-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "beige-trench-coat-004",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "beige-trench-coat-details-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "beige-trench-coat-details-002",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "beige-trench-coat-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "beige-trench-coat-001-closed",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "beige-trench-coat-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "beige-trench-coat-004",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "beige-trench-coat-details-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "beige-trench-coat-details-002",
+                },
+              ],
             },
           ],
         },
       ],
     },
     {
-      category: {
+      name: {
         pt: "Vestidos & Macacões",
         en: "Dresses & Jumpsuits",
-      },
-      description: {
-        pt: "",
-        en: "",
       },
       config: {
         paths: {
           images: "../assets/images/gallery/dresses-jumpsuits/",
         },
       },
-      pieces: [
+      subcategorys: [
         {
           name: {
-            pt: "Vestido de Malha Comprido",
-            en: "Long Dress",
+            pt: "Vestidos",
+            en: "Dresses",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "dresses/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Vestido de Malha Comprido",
+                en: "Long Dress",
               },
-              name: "long-dress-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "long-dress-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "long-dress-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "long-dress-details-001",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "long-dress-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "long-dress-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "long-dress-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "long-dress-details-001",
+                },
+              ],
             },
           ],
         },
         {
           name: {
-            pt: "Macacão Curto Tie Dye",
-            en: "Tie Dye Jumpsuit",
+            pt: "Macacões",
+            en: "Jumpsuits",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "jumpsuits/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Macacão Curto Tie Dye",
+                en: "Tie Dye Jumpsuit",
               },
-              name: "tie-dye-jumpsuit-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "tie-dye-jumpsuit-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "tie-dye-jumpsuit-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "tie-dye-jumpsuit-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "tie-dye-jumpsuit-004",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-004",
+                },
+              ],
             },
           ],
         },
       ],
     },
     {
-      category: {
-        pt: "Tops, T-Shirts & Blusas",
-        en: "Tops, T-Shirts & Blouses",
-      },
-      description: {
-        pt: "",
-        en: "",
+      name: {
+        pt: "Blusas, Tops & T-Shirts",
+        en: "Blouses, Tops & T-Shirts",
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/tops-tshirts-blouses/",
+          images: "../assets/images/gallery/blouses-tops-tshirts/",
         },
       },
-      pieces: [
+      subcategorys: [
         {
           name: {
-            pt: "Blusa Camiseiro Floral",
-            en: "Floral Blouse",
+            pt: "Blusas",
+            en: "Blouses",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "blouses/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Blusa Camiseiro Floral",
+                en: "Floral Blouse",
               },
-              name: "floral-blouse-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "floral-blouse-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "floral-blouse-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "floral-blouse-details-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "floral-blouse-details-002",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-blouse-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-blouse-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-blouse-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-blouse-details-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-blouse-details-002",
+                },
+              ],
             },
           ],
         },
         {
           name: {
-            pt: "Top Manga Cavada Floral",
-            en: "Floral Top",
+            pt: "Tops",
+            en: "Tops",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "tops/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Top Manga Cavada Floral",
+                en: "Floral Top",
               },
-              name: "floral-top-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "floral-top-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "floral-top-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "floral-top-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "floral-top-004",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-top-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-top-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-top-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-top-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "floral-top-004",
+                },
+              ],
             },
           ],
         },
         {
           name: {
-            pt: "T-Shirt Tie Dye",
-            en: "Tie Dye T-Shirt",
+            pt: "T-Shirts",
+            en: "T-Shirts",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "tshirts/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "T-Shirt Tie Dye",
+                en: "Tie Dye T-Shirt",
               },
-              name: "tie-dye-tshirt-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "tie-dye-tshirt-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "tie-dye-tshirt-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "tie-dye-tshirt-004",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-tshirt-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-tshirt-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-tshirt-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-tshirt-004",
+                },
+              ],
             },
           ],
         },
       ],
     },
     {
-      category: {
+      name: {
         pt: "Saias & Calças",
         en: "Skirts & Jeans",
-      },
-      description: {
-        pt: "",
-        en: "",
       },
       config: {
         paths: {
           images: "../assets/images/gallery/skirts-jeans/",
         },
       },
-      pieces: [
+      subcategorys: [
         {
           name: {
-            pt: "Saia Lápis",
-            en: "Pencil Skirt",
+            pt: "Saias",
+            en: "Skirts",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "skirts/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Saia Lápis",
+                en: "Pencil Skirt",
               },
-              name: "pencil-skirt-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "pencil-skirt-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "pencil-skirt-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "pencil-skirt-004",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "pencil-skirt-details-001",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "pencil-skirt-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "pencil-skirt-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "pencil-skirt-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "pencil-skirt-004",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "pencil-skirt-details-001",
+                },
+              ],
             },
           ],
         },
         {
           name: {
-            pt: "Corsários Cor Cáqui",
-            en: "Khaki Corsairs Pants",
+            pt: "Calças",
+            en: "Jeans",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "jeans/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Corsários Cor Cáqui",
+                en: "Khaki Corsairs Pants",
               },
-              name: "khaki-corsairs-pants-006",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-details-001",
+                },
+              ],
             },
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Calças de Bombazine Castanhas",
+                en: "Brown Corduroy Pants",
               },
-              name: "khaki-corsairs-pants-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "khaki-corsairs-pants-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "khaki-corsairs-pants-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "khaki-corsairs-pants-details-001",
-            },
-          ],
-        },
-        {
-          name: {
-            pt: "Calças de Bombazine Castanhas",
-            en: "Brown Corduroy Pants",
-          },
-          description: {
-            pt: "",
-            en: "",
-          },
-          images: [
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "brown-corduroy-pants-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "brown-corduroy-pants-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "brown-corduroy-pants-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "brown-corduroy-pants-004",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "brown-corduroy-pants-details-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "brown-corduroy-pants-details-002",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "brown-corduroy-pants-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "brown-corduroy-pants-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "brown-corduroy-pants-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "brown-corduroy-pants-004",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "brown-corduroy-pants-details-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "brown-corduroy-pants-details-002",
+                },
+              ],
             },
           ],
         },
       ],
     },
     {
-      category: {
+      name: {
         pt: "Fatos de Banho & Biquínis",
         en: "Swimsuits & Bikinis",
       },
-      description: {
-        pt: "Fatos de Banho",
-        en: "One-piece Swimsuits",
-      },
       config: {
         paths: {
-          images: "../assets/images/gallery/swimsuits-bikinis/one-piece-swimsuits/",
+          images: "../assets/images/gallery/swimsuits-bikinis/",
         },
       },
-      pieces: [
+      subcategorys: [
         {
           name: {
-            pt: "Fato de Banho Decote em V Tropical",
-            en: "One-piece Swimsuit V-Neck Tropical",
+            pt: "Fatos de Banho",
+            en: "One-piece Swimsuits",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "one-piece-swimsuits/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Fato de Banho Decote em V Tropical",
+                en: "One-piece Swimsuit V-Neck Tropical",
               },
-              name: "one-piece-swimsuit-v-neck-tropical-006",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-004",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-005",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-details-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-details-002",
+                },
+              ],
             },
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Fato de Banho Assimétrico Rosa",
+                en: "One-piece Swimsuit One Shoulder Pink",
               },
-              name: "one-piece-swimsuit-v-neck-tropical-001",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-one-shoulder-pink-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-one-shoulder-pink-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-one-shoulder-pink-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-one-shoulder-pink-004",
+                },
+              ],
             },
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Fato de Banho Costas Abertas Tropical",
+                en: "One-piece Swimsuit Open Back Tropical",
               },
-              name: "one-piece-swimsuit-v-neck-tropical-004",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "one-piece-swimsuit-v-neck-tropical-005",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "one-piece-swimsuit-v-neck-tropical-details-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "one-piece-swimsuit-v-neck-tropical-details-002",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-open-back-tropical-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-open-back-tropical-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-open-back-tropical-004",
+                },
+              ],
             },
           ],
         },
         {
           name: {
-            pt: "Fato de Banho Assimétrico Rosa",
-            en: "One-piece Swimsuit One Shoulder Pink",
+            pt: "Conjuntos",
+            en: "Bikini Sets",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "bikini-sets/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Conjunto de Biquíni Top Bandeau Torcido e Corte Brasileiro Tropical",
+                en: "Bikini Set Brazilian Twisted Bandeau Tropical",
               },
-              name: "one-piece-swimsuit-one-shoulder-pink-006",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-004",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-details-001",
+                },
+              ],
             },
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Conjunto de Biquíni Top Cropped e Cintura Subida Floral",
+                en: "Bikini Set High Cut Sporty Crop Floral",
               },
-              name: "one-piece-swimsuit-one-shoulder-pink-001",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-high-cut-sporty-crop-floral-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-high-cut-sporty-crop-floral-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-high-cut-sporty-crop-floral-005",
+                },
+              ],
             },
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Conjunto de Biquíni Top Cropped e Cintura Subida Floral",
+                en: "Bikini Set High Waist Sporty Crop Floral",
               },
-              name: "one-piece-swimsuit-one-shoulder-pink-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "one-piece-swimsuit-one-shoulder-pink-004",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-high-waist-sporty-crop-floral-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-high-waist-sporty-crop-floral-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-high-waist-sporty-crop-floral-003",
+                },
+              ],
             },
           ],
         },
         {
           name: {
-            pt: "Fato de Banho Costas Abertas Tropical",
-            en: "One-piece Swimsuit Open Back Tropical",
+            pt: "Partes de Baixo",
+            en: "Bikini Bottoms",
           },
-          description: {
-            pt: "",
-            en: "",
+          config: {
+            paths: {
+              images: "bikini-bottoms/",
+            },
           },
-          images: [
+          pieces: [
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Slip de Biquíni Cintura Subida com Laço Frontal Azul",
+                en: "Bikini Bottom High Waist Bow Blue",
               },
-              name: "one-piece-swimsuit-open-back-tropical-006",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-high-waist-bow-blue-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-high-waist-bow-blue-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-high-waist-bow-blue-details-001",
+                },
+              ],
             },
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Slip de Biquíni Cintura Subida Cruzada Preto",
+                en: "Bikini Bottom High Waist Crossover Black",
               },
-              name: "one-piece-swimsuit-open-back-tropical-001",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-high-waist-crossover-black-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-high-waist-crossover-black-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-high-waist-crossover-black-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-high-waist-crossover-black-details-001",
+                },
+              ],
             },
             {
-              caption: {
-                pt: "",
-                en: "",
+              name: {
+                pt: "Silp de Biquíni Laço Lateral Floral",
+                en: "Bikini Bottom Tie Side Floral",
               },
-              name: "one-piece-swimsuit-open-back-tropical-004",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      category: {
-        // empty to be inside swimsuits-bikinis
-        pt: "",
-        en: "",
-      },
-      description: {
-        pt: "Conjuntos",
-        en: "Bikini Sets",
-      },
-      config: {
-        paths: {
-          images: "../assets/images/gallery/swimsuits-bikinis/bikini-sets/",
-        },
-      },
-      pieces: [
-        {
-          name: {
-            pt: "Conjunto de Biquíni Top Bandeau Torcido e Corte Brasileiro Tropical",
-            en: "Bikini Set Brazilian Twisted Bandeau Tropical",
-          },
-          description: {
-            pt: "",
-            en: "",
-          },
-          images: [
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-brazilian-twisted-bandeau-tropical-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-brazilian-twisted-bandeau-tropical-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-brazilian-twisted-bandeau-tropical-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-brazilian-twisted-bandeau-tropical-004",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-brazilian-twisted-bandeau-tropical-details-001",
-            },
-          ],
-        },
-        {
-          name: {
-            pt: "Conjunto de Biquíni Top Cropped e Cintura Subida Floral",
-            en: "Bikini Set High Cut Sporty Crop Floral",
-          },
-          description: {
-            pt: "",
-            en: "",
-          },
-          images: [
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-high-cut-sporty-crop-floral-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-high-cut-sporty-crop-floral-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-high-cut-sporty-crop-floral-005",
-            },
-          ],
-        },
-        {
-          name: {
-            pt: "Conjunto de Biquíni Top Cropped e Cintura Subida Floral",
-            en: "Bikini Set High Waist Sporty Crop Floral",
-          },
-          description: {
-            pt: "",
-            en: "",
-          },
-          images: [
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-high-waist-sporty-crop-floral-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-high-waist-sporty-crop-floral-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-set-high-waist-sporty-crop-floral-003",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      category: {
-        // empty to be inside swimsuits-bikinis
-        pt: "",
-        en: "",
-      },
-      description: {
-        pt: "Partes de Baixo",
-        en: "Bikini Bottoms",
-      },
-      config: {
-        paths: {
-          images: "../assets/images/gallery/swimsuits-bikinis/bikini-bottoms/",
-        },
-      },
-      pieces: [
-        {
-          name: {
-            pt: "Slip de Biquíni Cintura Subida com Laço Frontal Azul",
-            en: "Bikini Bottom High Waist Bow Blue",
-          },
-          description: {
-            pt: "",
-            en: "",
-          },
-          images: [
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-high-waist-bow-blue-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-high-waist-bow-blue-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-high-waist-bow-blue-details-001",
-            },
-          ],
-        },
-        {
-          name: {
-            pt: "Slip de Biquíni Cintura Subida Cruzada Preto",
-            en: "Bikini Bottom High Waist Crossover Black",
-          },
-          description: {
-            pt: "",
-            en: "",
-          },
-          images: [
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-high-waist-crossover-black-002",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-high-waist-crossover-black-006",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-high-waist-crossover-black-003",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-high-waist-crossover-black-details-001",
-            },
-          ],
-        },
-        {
-          name: {
-            pt: "Silp de Biquíni Laço Lateral Floral",
-            en: "Bikini Bottom Tie Side Floral",
-          },
-          description: {
-            pt: "",
-            en: "",
-          },
-          images: [
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-tie-side-floral-001",
-            },
-            {
-              caption: {
-                pt: "",
-                en: "",
-              },
-              name: "bikini-bottom-tie-side-floral-004",
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-tie-side-floral-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-bottom-tie-side-floral-004",
+                },
+              ],
             },
           ],
         },

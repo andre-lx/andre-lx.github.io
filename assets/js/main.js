@@ -80,79 +80,86 @@
 
   var index = 0;
 
-  $(projects.projects).each(function (i, item) {
-    var parent_category = item.category[lang];
-    var paths_images = item.config.paths.images;
-    var paths_thumbnails = item.config.paths.thumbnails;
+  $(projects.categorys).each(function (i, item) {
+    var category_name = item.name[lang];
+    var category_path_images = item.config.paths.images;
 
-    var pieces = "";
+    $(item.subcategorys).each(function (i, item) {
+	  var subcategory_name = item.name[lang];
+	  var subcategory_path_images = item.config.paths.images;
 
-    $(item.pieces).each(function (i, item) {
-      var piece_name = item.name[lang];
+      var pieces = "";
+      $(item.pieces).each(function (i, item) {
+        var piece_name = item.name[lang];
+		
+        var carousel_slides = "";
+        $(item.images).each(function (i, item) {
+		  var image_caption = item.caption[lang]
 
-      var carousel_slides = "";
-      $(item.images).each(function (i, item) {
-        if (parent_category == "" && lang == "en") 
-          parent_category = "Swimsuits & Bikinis";
-        else if (parent_category == "" && lang == "pt")
-			parent_category = "Fatos de Banho & Biquínis";
+          if (i == 0) src_image = "src";
+          else src_image = "data-lazy-src";
 
+		  var paths_images = category_path_images + subcategory_path_images
 
-        if (i == 0) 
-          src_image = "src";
-        else 
-          src_image = "data-lazy-src";
-        
-        carousel_slides +=
-          '<div class="carousel__slide">' +
-          '<a class="project_images " data-width="1080" data-height="900" data-thumb="' +
-          paths_images +
-          item.name +
-          '-75.png" data-fancybox="gallery" data-srcset="' +
-          paths_images +
-          item.name +
-          '.png" data-caption="<strong>' +
-          parent_category +
-          "</strong><br>" +
-          piece_name +
-          '<br>">' +
-          '<img class="carousel_img" ' +
-          src_image +
-          '="' +
-          paths_images +
-          item.name +
-          '-50.png">' +
-          "</a>" +
+          carousel_slides +=
+            '<div class="carousel__slide">' +
+            '<a class="project_images " data-width="1080" data-height="900" data-thumb="' +
+            paths_images +
+            item.name +
+            '-75.png" data-fancybox="gallery" data-srcset="' +
+            paths_images +
+            item.name +
+            '.png" data-caption="<strong>' +
+            category_name +
+            "</strong> > <strong>" +
+			subcategory_name +
+			"</strong><br>" +
+            piece_name +
+            '<br>' +
+			image_caption +
+			'<br>">' +
+            '<img class="carousel_img" ' +
+            src_image +
+            '="' +
+            paths_images +
+            item.name +
+            '-50.png">' +
+            "</a>" +
+            "</div>";
+        });
+
+        index = index + 1;
+        pieces +=
+          '<div class="carousel carousel' +
+          index +
+          '">' +
+          carousel_slides +
           "</div>";
       });
 
-      index = index + 1;
-      pieces +=
-        '<div class="carousel carousel' +
-        index +
-        '">' +
-        carousel_slides +
-        "</div>";
+	  var category_on_first_piece = ""
+	  if (i == 0) category_on_first_piece = category_name;
+	  else category_on_first_piece = "";	  
+
+      var section_element =
+        "<section>" +
+        "<header>" +
+        '<h3 class="color_white">' +
+        category_on_first_piece +
+        "</h3>" +
+        '<p class="color_white">' +
+        subcategory_name +
+        "</p>" +
+        "</header>" +
+        '<div class="content">' +
+        '<div class="gallery">' +
+        pieces +
+        "</div>" +
+        "</div>" +
+        "</section>";
+
+      $("#all_projects").append(section_element);
     });
-
-    var section_element =
-      "<section>" +
-      "<header>" +
-      '<h3 class="color_white">' +
-      item.category[lang] +
-      "</h3>" +
-      '<p class="color_white">' +
-      item.description[lang] +
-      "</p>" +
-      "</header>" +
-      '<div class="content">' +
-      '<div class="gallery">' +
-      pieces +
-      "</div>" +
-      "</div>" +
-      "</section>";
-
-    $("#all_projects").append(section_element);
   });
 
   for (var n = index; n > 0; n--) {

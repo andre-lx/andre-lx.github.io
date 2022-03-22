@@ -215,6 +215,7 @@ html {
 
 .color_white {
   color: white;
+  margin: 0px;
 }
 
 @media screen and (max-width: 1920px) {
@@ -2726,7 +2727,7 @@ a.arrow:before {
 .gallery {
   /*display: flex;*/
   flex-wrap: wrap;
-  margin: -1.25rem 0 0 -1.25rem;
+  margin: 0 0 0 -1.25rem;
   width: calc(100% + 1.25rem);
 }
 
