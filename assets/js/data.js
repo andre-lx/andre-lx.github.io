@@ -271,8 +271,8 @@ const projects = {
   projects: [
     {
       category: {
-        pt: "",
-        en: "Coats & Blazers",
+        pt: "Blazers & Casacos",
+        en: "Blazers & Coats",
       },
       description: {
         pt: "",
@@ -286,7 +286,7 @@ const projects = {
       pieces: [
         {
           name: {
-            pt: "",
+            pt: "Blazer Cruzado Preto",
             en: "Crossed Blazer Black",
           },
           description: {
@@ -333,7 +333,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Gabardine Beje",
             en: "Beige Trench Coat",
           },
           description: {
@@ -389,7 +389,7 @@ const projects = {
     },
     {
       category: {
-        pt: "",
+        pt: "Vestidos & Macacões",
         en: "Dresses & Jumpsuits",
       },
       description: {
@@ -404,7 +404,7 @@ const projects = {
       pieces: [
         {
           name: {
-            pt: "",
+            pt: "Vestido de Malha Comprido",
             en: "Long Dress",
           },
           description: {
@@ -444,7 +444,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Macacão Curto Tie Dye",
             en: "Tie Dye Jumpsuit",
           },
           description: {
@@ -493,7 +493,7 @@ const projects = {
     },
     {
       category: {
-        pt: "",
+        pt: "Tops, T-Shirts & Blusas",
         en: "Tops, T-Shirts & Blouses",
       },
       description: {
@@ -508,7 +508,7 @@ const projects = {
       pieces: [
         {
           name: {
-            pt: "",
+            pt: "Blusa Camiseiro Floral",
             en: "Floral Blouse",
           },
           description: {
@@ -555,7 +555,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Top Manga Cavada Floral",
             en: "Floral Top",
           },
           description: {
@@ -602,7 +602,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "T-Shirt Tie Dye",
             en: "Tie Dye T-Shirt",
           },
           description: {
@@ -644,7 +644,7 @@ const projects = {
     },
     {
       category: {
-        pt: "",
+        pt: "Saias & Calças",
         en: "Skirts & Jeans",
       },
       description: {
@@ -659,7 +659,7 @@ const projects = {
       pieces: [
         {
           name: {
-            pt: "",
+            pt: "Saia Lápis",
             en: "Pencil Skirt",
           },
           description: {
@@ -706,7 +706,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Corsários Cor Cáqui",
             en: "Khaki Corsairs Pants",
           },
           description: {
@@ -753,7 +753,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Calças de Bombazine Castanhas",
             en: "Brown Corduroy Pants",
           },
           description: {
@@ -809,22 +809,22 @@ const projects = {
     },
     {
       category: {
-        pt: "",
-        en: "Beachwear",
+        pt: "Fatos de Banho & Biquínis",
+        en: "Swimsuits & Bikinis",
       },
       description: {
-        pt: "",
+        pt: "Fatos de Banho",
         en: "One-piece Swimsuits",
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/beachwear/one-piece-swimsuits/",
+          images: "../assets/images/gallery/swimsuits-bikinis/one-piece-swimsuits/",
         },
       },
       pieces: [
         {
           name: {
-            pt: "",
+            pt: "Fato de Banho Decote em V Tropical",
             en: "One-piece Swimsuit V-Neck Tropical",
           },
           description: {
@@ -878,7 +878,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Fato de Banho Assimétrico Rosa",
             en: "One-piece Swimsuit One Shoulder Pink",
           },
           description: {
@@ -918,8 +918,8 @@ const projects = {
         },
         {
           name: {
-            pt: "",
-            en: "One-piece Swimsuit Mayo Tropical",
+            pt: "Fato de Banho Costas Abertas Tropical",
+            en: "One-piece Swimsuit Open Back Tropical",
           },
           description: {
             pt: "",
@@ -931,21 +931,21 @@ const projects = {
                 pt: "",
                 en: "",
               },
-              name: "one-piece-swimsuit-mayo-tropical-006",
+              name: "one-piece-swimsuit-open-back-tropical-006",
             },
             {
               caption: {
                 pt: "",
                 en: "",
               },
-              name: "one-piece-swimsuit-mayo-tropical-001",
+              name: "one-piece-swimsuit-open-back-tropical-001",
             },
             {
               caption: {
                 pt: "",
                 en: "",
               },
-              name: "one-piece-swimsuit-mayo-tropical-004",
+              name: "one-piece-swimsuit-open-back-tropical-004",
             },
           ],
         },
@@ -953,23 +953,23 @@ const projects = {
     },
     {
       category: {
-        // empty to be inside beachwear
+        // empty to be inside swimsuits-bikinis
         pt: "",
         en: "",
       },
       description: {
-        pt: "",
+        pt: "Conjuntos",
         en: "Bikini Sets",
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/beachwear/bikini-sets/",
+          images: "../assets/images/gallery/swimsuits-bikinis/bikini-sets/",
         },
       },
       pieces: [
         {
           name: {
-            pt: "",
+            pt: "Conjunto de Biquíni Top Bandeau Torcido e Corte Brasileiro Tropical",
             en: "Bikini Set Brazilian Twisted Bandeau Tropical",
           },
           description: {
@@ -1016,7 +1016,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Conjunto de Biquíni Top Cropped e Cintura Subida Floral",
             en: "Bikini Set High Cut Sporty Crop Floral",
           },
           description: {
@@ -1049,7 +1049,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Conjunto de Biquíni Top Cropped e Cintura Subida Floral",
             en: "Bikini Set High Waist Sporty Crop Floral",
           },
           description: {
@@ -1084,23 +1084,23 @@ const projects = {
     },
     {
       category: {
-        // empty to be inside beachwear
+        // empty to be inside swimsuits-bikinis
         pt: "",
         en: "",
       },
       description: {
-        pt: "",
+        pt: "Partes de Baixo",
         en: "Bikini Bottoms",
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/beachwear/bikini-bottoms/",
+          images: "../assets/images/gallery/swimsuits-bikinis/bikini-bottoms/",
         },
       },
       pieces: [
         {
           name: {
-            pt: "",
+            pt: "Slip de Biquíni Cintura Subida com Laço Frontal Azul",
             en: "Bikini Bottom High Waist Bow Blue",
           },
           description: {
@@ -1133,7 +1133,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Slip de Biquíni Cintura Subida Cruzada Preto",
             en: "Bikini Bottom High Waist Crossover Black",
           },
           description: {
@@ -1173,7 +1173,7 @@ const projects = {
         },
         {
           name: {
-            pt: "",
+            pt: "Silp de Biquíni Laço Lateral Floral",
             en: "Bikini Bottom Tie Side Floral",
           },
           description: {

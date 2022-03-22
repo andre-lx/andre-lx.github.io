@@ -92,16 +92,17 @@
 
       var carousel_slides = "";
       $(item.images).each(function (i, item) {
-        if (parent_category == "") {
-          parent_category = "Beachwear";
-        }
+        if (parent_category == "" && lang == "en") 
+          parent_category = "Swimsuits & Bikinis";
+        else if (parent_category == "" && lang == "pt")
+			parent_category = "Fatos de Banho & Biquínis";
 
-        if (i == 0) {
+
+        if (i == 0) 
           src_image = "src";
-        } else {
+        else 
           src_image = "data-lazy-src";
-        }
-
+        
         carousel_slides +=
           '<div class="carousel__slide">' +
           '<a class="project_images " data-width="1080" data-height="900" data-thumb="' +
