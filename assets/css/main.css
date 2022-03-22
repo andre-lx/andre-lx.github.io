@@ -3747,3 +3747,20 @@ body {
   margin: -100px 0 0 -100px;
 }
 /**/
+
+.flag {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#flags_div {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+	z-index: 9999;
+}
+
+#flags_div a {
+	text-decoration: none;
+	border-bottom-style: none;
+}

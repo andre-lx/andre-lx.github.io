@@ -31,7 +31,7 @@
       content="https://soniaribeiro.studio/assets/images/index/pic01.jpg"
     />
 
-    <meta http-equiv="refresh" content="0; url=en/" />
+    <!--<meta http-equiv="refresh" content="0; url=en/" />-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -46,6 +46,20 @@
       gtag("js", new Date());
 
       gtag("config", "G-JSQ39V7Y73");
+    </script>
+
+    <script>
+      // detect and change language
+      var userLang = navigator.language || navigator.userLanguage;
+      if (userLang.split("-")[0]) {
+        language = userLang.split("-")[0];
+
+        if (language == "pt") {
+          window.location.href = "pt/";
+        } else {
+          window.location.href = "en/";
+        }
+      }
     </script>
   </head>
 </html>
