@@ -3749,18 +3749,18 @@ body {
 /**/
 
 .language {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #language_div {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-	z-index: 9999;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
 }
 
 #language_div a {
-	text-decoration: none;
-	border-bottom-style: none;
+  text-decoration: none;
+  border-bottom-style: none;
 }

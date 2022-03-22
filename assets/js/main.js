@@ -38,8 +38,8 @@
   if (lang != "en" && lang != "pt") lang = "en";
 
   if (browser.mobile) {
-	$("#language_div").css("right", "-15px");
-	$("#language_img").css("width", "60%");
+    $("#language_div").css("right", "-15px");
+    $("#language_img").css("width", "60%");
   }
 
   if (lang == "pt") {
