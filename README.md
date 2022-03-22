@@ -24,7 +24,7 @@ https://www.iloveimg.com/resize-image
 
 ## Metadata TAGs
 
-Metatag image: **1200x628** - `pic01_metatags.jpeg`
+Metatag image: **1200x628** - `pic01_metatags.jpg`
 
 Use this tool to do the crop:
 
