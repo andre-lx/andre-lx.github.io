@@ -10,7 +10,7 @@ const main = [
         en: "Creating opportunities",
       },
       text: {
-        pt: "Apaixonada pela criatividade dos projetos sustentáveis.<br>O mundo não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para tal. Se as grandes empresas não o fazem, cabe às pequenas empresas mudar o mundo.",
+        pt: "Apaixonada pela criatividade de projetos sustentáveis.<br>O mundo não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para tal. Se as grandes empresas não o fazem, cabe às pequenas empresas mudar o mundo.",
         en: "Passionated about creativity and designing sustainable projects.<br>The world will not be entirely sustainable overnight, but with effort, dedication and making the right and well thought-out choices, we can build the best path for that. If the big companies don't do it, it's up to the small companies to change the world.",
       },
     },
