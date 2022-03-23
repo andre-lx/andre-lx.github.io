@@ -32,8 +32,12 @@
     .replace(/\pt\//, "pt");
 
   window.onload = function urlChange() {
-	//window.history.pushState({}, null, sanitized);
+	window.history.pushState({}, null, sanitized);
 	window.history.replaceState({}, null, sanitized);
+
+	if(window.location.hash.length > 0) {
+		window.scrollTo(0, $(window.location.hash).offset().top);
+	}
   };
 
   // Hack: Enable IE workarounds.
