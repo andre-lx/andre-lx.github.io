@@ -2,6 +2,14 @@ const main = [
   {
     intro: {
       image: "../assets/images/homepage/pic01.jpg",
+	  portfolio: {
+		pt: "Portfólio",
+        en: "Portfolio",
+	  },
+	  bio: {
+		pt: "Bio",
+        en: "Bio",
+	  }
     },
     creating_opportunities: {
       image: "../assets/images/homepage/pic02.jpg",
@@ -16,7 +24,7 @@ const main = [
     },
     projects: {
       title: {
-        pt: "Projectos",
+        pt: "Projetos",
         en: "Projects",
       },
       text: {

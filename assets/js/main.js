@@ -208,6 +208,8 @@
   $(main).each(function (i, item) {
     //intro
     $("#mainImage").attr("src", item.intro.image);
+	$("#portfolio_intro").html(item.intro.portfolio[lang])
+	$("#bio_intro").html(item.intro.bio[lang])
 
     //creating_opportunities
     $("#creating_opportunities_title").html(
