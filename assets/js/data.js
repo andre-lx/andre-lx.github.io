@@ -9,6 +9,10 @@ const main = [
 	  bio: {
 		pt: "Bio",
         en: "Bio",
+	  },
+	  contact: {
+		pt: "Contacto",
+        en: "Contact",
 	  }
     },
     creating_opportunities: {

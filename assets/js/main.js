@@ -210,6 +210,7 @@
     $("#mainImage").attr("src", item.intro.image);
 	$("#portfolio_intro").html(item.intro.portfolio[lang])
 	$("#bio_intro").html(item.intro.bio[lang])
+	$("#contact_intro").html(item.intro.contact[lang])
 
     //creating_opportunities
     $("#creating_opportunities_title").html(
