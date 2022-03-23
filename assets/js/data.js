@@ -170,6 +170,13 @@ const main = [
               },
               favicon: "fa-shopping-bag",
             },
+            {
+				name: {
+				  pt: "Operadora de Caixa e Armazenista - Pingo Doce [2016-2018]",
+				  en: "Cashier and Stockist - Pingo Doce [2016-2018]",
+				},
+				favicon: "fa-shopping-cart",
+			  },
           ],
         },
         skills: {
