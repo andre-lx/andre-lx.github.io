@@ -43,14 +43,14 @@
   }
 
   if (lang == "pt") {
-    $("#language_a").attr("href", "../en/");
+    $("#language_a").attr("href", "../en");
 
     if (browser.mobile)
       $("#language_img").attr("src", "../assets/images/languages/en-white.png");
     else
       $("#language_img").attr("src", "../assets/images/languages/en-grey.png");
   } else {
-    $("#language_a").attr("href", "../pt/");
+    $("#language_a").attr("href", "../pt");
 
     if (browser.mobile)
       $("#language_img").attr("src", "../assets/images/languages/pt-white.png");
