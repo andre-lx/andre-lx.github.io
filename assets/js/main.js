@@ -32,12 +32,13 @@
     .replace(/\pt\//, "pt");
 
   window.onload = function urlChange() {
-	window.history.pushState({}, null, sanitized);
-	window.history.replaceState({}, null, sanitized);
+    //window.history.pushState({}, null, sanitized);
+    window.history.replaceState({}, null, sanitized);
 
-	if(window.location.hash.length > 0) {
-		window.scrollTo(0, $(window.location.hash).offset().top);
-	}
+    if (window.location.hash.length > 0) {
+      if (typeof $(window.location.hash).offset() !== "undefined")
+        window.scrollTo(0, $(window.location.hash).offset().top);
+    }
   };
 
   // Hack: Enable IE workarounds.
@@ -46,7 +47,7 @@
   // Language icon
   //lang = "en"
   var href = location.href;
-  lang = href.match(/([^\/]*)\/*$/)[1];
+  lang = href.replace(/#.*/, "").match(/([^\/]*)\/*$/)[1];
 
   if (lang != "en" && lang != "pt") lang = "en";
 
@@ -110,7 +111,6 @@
       ],
     },
   });
-  Fancybox.defaults.Hash = false;
 
   // Fill up information
   var index = 0;
@@ -125,24 +125,35 @@
       var pieces = "";
       $(item.pieces).each(function (i, item) {
         var piece_name = item.name[lang];
+        var piece_slug = piece_name.toLowerCase().replace(/ /g, "-");
 
         var carousel_slides = "";
         $(item.images).each(function (i, item) {
           var image_caption = item.caption[lang];
 
+          var paths_images = category_path_images + subcategory_path_images;
+          var image_path =
+            window.location.href
+              .replace(/#.*/, "")
+              .replace(/\en\//, "")
+              .replace(/\pt\//, "") +
+            paths_images +
+            item.name;
+
           if (i == 0) src_image = "src";
           else src_image = "data-lazy-src";
 
-          var paths_images = category_path_images + subcategory_path_images;
-
           carousel_slides +=
-            '<div class="carousel__slide">' +
-            '<a class="project_images " data-width="1080" data-height="900" data-thumb="' +
-            paths_images +
-            item.name +
-            '-75.png" data-fancybox="gallery" data-srcset="' +
-            paths_images +
-            item.name +
+            '<div id="' +
+            piece_slug +
+            '" class="carousel__slide">' +
+            '<a class="project_images" data-width="1080" data-height="900" data-thumb="' +
+            image_path +
+            '-75.png" data-fancybox="gallery"' +
+            'data-slug="' +
+            piece_slug +
+            '" data-srcset="' +
+            image_path +
             '.png" data-caption="<strong>' +
             category_name +
             "</strong> > <strong>" +
@@ -152,11 +163,10 @@
             "<br>" +
             image_caption +
             '<br>">' +
-            '<img class="carousel_img" ' +
+            '<img class="carousel_img"' +
             src_image +
             '="' +
-            paths_images +
-            item.name +
+            image_path +
             '-50.png">' +
             "</a>" +
             "</div>";
@@ -208,9 +218,9 @@
   $(main).each(function (i, item) {
     //intro
     $("#mainImage").attr("src", item.intro.image);
-	$("#portfolio_intro").html(item.intro.portfolio[lang])
-	$("#bio_intro").html(item.intro.bio[lang])
-	$("#contact_intro").html(item.intro.contact[lang])
+    $("#portfolio_intro").html(item.intro.portfolio[lang]);
+    $("#bio_intro").html(item.intro.bio[lang]);
+    $("#contact_intro").html(item.intro.contact[lang]);
 
     //creating_opportunities
     $("#creating_opportunities_title").html(

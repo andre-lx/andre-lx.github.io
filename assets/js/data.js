@@ -295,7 +295,7 @@ const projects = {
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/blazers-coats/",
+          images: "assets/images/gallery/blazers-coats/",
         },
       },
       subcategories: [
@@ -427,7 +427,7 @@ const projects = {
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/dresses-jumpsuits/",
+          images: "assets/images/gallery/dresses-jumpsuits/",
         },
       },
       subcategories: [
@@ -545,7 +545,7 @@ const projects = {
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/blouses-tops-tshirts/",
+          images: "assets/images/gallery/blouses-tops-tshirts/",
         },
       },
       subcategories: [
@@ -719,7 +719,7 @@ const projects = {
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/skirts-jeans/",
+          images: "assets/images/gallery/skirts-jeans/",
         },
       },
       subcategories: [
@@ -894,7 +894,7 @@ const projects = {
       },
       config: {
         paths: {
-          images: "../assets/images/gallery/swimsuits-bikinis/",
+          images: "assets/images/gallery/swimsuits-bikinis/",
         },
       },
       subcategories: [
