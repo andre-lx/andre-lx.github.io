@@ -2,18 +2,18 @@ const main = [
   {
     intro: {
       image: "../assets/images/homepage/pic01.jpg",
-	  portfolio: {
-		pt: "Portfólio",
+      portfolio: {
+        pt: "Portfólio",
         en: "Portfolio",
-	  },
-	  bio: {
-		pt: "Bio",
+      },
+      bio: {
+        pt: "Bio",
         en: "Bio",
-	  },
-	  contact: {
-		pt: "Contacto",
+      },
+      contact: {
+        pt: "Contacto",
         en: "Contact",
-	  }
+      },
     },
     creating_opportunities: {
       image: "../assets/images/homepage/pic02.jpg",
@@ -183,12 +183,12 @@ const main = [
               favicon: "fa-shopping-bag",
             },
             {
-				name: {
-				  pt: "Operadora de Caixa e Armazenista - Pingo Doce [2016-2018]",
-				  en: "Cashier and Stockist - Pingo Doce [2016-2018]",
-				},
-				favicon: "fa-shopping-cart",
-			  },
+              name: {
+                pt: "Operadora de Caixa e Armazenista - Pingo Doce [2016-2018]",
+                en: "Cashier and Stockist - Pingo Doce [2016-2018]",
+              },
+              favicon: "fa-shopping-cart",
+            },
           ],
         },
         skills: {
@@ -216,33 +216,33 @@ const main = [
               favicon: "fa-pencil-ruler",
             },
             {
-				name: {
-				  pt: "Adobe InDesign",
-				  en: "Adobe InDesign",
-				},
-				favicon: "fa-object-group",
-			  },
-			  {
-				name: {
-				  pt: "Interpretação de Croquís Técnicos",
-				  en: "Interpretation of Fashion Flats",
-				},
-				favicon: "fa-wrench",
-			  },
-			  {
-				name: {
-				  pt: "Modelação e Transformação de Bases",
-				  en: "Pattern Modeling and Transformation",
-				},
-				favicon: "fa-tshirt",
-			  },
-			  {
-				name: {
-				  pt: "Confeção de Protótipos",
-				  en: "Cloth Patterns Prototyping",
-				},
-				favicon: "fa-drafting-compass",
-			  },
+              name: {
+                pt: "Adobe InDesign",
+                en: "Adobe InDesign",
+              },
+              favicon: "fa-object-group",
+            },
+            {
+              name: {
+                pt: "Interpretação de Croquís Técnicos",
+                en: "Interpretation of Fashion Flats",
+              },
+              favicon: "fa-wrench",
+            },
+            {
+              name: {
+                pt: "Modelação e Transformação de Bases",
+                en: "Pattern Modeling and Transformation",
+              },
+              favicon: "fa-tshirt",
+            },
+            {
+              name: {
+                pt: "Confeção de Protótipos",
+                en: "Cloth Patterns Prototyping",
+              },
+              favicon: "fa-drafting-compass",
+            },
           ],
         },
         languages: {
