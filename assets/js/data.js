@@ -28,8 +28,8 @@ const main = [
     },
     projects: {
       title: {
-        pt: "Projetos",
-        en: "Projects",
+        pt: "Portfólio",
+        en: "Portfolio",
       },
       text: {
         pt: "Projetos escolares e pessoais",
@@ -38,7 +38,7 @@ const main = [
     },
     carrer_path: {
       title: {
-        pt: "Carreira",
+        pt: "Experiência",
         en: "Career Path",
       },
       text: {
@@ -322,62 +322,6 @@ const projects = {
       subcategories: [
         {
           name: {
-            pt: "Blazers",
-            en: "Blazers",
-          },
-          config: {
-            paths: {
-              images: "blazers/",
-            },
-          },
-          pieces: [
-            {
-              name: {
-                pt: "Blazer Cruzado Preto",
-                en: "Crossed Blazer Black",
-              },
-              images: [
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "crossed-blazer-black-006",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "crossed-blazer-black-001",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "crossed-blazer-black-004",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "crossed-blazer-black-005",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "crossed-blazer-black-details-001",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: {
             pt: "Casacos",
             en: "Coats",
           },
@@ -439,34 +383,21 @@ const projects = {
             },
           ],
         },
-      ],
-    },
-    {
-      name: {
-        pt: "Vestidos & Macacões",
-        en: "Dresses & Jumpsuits",
-      },
-      config: {
-        paths: {
-          images: "assets/images/gallery/dresses-jumpsuits/",
-        },
-      },
-      subcategories: [
         {
           name: {
-            pt: "Vestidos",
-            en: "Dresses",
+            pt: "Blazers",
+            en: "Blazers",
           },
           config: {
             paths: {
-              images: "dresses/",
+              images: "blazers/",
             },
           },
           pieces: [
             {
               name: {
-                pt: "Vestido de Malha Comprido",
-                en: "Long Dress",
+                pt: "Blazer Cruzado Preto",
+                en: "Crossed Blazer Black",
               },
               images: [
                 {
@@ -474,84 +405,35 @@ const projects = {
                     pt: "",
                     en: "",
                   },
-                  name: "long-dress-006",
+                  name: "crossed-blazer-black-006",
                 },
                 {
                   caption: {
                     pt: "",
                     en: "",
                   },
-                  name: "long-dress-001",
+                  name: "crossed-blazer-black-001",
                 },
                 {
                   caption: {
                     pt: "",
                     en: "",
                   },
-                  name: "long-dress-003",
+                  name: "crossed-blazer-black-004",
                 },
                 {
                   caption: {
                     pt: "",
                     en: "",
                   },
-                  name: "long-dress-details-001",
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: {
-            pt: "Macacões",
-            en: "Jumpsuits",
-          },
-          config: {
-            paths: {
-              images: "jumpsuits/",
-            },
-          },
-          pieces: [
-            {
-              name: {
-                pt: "Macacão Curto Tie Dye",
-                en: "Tie Dye Jumpsuit",
-              },
-              images: [
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "tie-dye-jumpsuit-006",
+                  name: "crossed-blazer-black-005",
                 },
                 {
                   caption: {
                     pt: "",
                     en: "",
                   },
-                  name: "tie-dye-jumpsuit-001",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "tie-dye-jumpsuit-002",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "tie-dye-jumpsuit-003",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "tie-dye-jumpsuit-004",
+                  name: "crossed-blazer-black-details-001",
                 },
               ],
             },
@@ -735,6 +617,124 @@ const projects = {
     },
     {
       name: {
+        pt: "Vestidos & Macacões",
+        en: "Dresses & Jumpsuits",
+      },
+      config: {
+        paths: {
+          images: "assets/images/gallery/dresses-jumpsuits/",
+        },
+      },
+      subcategories: [
+        {
+          name: {
+            pt: "Vestidos",
+            en: "Dresses",
+          },
+          config: {
+            paths: {
+              images: "dresses/",
+            },
+          },
+          pieces: [
+            {
+              name: {
+                pt: "Vestido de Malha Comprido",
+                en: "Long Dress",
+              },
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "long-dress-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "long-dress-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "long-dress-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "long-dress-details-001",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: {
+            pt: "Macacões",
+            en: "Jumpsuits",
+          },
+          config: {
+            paths: {
+              images: "jumpsuits/",
+            },
+          },
+          pieces: [
+            {
+              name: {
+                pt: "Macacão Curto Tie Dye",
+                en: "Tie Dye Jumpsuit",
+              },
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "tie-dye-jumpsuit-004",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: {
         pt: "Saias & Calças",
         en: "Skirts & Jeans",
       },
@@ -813,49 +813,6 @@ const projects = {
           pieces: [
             {
               name: {
-                pt: "Corsários Cor Cáqui",
-                en: "Khaki Corsairs Pants",
-              },
-              images: [
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "khaki-corsairs-pants-006",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "khaki-corsairs-pants-001",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "khaki-corsairs-pants-002",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "khaki-corsairs-pants-003",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "khaki-corsairs-pants-details-001",
-                },
-              ],
-            },
-            {
-              name: {
                 pt: "Calças de Bombazine Castanhas",
                 en: "Brown Corduroy Pants",
               },
@@ -904,6 +861,49 @@ const projects = {
                 },
               ],
             },
+            {
+              name: {
+                pt: "Corsários Cor Cáqui",
+                en: "Khaki Corsairs Pants",
+              },
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "khaki-corsairs-pants-details-001",
+                },
+              ],
+            },
           ],
         },
       ],
@@ -930,56 +930,6 @@ const projects = {
             },
           },
           pieces: [
-            {
-              name: {
-                pt: "Fato de Banho Decote em V Tropical",
-                en: "One-piece Swimsuit V-Neck Tropical",
-              },
-              images: [
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "one-piece-swimsuit-v-neck-tropical-006",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "one-piece-swimsuit-v-neck-tropical-001",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "one-piece-swimsuit-v-neck-tropical-004",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "one-piece-swimsuit-v-neck-tropical-005",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "one-piece-swimsuit-v-neck-tropical-details-001",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "one-piece-swimsuit-v-neck-tropical-details-002",
-                },
-              ],
-            },
             {
               name: {
                 pt: "Fato de Banho Assimétrico Rosa",
@@ -1045,6 +995,56 @@ const projects = {
                 },
               ],
             },
+            {
+              name: {
+                pt: "Fato de Banho Decote em V Tropical",
+                en: "One-piece Swimsuit V-Neck Tropical",
+              },
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-004",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-005",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-details-001",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "one-piece-swimsuit-v-neck-tropical-details-002",
+                },
+              ],
+            },
           ],
         },
         {
@@ -1058,49 +1058,6 @@ const projects = {
             },
           },
           pieces: [
-            {
-              name: {
-                pt: "Conjunto de Biquíni Top Bandeau Torcido e Corte Brasileiro Tropical",
-                en: "Bikini Set Brazilian Twisted Bandeau Tropical",
-              },
-              images: [
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "bikini-set-brazilian-twisted-bandeau-tropical-006",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "bikini-set-brazilian-twisted-bandeau-tropical-002",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "bikini-set-brazilian-twisted-bandeau-tropical-003",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "bikini-set-brazilian-twisted-bandeau-tropical-004",
-                },
-                {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
-                  name: "bikini-set-brazilian-twisted-bandeau-tropical-details-001",
-                },
-              ],
-            },
             {
               name: {
                 pt: "Conjunto de Biquíni Top Cropped e Cintura Subida Floral",
@@ -1156,6 +1113,49 @@ const projects = {
                     en: "",
                   },
                   name: "bikini-set-high-waist-sporty-crop-floral-003",
+                },
+              ],
+            },
+            {
+              name: {
+                pt: "Conjunto de Biquíni Top Bandeau Torcido e Corte Brasileiro Tropical",
+                en: "Bikini Set Brazilian Twisted Bandeau Tropical",
+              },
+              images: [
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-006",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-002",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-003",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-004",
+                },
+                {
+                  caption: {
+                    pt: "",
+                    en: "",
+                  },
+                  name: "bikini-set-brazilian-twisted-bandeau-tropical-details-001",
                 },
               ],
             },
