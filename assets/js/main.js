@@ -114,17 +114,17 @@
 
   // Fill up information
   var index = 0;
-  $(projects.categorys).each(function (i, item) {
-    var category_name = item.name[lang];
-    var category_path_images = item.config.paths.images;
+  $(projects.categorys).each(function (i, category) {
+    var category_name = category.name[lang];
+    var category_path_images = category.config.paths.images;
 
-    $(item.subcategories).each(function (i, item) {
-      var subcategory_name = item.name[lang];
-      var subcategory_path_images = item.config.paths.images;
+    $(category.subcategories).each(function (i, subcategory) {
+      var subcategory_name = subcategory.name[lang];
+      var subcategory_path_images = subcategory.config.paths.images;
 
       var pieces = "";
-      $(item.pieces).each(function (i, item) {
-        var piece_name = item.name[lang];
+      $(subcategory.pieces).each(function (i, piece) {
+        var piece_name = piece.name[lang];
         var piece_slug = piece_name
           .toLowerCase()
           .replace(/ /g, "-")
@@ -132,8 +132,8 @@
           .replace(/\p{Diacritic}/gu, "");
 
         var carousel_slides = "";
-        $(item.images).each(function (i, item) {
-          var image_caption = item.caption[lang];
+        $(piece.images).each(function (i, image) {
+          var image_caption = image.caption[lang];
 
           var paths_images = category_path_images + subcategory_path_images;
           var image_path =
@@ -142,7 +142,7 @@
               .replace(/\en\//, "")
               .replace(/\pt\//, "") +
             paths_images +
-            item.name;
+            image.name;
 
           if (i == 0) src_image = "src";
           else src_image = "data-lazy-src";
