@@ -129,7 +129,7 @@ const main = [
               },
               {
                 name: {
-                  pt: "Interpretação de Croquis Técnicos - Modatex [2021-2022]",
+                  pt: "Interpretação de Croquís Técnicos - Modatex [2021-2022]",
                   en: "Interpretation of Fashion Flats - Modatex [2021-2022]",
                 },
                 favicon: "fa-wrench",
@@ -216,12 +216,33 @@ const main = [
               favicon: "fa-pencil-ruler",
             },
             {
-              name: {
-                pt: "... +skills??? ...",
-                en: "... +skills en??? ...",
-              },
-              favicon: "fa-arrow-alt-circle-right",
-            },
+				name: {
+				  pt: "Adobe InDesign",
+				  en: "Adobe InDesign",
+				},
+				favicon: "fa-object-group",
+			  },
+			  {
+				name: {
+				  pt: "Interpretação de Croquís Técnicos",
+				  en: "Interpretation of Fashion Flats",
+				},
+				favicon: "fa-wrench",
+			  },
+			  {
+				name: {
+				  pt: "Modelação e Transformação de Bases",
+				  en: "Pattern Modeling and Transformation",
+				},
+				favicon: "fa-tshirt",
+			  },
+			  {
+				name: {
+				  pt: "Confeção de Protótipos",
+				  en: "Cloth Patterns Prototyping",
+				},
+				favicon: "fa-drafting-compass",
+			  },
           ],
         },
         languages: {
