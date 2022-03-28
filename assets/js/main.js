@@ -125,7 +125,11 @@
       var pieces = "";
       $(item.pieces).each(function (i, item) {
         var piece_name = item.name[lang];
-        var piece_slug = piece_name.toLowerCase().replace(/ /g, "-");
+        var piece_slug = piece_name
+          .toLowerCase()
+          .replace(/ /g, "-")
+          .normalize("NFD")
+          .replace(/\p{Diacritic}/gu, "");
 
         var carousel_slides = "";
         $(item.images).each(function (i, item) {
