@@ -296,7 +296,7 @@ const main = [
         en: "GET IN TOUCH",
       },
       text: {
-        pt: "Fique à vontade para entrar em contacto comigo. Estou sempre aberta a discutir novos projetos, ideias criativas ou oportunidades para fazer parte das suas visões.",
+        pt: "Fique à vontade para entrar em contacto comigo. Estou sempre à disposição para discutir novos projetos, ideias criativas ou oportunidades para fazer parte das suas visões.",
         en: "Fell free to get in touch with me. I am always open to discuss new projects, creative ideas or opportunities to be part of your visions.",
       },
       elsewhere: {
