@@ -171,7 +171,7 @@
             src_image +
             '="' +
             image_path +
-            '-50.png">' +
+            '.png">' +
             "</a>" +
             "</div>";
         });
