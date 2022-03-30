@@ -2749,6 +2749,7 @@ a.arrow:before {
   object-fit: contain;
   object-position: center;
   /*width: 100%;*/
+  cursor: zoom-in;
 }
 
 .gallery a.landscape {

@@ -32,8 +32,8 @@ const main = [
         en: "Portfolio",
       },
       text: {
-        pt: "Projetos escolares e pessoais",
-        en: "Personal and school projects",
+        pt: "<p>Projetos escolares e pessoais</p><a href='#gabardine-beje'>Veja a Galeria Completa aqui.</a>",
+        en: "<p>Personal and school projects</p><a href='#beige-trench-coat'>Check the Full Gallery here.</a>",
       },
     },
     carrer_path: {
