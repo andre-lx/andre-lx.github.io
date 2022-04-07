@@ -303,6 +303,10 @@ const main = [
         pt: "Outros",
         en: "Elsewhere",
       },
+      linkedin: {
+        pt: "https://www.linkedin.com/in/soniasrribeiro/?locale=pt_BR",
+        en: "https://www.linkedin.com/in/soniasrribeiro/?locale=en_US",
+      },
     },
   },
 ];

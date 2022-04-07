@@ -367,6 +367,7 @@
     $("#getintouch_addresstitle").html(item.get_in_touch.addresstitle[lang]);
     $("#getintouch_elsewhere").html(item.get_in_touch.elsewhere[lang]);
     $("#getintouch_address").html(item.get_in_touch.address[lang]);
+    $("#getintouch_linkedin").attr("href", item.get_in_touch.linkedin[lang]);
     $("#getintouch_email").html(item.get_in_touch.email);
   });
 })(jQuery);
