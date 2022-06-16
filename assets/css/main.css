@@ -2149,6 +2149,7 @@ input[type="radio"] + label:before {
 
 .icon.solid:before {
   font-weight: 900;
+  font-size: 12px;
 }
 
 .icon.brands:before {
@@ -3650,7 +3651,7 @@ ul.feature-icons li {
   margin-top: 7rem;
 }
 
-#education_ul,
+#ul_courses,
 #ul_workshops {
   margin-bottom: 1rem;
 }
@@ -3764,4 +3765,8 @@ body {
 #language_div a {
   text-decoration: none;
   border-bottom-style: none;
+}
+
+#contact_list {
+	margin-top: 30px;
 }

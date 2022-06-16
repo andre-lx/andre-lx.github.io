@@ -250,20 +250,22 @@
     $("#carrer_path_subsections_education_title").html(
       item.carrer_path.subsections.education.title[lang]
     );
-    $("#carrer_path_subsections_education_text").html(
-      item.carrer_path.subsections.education.text[lang]
-    );
 
-    var education = "";
-    $(item.carrer_path.subsections.education.courses).each(function (i, item) {
-      education +=
+	//carrer_path_courses
+	$("#carrer_path_subsections_courses_title").html(
+		item.carrer_path.subsections.education.courses.title[lang]
+	);
+
+    var courses = "";
+    $(item.carrer_path.subsections.education.courses.items).each(function (i, item) {
+      courses +=
         '<li class="icon solid ' +
         item.favicon +
         '"> ' +
         item.name[lang] +
         "</li>";
     });
-    $("#education_ul").append(education);
+    $("#ul_courses").append(courses);
 
     //carrer_path_workshops
     $("#carrer_path_subsections_workshops_title").html(
@@ -307,9 +309,6 @@
     $("#carrer_path_subsections_work_title").html(
       item.carrer_path.subsections.work.title[lang]
     );
-    $("#carrer_path_subsections_work_text").html(
-      item.carrer_path.subsections.work.text[lang]
-    );
 
     var work = "";
     $(item.carrer_path.subsections.work.items).each(function (i, item) {
@@ -326,9 +325,6 @@
     $("#carrer_path_subsections_skills_title").html(
       item.carrer_path.subsections.skills.title[lang]
     );
-    $("#carrer_path_subsections_skilss_text").html(
-      item.carrer_path.subsections.skills.text[lang]
-    );
 
     var skills = "";
     $(item.carrer_path.subsections.skills.items).each(function (i, item) {
@@ -344,9 +340,6 @@
     //langugaes
     $("#carrer_path_subsections_languages_title").html(
       item.carrer_path.subsections.languages.title[lang]
-    );
-    $("#carrer_path_subsections_languages_text").html(
-      item.carrer_path.subsections.languages.text[lang]
     );
 
     var languages = "";

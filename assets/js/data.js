@@ -22,8 +22,8 @@ const main = [
         en: "Creating opportunities",
       },
       text: {
-        pt: "Apaixonada pela criatividade de projetos sustentáveis.<br>O mundo não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para tal. Se as grandes empresas não o fazem, cabe às pequenas empresas mudar o mundo.",
-        en: "Passionated about creativity and designing sustainable projects.<br>The world will not be entirely sustainable overnight, but with effort, dedication and making the right and well thought-out choices, we can build the best path for that. If the big companies don't do it, it's up to the small companies to change the world.",
+        pt: "Apaixonada pela criação de moda sustentável.<br>O mundo da moda não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para tal.",
+        en: "Passionated about creating sustainable fashion.<br>The fashion world will not be totally sustainable overnight, but with effort, dedication, and wise and well-thought-out choices, we can build the best way to do so.",
       },
     },
     projects: {
@@ -32,7 +32,7 @@ const main = [
         en: "Portfolio",
       },
       text: {
-        pt: "<p>Projetos escolares e pessoais</p><a href='#gabardine-beje'>Veja a Galeria Completa aqui.</a>",
+        pt: "<p>Projetos escolares e pessoais</p><a href='#gabardine-beje'>Galeria Completa disponível aqui.</a>",
         en: "<p>Personal and school projects</p><a href='#beige-trench-coat'>Check the Full Gallery here.</a>",
       },
     },
@@ -42,8 +42,8 @@ const main = [
         en: "Career Path",
       },
       text: {
-        pt: "Todos os passos contam. A minha jornada do nada a alguma coisa.<br><br>",
-        en: "Every step counts. My journey from nothing to something.<br><br>",
+        pt: "Todos os passos contam.<br><br>",
+        en: "Every step counts.<br><br>",
       },
       subsections: {
         education: {
@@ -51,33 +51,35 @@ const main = [
             pt: "Educação",
             en: "Education",
           },
-          text: {
-            pt: "Aprendendo algo novo todos os dias<br><br>Cursos",
-            en: "Learning something new every day<br><br>Courses",
+          courses: {
+            title: {
+              pt: "Cursos",
+              en: "Courses",
+            },
+            items: [
+              {
+                name: {
+                  pt: "Modelagem e Confeção de Vestuário - LSD - Lisbon School Design [2020-2021]",
+                  en: "Patternmaker and Clothing Maker - LSD - Lisbon School Design [2020-2021]",
+                },
+                favicon: "fa-tshirt",
+              },
+              {
+                name: {
+                  pt: "Design Gráfico - IEFP [2018-2020]",
+                  en: "Graphic Design - IEFP [2018-2020]",
+                },
+                favicon: "fa-paint-roller",
+              },
+              {
+                name: {
+                  pt: "Design, Cerâmica e Escultura - Colégio São Miguel Fátima [2010-2013]",
+                  en: "Design, Ceramics and Sculpture - Fátima São Miguel Highschool [2010-2013]",
+                },
+                favicon: "fa-chalkboard-teacher",
+              },
+            ],
           },
-          courses: [
-            {
-              name: {
-                pt: "Modelagem e Confeção de Vestuário - LSD - Lisbon School Design [2020-2021]",
-                en: "Patternmaker and Clothing Maker - LSD - Lisbon School Design [2020-2021]",
-              },
-              favicon: "fa-tshirt",
-            },
-            {
-              name: {
-                pt: "Design Gráfico - IEFP [2018-2020]",
-                en: "Graphic Design - IEFP [2018-2020]",
-              },
-              favicon: "fa-paint-roller",
-            },
-            {
-              name: {
-                pt: "Design, Cerâmica e Escultura - Colégio São Miguel Fátima [2010-2013]",
-                en: "Design, Ceramics and Sculpture - Fátima São Miguel Highschool [2010-2013]",
-              },
-              favicon: "fa-chalkboard-teacher",
-            },
-          ],
           workshops: {
             title: {
               pt: "Workshops",
@@ -156,10 +158,6 @@ const main = [
             pt: "Trabalho",
             en: "Work",
           },
-          text: {
-            pt: "Pondo em prática",
-            en: "Put it in practice",
-          },
           items: [
             {
               name: {
@@ -195,10 +193,6 @@ const main = [
           title: {
             pt: "Competências",
             en: "Skills",
-          },
-          text: {
-            pt: "Com as ferramentas e competências necessárias",
-            en: "With the necessary tools and skills",
           },
           items: [
             {
@@ -249,10 +243,6 @@ const main = [
           title: {
             pt: "Línguas",
             en: "Languages",
-          },
-          text: {
-            pt: "Em múltiplas línguas",
-            en: "In multiple languages",
           },
           items: [
             {
@@ -1167,7 +1157,7 @@ const projects = {
         },
         {
           name: {
-            pt: "Partes de Baixo",
+            pt: "Cuecas",
             en: "Bikini Bottoms",
           },
           config: {
