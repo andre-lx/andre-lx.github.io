@@ -23,7 +23,7 @@ const main = [
       },
       text: {
         pt: "Apaixonada pela criação de moda sustentável.<br>O mundo da moda não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para tal.",
-        en: "Passionated about creating sustainable fashion.<br>The fashion world will not be totally sustainable overnight, but with effort, dedication, and wise and well-thought-out choices, we can build the best way to do so.",
+        en: "Passionate about creating sustainable fashion.<br>The fashion world will not be totally sustainable overnight, but with effort, dedication, and wise and well-thought-out choices, we can build the best way to do so.",
       },
     },
     projects: {
@@ -32,8 +32,8 @@ const main = [
         en: "Portfolio",
       },
       text: {
-        pt: "<p>Projetos escolares e pessoais</p><a href='#gabardine-beje'>Galeria Completa disponível aqui.</a>",
-        en: "<p>Personal and school projects</p><a href='#beige-trench-coat'>Check the Full Gallery here.</a>",
+        pt: "<p>Projetos escolares e pessoais</p><a id='link_gallery' href='#gabardine-beje'>Galeria Completa disponível aqui.</a>",
+        en: "<p>Personal and school projects</p><a id='link_gallery' href='#beige-trench-coat'>Check the Full Gallery here.</a>",
       },
     },
     carrer_path: {
