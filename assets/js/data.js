@@ -542,6 +542,32 @@ const projects = {
           pieces: [
             {
               name: {
+                pt: "Vestido Preto",
+                en: "Black Dress",
+              },
+              images: [
+                {
+                  name: "black-dress-006",
+                },
+                {
+                  name: "black-dress-001",
+                },
+                {
+                  name: "black-dress-002",
+                },
+                {
+                  name: "black-dress-003",
+                },
+                {
+                  name: "black-dress-004",
+                },
+                {
+                  name: "black-dress-005",
+                },
+              ],
+            },
+            {
+              name: {
                 pt: "Vestido de Malha Comprido",
                 en: "Long Dress",
               },
@@ -560,17 +586,6 @@ const projects = {
                 },
               ],
             },
-            //{
-            //  name: {
-            //    pt: "Vestido Preto",
-            //    en: "Black Dress",
-            //  },
-            //  images: [
-            //    {
-            //      name: "black-dress-001",
-            //    },
-            //  ],
-            //},
           ],
         },
         {
