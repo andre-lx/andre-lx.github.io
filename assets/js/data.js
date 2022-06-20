@@ -1,305 +1,303 @@
-const main = [
-  {
-    intro: {
-      image: "../assets/images/homepage/pic01.jpg",
-      portfolio: {
-        pt: "Portfólio",
-        en: "Portfolio",
-      },
-      bio: {
-        pt: "Bio",
-        en: "Bio",
-      },
-      contact: {
-        pt: "Contacto",
-        en: "Contact",
-      },
+const main = {
+  intro: {
+    image: "../assets/images/homepage/pic01.jpg",
+    portfolio: {
+      pt: "Portfólio",
+      en: "Portfolio",
     },
-    creating_opportunities: {
-      image: "../assets/images/homepage/pic02.jpg",
-      title: {
-        pt: "Criando oportunidades",
-        en: "Creating opportunities",
-      },
-      text: {
-        pt: "Apaixonada pela criação de moda sustentável.<br>O mundo da moda não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para tal.",
-        en: "Passionate about creating sustainable fashion.<br>The fashion world will not be totally sustainable overnight, but with effort, dedication, and wise and well-thought-out choices, we can build the best way to do so.",
-      },
+    bio: {
+      pt: "Bio",
+      en: "Bio",
     },
-    projects: {
-      title: {
-        pt: "Portfólio",
-        en: "Portfolio",
-      },
-      text: {
-        pt: "<p>Projetos escolares e pessoais</p><a id='link_gallery' href='#gabardine-beje'>Galeria Completa disponível aqui.</a>",
-        en: "<p>Personal and school projects</p><a id='link_gallery' href='#beige-trench-coat'>Check the Full Gallery here.</a>",
-      },
+    contact: {
+      pt: "Contacto",
+      en: "Contact",
     },
-    carrer_path: {
-      title: {
-        pt: "Experiência",
-        en: "Career Path",
-      },
-      text: {
-        pt: "Todos os passos contam.<br><br>",
-        en: "Every step counts.<br><br>",
-      },
-      subsections: {
-        education: {
-          title: {
-            pt: "Educação",
-            en: "Education",
-          },
-          courses: {
-            title: {
-              pt: "Cursos",
-              en: "Courses",
-            },
-            items: [
-              {
-                name: {
-                  pt: "Modelagem e Confeção de Vestuário - LSD - Lisbon School Design [2020-2021]",
-                  en: "Patternmaker and Clothing Maker - LSD - Lisbon School Design [2020-2021]",
-                },
-                favicon: "fa-tshirt",
-              },
-              {
-                name: {
-                  pt: "Design Gráfico - IEFP [2018-2020]",
-                  en: "Graphic Design - IEFP [2018-2020]",
-                },
-                favicon: "fa-paint-roller",
-              },
-              {
-                name: {
-                  pt: "Design, Cerâmica e Escultura - Colégio São Miguel Fátima [2010-2013]",
-                  en: "Design, Ceramics and Sculpture - Fátima São Miguel Highschool [2010-2013]",
-                },
-                favicon: "fa-chalkboard-teacher",
-              },
-            ],
-          },
-          workshops: {
-            title: {
-              pt: "Workshops",
-              en: "Workshops",
-            },
-            items: [
-              {
-                name: {
-                  pt: "Moda Praia 2 - Modatex [2021]",
-                  en: "BeashWear 2 - Modatex [2021]",
-                },
-                favicon: "fa-umbrella-beach",
-              },
-              {
-                name: {
-                  pt: "Moda Praia - Modatex [2020]",
-                  en: "Beachwear - Modatex [2020]",
-                },
-                favicon: "fa-umbrella-beach",
-              },
-              {
-                name: {
-                  pt: "Técnicas de Arranjos em Confeção - Modatex [2020]",
-                  en: "Arrangement Techniques in Clothing - Modatex [2020]",
-                },
-                favicon: "fa-cut",
-              },
-            ],
-          },
-          minicourses: {
-            title: {
-              pt: "Mini-cursos",
-              en: "Mini-courses",
-            },
-            items: [
-              {
-                name: {
-                  pt: "Media Digital - ANCC [2021-2022]",
-                  en: "Digital Media - ANCC [2021-2022]",
-                },
-                favicon: "fa-photo-video",
-              },
-              {
-                name: {
-                  pt: "Marketing Digital na Moda - Modatex [2021-2022]",
-                  en: "Digital Marketing in Fashion - Modatex [2021-2022]",
-                },
-                favicon: "fa-ad",
-              },
-              {
-                name: {
-                  pt: "Interpretação de Croquís Técnicos - Modatex [2021-2022]",
-                  en: "Interpretation of Fashion Flats - Modatex [2021-2022]",
-                },
-                favicon: "fa-wrench",
-              },
-              {
-                name: {
-                  pt: "Plano de negócio - Criação de Micronegócio - Modatex [2020]",
-                  en: "Business plan - Microbusiness creation - Modatex [2020]",
-                },
-                favicon: "fa-tasks",
-              },
-              {
-                name: {
-                  pt: "Caracteristicas dos Tecidos - Modatex [2020]",
-                  en: "Fabric Characteristics - Modatex [2020]",
-                },
-                favicon: "fa-project-diagram",
-              },
-            ],
-          },
+  },
+  creating_opportunities: {
+    image: "../assets/images/homepage/pic02.jpg",
+    title: {
+      pt: "Criando oportunidades",
+      en: "Creating opportunities",
+    },
+    text: {
+      pt: "Apaixonada pela criação de moda sustentável.<br>O mundo da moda não será totalmente sustentável da noite para o dia, mas com esforço, dedicação e escolhas acertadas e bem pensadas, podemos construir o melhor caminho para tal.",
+      en: "Passionate about creating sustainable fashion.<br>The fashion world will not be totally sustainable overnight, but with effort, dedication, and wise and well-thought-out choices, we can build the best way to do so.",
+    },
+  },
+  projects: {
+    title: {
+      pt: "Portfólio",
+      en: "Portfolio",
+    },
+    text: {
+      pt: "<p>Projetos escolares e pessoais</p><a id='link_gallery' href='#gabardine-beje'>Galeria Completa disponível aqui.</a>",
+      en: "<p>Personal and school projects</p><a id='link_gallery' href='#beige-trench-coat'>Check the Full Gallery here.</a>",
+    },
+  },
+  carrer_path: {
+    title: {
+      pt: "Experiência",
+      en: "Career Path",
+    },
+    text: {
+      pt: "Todos os passos contam.<br><br>",
+      en: "Every step counts.<br><br>",
+    },
+    subsections: {
+      education: {
+        title: {
+          pt: "Educação",
+          en: "Education",
         },
-        work: {
+        courses: {
           title: {
-            pt: "Trabalho",
-            en: "Work",
+            pt: "Cursos",
+            en: "Courses",
           },
           items: [
             {
               name: {
-                pt: "Designer Gráfico - LIP Lisboa [MAR 2020-presente]",
-                en: "Graphic Designer - LIP Lisbon [MAR 2020-present]",
-              },
-              favicon: "fa-edit",
-            },
-            {
-              name: {
-                pt: "Ajudante de Costureira - Alma Atelier [2017-presente]",
-                en: "Seamstress Assistant - Alma Atelier [2017-present]",
-              },
-              favicon: "fa-female",
-            },
-            {
-              name: {
-                pt: "Assistente de Vendas - Zara [2019-2020]",
-                en: "Sales Assistant - Zara [2019-2020]",
-              },
-              favicon: "fa-shopping-bag",
-            },
-            {
-              name: {
-                pt: "Operadora de Caixa e Armazenista - Pingo Doce [2016-2018]",
-                en: "Cashier and Stockist - Pingo Doce [2016-2018]",
-              },
-              favicon: "fa-shopping-cart",
-            },
-          ],
-        },
-        skills: {
-          title: {
-            pt: "Competências",
-            en: "Skills",
-          },
-          items: [
-            {
-              name: {
-                pt: "Adobe Photoshop",
-                en: "Adobe Photoshop",
-              },
-              favicon: "fa-images",
-            },
-            {
-              name: {
-                pt: "Adobe Illustrator",
-                en: "Adobe Illustrator",
-              },
-              favicon: "fa-pencil-ruler",
-            },
-            {
-              name: {
-                pt: "Adobe InDesign",
-                en: "Adobe InDesign",
-              },
-              favicon: "fa-object-group",
-            },
-            {
-              name: {
-                pt: "Interpretação de Croquís Técnicos",
-                en: "Interpretation of Fashion Flats",
-              },
-              favicon: "fa-wrench",
-            },
-            {
-              name: {
-                pt: "Modelação e Transformação de Bases",
-                en: "Pattern Modeling and Transformation",
+                pt: "Modelagem e Confeção de Vestuário - LSD - Lisbon School Design [2020-2021]",
+                en: "Patternmaker and Clothing Maker - LSD - Lisbon School Design [2020-2021]",
               },
               favicon: "fa-tshirt",
             },
             {
               name: {
-                pt: "Confeção de Protótipos",
-                en: "Cloth Patterns Prototyping",
+                pt: "Design Gráfico - IEFP [2018-2020]",
+                en: "Graphic Design - IEFP [2018-2020]",
               },
-              favicon: "fa-drafting-compass",
+              favicon: "fa-paint-roller",
+            },
+            {
+              name: {
+                pt: "Design, Cerâmica e Escultura - Colégio São Miguel Fátima [2010-2013]",
+                en: "Design, Ceramics and Sculpture - Fátima São Miguel Highschool [2010-2013]",
+              },
+              favicon: "fa-chalkboard-teacher",
             },
           ],
         },
-        languages: {
+        workshops: {
           title: {
-            pt: "Línguas",
-            en: "Languages",
+            pt: "Workshops",
+            en: "Workshops",
           },
           items: [
             {
               name: {
-                pt: "Português",
-                en: "Portuguese",
+                pt: "Moda Praia 2 - Modatex [2021]",
+                en: "BeashWear 2 - Modatex [2021]",
               },
-              favicon: "fa-globe-europe",
+              favicon: "fa-umbrella-beach",
             },
             {
               name: {
-                pt: "Inglês",
-                en: "English",
+                pt: "Moda Praia - Modatex [2020]",
+                en: "Beachwear - Modatex [2020]",
               },
-              favicon: "fa-globe-americas",
+              favicon: "fa-umbrella-beach",
             },
             {
               name: {
-                pt: "Espanhol",
-                en: "Spanish",
+                pt: "Técnicas de Arranjos em Confeção - Modatex [2020]",
+                en: "Arrangement Techniques in Clothing - Modatex [2020]",
               },
-              favicon: "fa-globe-europe",
+              favicon: "fa-cut",
+            },
+          ],
+        },
+        minicourses: {
+          title: {
+            pt: "Mini-cursos",
+            en: "Mini-courses",
+          },
+          items: [
+            {
+              name: {
+                pt: "Media Digital - ANCC [2021-2022]",
+                en: "Digital Media - ANCC [2021-2022]",
+              },
+              favicon: "fa-photo-video",
+            },
+            {
+              name: {
+                pt: "Marketing Digital na Moda - Modatex [2021-2022]",
+                en: "Digital Marketing in Fashion - Modatex [2021-2022]",
+              },
+              favicon: "fa-ad",
+            },
+            {
+              name: {
+                pt: "Interpretação de Croquís Técnicos - Modatex [2021-2022]",
+                en: "Interpretation of Fashion Flats - Modatex [2021-2022]",
+              },
+              favicon: "fa-wrench",
+            },
+            {
+              name: {
+                pt: "Plano de negócio - Criação de Micronegócio - Modatex [2020]",
+                en: "Business plan - Microbusiness creation - Modatex [2020]",
+              },
+              favicon: "fa-tasks",
+            },
+            {
+              name: {
+                pt: "Caracteristicas dos Tecidos - Modatex [2020]",
+                en: "Fabric Characteristics - Modatex [2020]",
+              },
+              favicon: "fa-project-diagram",
             },
           ],
         },
       },
-    },
-    get_in_touch: {
-      image: "../assets/images/homepage/pic03.jpg",
-      email: "sonia.r.94@gmail.com",
-      addresstitle: {
-        pt: "Localização",
-        en: "Address",
+      work: {
+        title: {
+          pt: "Trabalho",
+          en: "Work",
+        },
+        items: [
+          {
+            name: {
+              pt: "Designer Gráfico - LIP Lisboa [MAR 2020-presente]",
+              en: "Graphic Designer - LIP Lisbon [MAR 2020-present]",
+            },
+            favicon: "fa-edit",
+          },
+          {
+            name: {
+              pt: "Ajudante de Costureira - Alma Atelier [2017-presente]",
+              en: "Seamstress Assistant - Alma Atelier [2017-present]",
+            },
+            favicon: "fa-female",
+          },
+          {
+            name: {
+              pt: "Assistente de Vendas - Zara [2019-2020]",
+              en: "Sales Assistant - Zara [2019-2020]",
+            },
+            favicon: "fa-shopping-bag",
+          },
+          {
+            name: {
+              pt: "Operadora de Caixa e Armazenista - Pingo Doce [2016-2018]",
+              en: "Cashier and Stockist - Pingo Doce [2016-2018]",
+            },
+            favicon: "fa-shopping-cart",
+          },
+        ],
       },
-      address: {
-        pt: "Lisboa, PT",
-        en: "Lisbon, PT",
+      skills: {
+        title: {
+          pt: "Competências",
+          en: "Skills",
+        },
+        items: [
+          {
+            name: {
+              pt: "Adobe Photoshop",
+              en: "Adobe Photoshop",
+            },
+            favicon: "fa-images",
+          },
+          {
+            name: {
+              pt: "Adobe Illustrator",
+              en: "Adobe Illustrator",
+            },
+            favicon: "fa-pencil-ruler",
+          },
+          {
+            name: {
+              pt: "Adobe InDesign",
+              en: "Adobe InDesign",
+            },
+            favicon: "fa-object-group",
+          },
+          {
+            name: {
+              pt: "Interpretação de Croquís Técnicos",
+              en: "Interpretation of Fashion Flats",
+            },
+            favicon: "fa-wrench",
+          },
+          {
+            name: {
+              pt: "Modelação e Transformação de Bases",
+              en: "Pattern Modeling and Transformation",
+            },
+            favicon: "fa-tshirt",
+          },
+          {
+            name: {
+              pt: "Confeção de Protótipos",
+              en: "Cloth Patterns Prototyping",
+            },
+            favicon: "fa-drafting-compass",
+          },
+        ],
       },
-      title: {
-        pt: "CONTACTOS",
-        en: "GET IN TOUCH",
-      },
-      text: {
-        pt: "Fique à vontade para entrar em contacto comigo. Estou sempre à disposição para discutir novos projetos, ideias criativas ou oportunidades para fazer parte das suas visões.",
-        en: "Feel free to get in touch with me. I am always open to discuss new projects, creative ideas or opportunities to be part of your visions.",
-      },
-      elsewhere: {
-        pt: "Outros",
-        en: "Elsewhere",
-      },
-      linkedin: {
-        pt: "https://www.linkedin.com/in/soniasrribeiro/?locale=pt_BR",
-        en: "https://www.linkedin.com/in/soniasrribeiro/?locale=en_US",
+      languages: {
+        title: {
+          pt: "Línguas",
+          en: "Languages",
+        },
+        items: [
+          {
+            name: {
+              pt: "Português",
+              en: "Portuguese",
+            },
+            favicon: "fa-globe-europe",
+          },
+          {
+            name: {
+              pt: "Inglês",
+              en: "English",
+            },
+            favicon: "fa-globe-americas",
+          },
+          {
+            name: {
+              pt: "Espanhol",
+              en: "Spanish",
+            },
+            favicon: "fa-globe-europe",
+          },
+        ],
       },
     },
   },
-];
+  get_in_touch: {
+    image: "../assets/images/homepage/pic03.jpg",
+    email: "sonia.r.94@gmail.com",
+    addresstitle: {
+      pt: "Localização",
+      en: "Address",
+    },
+    address: {
+      pt: "Lisboa, PT",
+      en: "Lisbon, PT",
+    },
+    title: {
+      pt: "CONTACTOS",
+      en: "GET IN TOUCH",
+    },
+    text: {
+      pt: "Fique à vontade para entrar em contacto comigo. Estou sempre à disposição para discutir novos projetos, ideias criativas ou oportunidades para fazer parte das suas visões.",
+      en: "Feel free to get in touch with me. I am always open to discuss new projects, creative ideas or opportunities to be part of your visions.",
+    },
+    elsewhere: {
+      pt: "Outros",
+      en: "Elsewhere",
+    },
+    linkedin: {
+      pt: "https://www.linkedin.com/in/soniasrribeiro/?locale=pt_BR",
+      en: "https://www.linkedin.com/in/soniasrribeiro/?locale=en_US",
+    },
+  },
+};
 
 const projects = {
   categorys: [
@@ -436,6 +434,17 @@ const projects = {
                 },
               ],
             },
+            //{
+            //  name: {
+            //    pt: "Blusa com Padrão",
+            //    en: "Pattern Blouse",
+            //  },
+            //  images: [
+            //    {
+            //      name: "patter-blouse-001",
+            //    },
+            //  ],
+            //},
           ],
         },
         {
@@ -551,6 +560,17 @@ const projects = {
                 },
               ],
             },
+            //{
+            //  name: {
+            //    pt: "Vestido Preto",
+            //    en: "Black Dress",
+            //  },
+            //  images: [
+            //    {
+            //      name: "black-dress-001",
+            //    },
+            //  ],
+            //},
           ],
         },
         {

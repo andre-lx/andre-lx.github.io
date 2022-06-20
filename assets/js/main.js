@@ -219,150 +219,152 @@
     });
   }
 
-  $(main).each(function (i, item) {
-    //intro
-    $("#mainImage").attr("src", item.intro.image);
-    $("#portfolio_intro").html(item.intro.portfolio[lang]);
-    $("#bio_intro").html(item.intro.bio[lang]);
-    $("#contact_intro").html(item.intro.contact[lang]);
+  // Text replacement
+  //intro
+  $("#mainImage").attr("src", main.intro.image);
+  $("#portfolio_intro").html(main.intro.portfolio[lang]);
+  $("#bio_intro").html(main.intro.bio[lang]);
+  $("#contact_intro").html(main.intro.contact[lang]);
 
-    //creating_opportunities
-    $("#creating_opportunities_title").html(
-      item.creating_opportunities.title[lang]
-    );
-    $("#creating_opportunities_text").html(
-      item.creating_opportunities.text[lang]
-    );
-    $("#creating_opportunities_image").attr(
-      "src",
-      item.creating_opportunities.image
-    );
+  //creating_opportunities
+  $("#creating_opportunities_title").html(
+    main.creating_opportunities.title[lang]
+  );
+  $("#creating_opportunities_text").html(
+    main.creating_opportunities.text[lang]
+  );
+  $("#creating_opportunities_image").attr(
+    "src",
+    main.creating_opportunities.image
+  );
 
-    //projects
-    $("#projects_title").html(item.projects.title[lang]);
-    $("#projects_text").html(item.projects.text[lang]);
+  //projects
+  $("#projects_title").html(main.projects.title[lang]);
+  $("#projects_text").html(main.projects.text[lang]);
 
-    //carrer_path
-    $("#carrer_path_title").html(item.carrer_path.title[lang]);
-    $("#carrer_path_description").html(item.carrer_path.text[lang]);
+  //carrer_path
+  $("#carrer_path_title").html(main.carrer_path.title[lang]);
+  $("#carrer_path_description").html(main.carrer_path.text[lang]);
 
-    //carrer_path_education
-    $("#carrer_path_subsections_education_title").html(
-      item.carrer_path.subsections.education.title[lang]
-    );
+  //carrer_path_education
+  $("#carrer_path_subsections_education_title").html(
+    main.carrer_path.subsections.education.title[lang]
+  );
 
-	//carrer_path_courses
-	$("#carrer_path_subsections_courses_title").html(
-		item.carrer_path.subsections.education.courses.title[lang]
-	);
+  //carrer_path_courses
+  $("#carrer_path_subsections_courses_title").html(
+    main.carrer_path.subsections.education.courses.title[lang]
+  );
 
-    var courses = "";
-    $(item.carrer_path.subsections.education.courses.items).each(function (i, item) {
-      courses +=
-        '<li class="icon solid ' +
-        item.favicon +
-        '"> ' +
-        item.name[lang] +
-        "</li>";
-    });
-    $("#ul_courses").append(courses);
-
-    //carrer_path_workshops
-    $("#carrer_path_subsections_workshops_title").html(
-      item.carrer_path.subsections.education.workshops.title[lang]
-    );
-
-    var workshops = "";
-    $(item.carrer_path.subsections.education.workshops.items).each(function (
-      i,
-      item
-    ) {
-      workshops +=
-        '<li class="icon solid ' +
-        item.favicon +
-        '"> ' +
-        item.name[lang] +
-        "</li>";
-    });
-    $("#ul_workshops").append(workshops);
-
-    //carrer_path_minicourses
-    $("#carrer_path_subsections_minicourses_title").html(
-      item.carrer_path.subsections.education.minicourses.title[lang]
-    );
-
-    var minicourses = "";
-    $(item.carrer_path.subsections.education.minicourses.items).each(function (
-      i,
-      item
-    ) {
-      minicourses +=
-        '<li class="icon solid ' +
-        item.favicon +
-        '"> ' +
-        item.name[lang] +
-        "</li>";
-    });
-    $("#ul_minicourses").append(minicourses);
-
-    //carrer_path_work
-    $("#carrer_path_subsections_work_title").html(
-      item.carrer_path.subsections.work.title[lang]
-    );
-
-    var work = "";
-    $(item.carrer_path.subsections.work.items).each(function (i, item) {
-      work +=
-        '<li class="icon solid ' +
-        item.favicon +
-        '"> ' +
-        item.name[lang] +
-        "</li>";
-    });
-    $("#work_ul").append(work);
-
-    //carrer_path_skills
-    $("#carrer_path_subsections_skills_title").html(
-      item.carrer_path.subsections.skills.title[lang]
-    );
-
-    var skills = "";
-    $(item.carrer_path.subsections.skills.items).each(function (i, item) {
-      skills +=
-        '<li class="icon solid ' +
-        item.favicon +
-        '"> ' +
-        item.name[lang] +
-        "</li>";
-    });
-    $("#skills_ul").append(skills);
-
-    //langugaes
-    $("#carrer_path_subsections_languages_title").html(
-      item.carrer_path.subsections.languages.title[lang]
-    );
-
-    var languages = "";
-    $(item.carrer_path.subsections.languages.items).each(function (i, item) {
-      languages +=
-        '<li class="icon solid ' +
-        item.favicon +
-        '"> ' +
-        item.name[lang] +
-        "</li>";
-    });
-    $("#languages_ul").append(languages);
-
-    //get_in_touch
-    $("#getintouch_image").attr("src", item.get_in_touch.image);
-    $("#getintouch_title").html(item.get_in_touch.title[lang]);
-    $("#getintouch_text").html(item.get_in_touch.text[lang]);
-    $("#getintouch_addresstitle").html(item.get_in_touch.addresstitle[lang]);
-    $("#getintouch_elsewhere").html(item.get_in_touch.elsewhere[lang]);
-    $("#getintouch_address").html(item.get_in_touch.address[lang]);
-    $("#getintouch_linkedin").attr("href", item.get_in_touch.linkedin[lang]);
-    $("#getintouch_email").html(item.get_in_touch.email);
+  var courses = "";
+  $(main.carrer_path.subsections.education.courses.items).each(function (
+    i,
+    course
+  ) {
+    courses +=
+      '<li class="icon solid ' +
+      course.favicon +
+      '"> ' +
+      course.name[lang] +
+      "</li>";
   });
+  $("#ul_courses").append(courses);
+
+  //carrer_path_workshops
+  $("#carrer_path_subsections_workshops_title").html(
+    main.carrer_path.subsections.education.workshops.title[lang]
+  );
+
+  var workshops = "";
+  $(main.carrer_path.subsections.education.workshops.items).each(function (
+    i,
+    workshop
+  ) {
+    workshops +=
+      '<li class="icon solid ' +
+      workshop.favicon +
+      '"> ' +
+      workshop.name[lang] +
+      "</li>";
+  });
+  $("#ul_workshops").append(workshops);
+
+  //carrer_path_minicourses
+  $("#carrer_path_subsections_minicourses_title").html(
+    main.carrer_path.subsections.education.minicourses.title[lang]
+  );
+
+  var minicourses = "";
+  $(main.carrer_path.subsections.education.minicourses.items).each(function (
+    i,
+    minicourse
+  ) {
+    minicourses +=
+      '<li class="icon solid ' +
+      minicourse.favicon +
+      '"> ' +
+      minicourse.name[lang] +
+      "</li>";
+  });
+  $("#ul_minicourses").append(minicourses);
+
+  //carrer_path_work
+  $("#carrer_path_subsections_work_title").html(
+    main.carrer_path.subsections.work.title[lang]
+  );
+
+  var workList = "";
+  $(main.carrer_path.subsections.work.items).each(function (i, work) {
+    workList +=
+      '<li class="icon solid ' +
+      work.favicon +
+      '"> ' +
+      work.name[lang] +
+      "</li>";
+  });
+  $("#work_ul").append(workList);
+
+  //carrer_path_skills
+  $("#carrer_path_subsections_skills_title").html(
+    main.carrer_path.subsections.skills.title[lang]
+  );
+
+  var skills = "";
+  $(main.carrer_path.subsections.skills.items).each(function (i, skill) {
+    skills +=
+      '<li class="icon solid ' +
+      skill.favicon +
+      '"> ' +
+      skill.name[lang] +
+      "</li>";
+  });
+  $("#skills_ul").append(skills);
+
+  //langugaes
+  $("#carrer_path_subsections_languages_title").html(
+    main.carrer_path.subsections.languages.title[lang]
+  );
+
+  var languages = "";
+  $(main.carrer_path.subsections.languages.items).each(function (i, language) {
+    languages +=
+      '<li class="icon solid ' +
+      language.favicon +
+      '"> ' +
+      language.name[lang] +
+      "</li>";
+  });
+  $("#languages_ul").append(languages);
+
+  //get_in_touch
+  $("#getintouch_image").attr("src", main.get_in_touch.image);
+  $("#getintouch_title").html(main.get_in_touch.title[lang]);
+  $("#getintouch_text").html(main.get_in_touch.text[lang]);
+  $("#getintouch_addresstitle").html(main.get_in_touch.addresstitle[lang]);
+  $("#getintouch_elsewhere").html(main.get_in_touch.elsewhere[lang]);
+  $("#getintouch_address").html(main.get_in_touch.address[lang]);
+  $("#getintouch_linkedin").attr("href", main.get_in_touch.linkedin[lang]);
+  $("#getintouch_email").html(main.get_in_touch.email);
 })(jQuery);
 
 // favicon light and dark
