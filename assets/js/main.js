@@ -133,7 +133,7 @@
 
         var carousel_slides = "";
         $(piece.images).each(function (i, image) {
-          var image_caption = image.caption[lang];
+          //var image_caption = image.caption[lang];
 
           var paths_images = category_path_images + subcategory_path_images;
           var image_path =
@@ -165,7 +165,7 @@
             "</strong><br>" +
             piece_name +
             "<br>" +
-            image_caption +
+            //image_caption +
             '<br>">' +
             '<img class="carousel_img"' +
             src_image +

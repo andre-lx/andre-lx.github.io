@@ -332,45 +332,21 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "beige-trench-coat-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "beige-trench-coat-001-closed",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "beige-trench-coat-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "beige-trench-coat-004",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "beige-trench-coat-details-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "beige-trench-coat-details-002",
                 },
               ],
@@ -395,38 +371,18 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "crossed-blazer-black-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "crossed-blazer-black-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "crossed-blazer-black-004",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "crossed-blazer-black-005",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "crossed-blazer-black-details-001",
                 },
               ],
@@ -464,38 +420,18 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-blouse-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-blouse-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-blouse-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-blouse-details-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-blouse-details-002",
                 },
               ],
@@ -520,38 +456,18 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-top-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-top-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-top-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-top-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "floral-top-004",
                 },
               ],
@@ -576,31 +492,15 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-tshirt-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-tshirt-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-tshirt-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-tshirt-004",
                 },
               ],
@@ -638,31 +538,15 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "long-dress-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "long-dress-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "long-dress-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "long-dress-details-001",
                 },
               ],
@@ -687,38 +571,18 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-jumpsuit-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-jumpsuit-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-jumpsuit-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-jumpsuit-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "tie-dye-jumpsuit-004",
                 },
               ],
@@ -756,38 +620,18 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "pencil-skirt-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "pencil-skirt-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "pencil-skirt-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "pencil-skirt-004",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "pencil-skirt-details-001",
                 },
               ],
@@ -812,45 +656,21 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "brown-corduroy-pants-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "brown-corduroy-pants-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "brown-corduroy-pants-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "brown-corduroy-pants-004",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "brown-corduroy-pants-details-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "brown-corduroy-pants-details-002",
                 },
               ],
@@ -862,38 +682,18 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "khaki-corsairs-pants-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "khaki-corsairs-pants-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "khaki-corsairs-pants-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "khaki-corsairs-pants-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "khaki-corsairs-pants-details-001",
                 },
               ],
@@ -931,31 +731,15 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-one-shoulder-pink-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-one-shoulder-pink-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-one-shoulder-pink-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-one-shoulder-pink-004",
                 },
               ],
@@ -967,24 +751,12 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-open-back-tropical-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-open-back-tropical-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-open-back-tropical-004",
                 },
               ],
@@ -996,45 +768,21 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-v-neck-tropical-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-v-neck-tropical-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-v-neck-tropical-004",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-v-neck-tropical-005",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-v-neck-tropical-details-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "one-piece-swimsuit-v-neck-tropical-details-002",
                 },
               ],
@@ -1059,24 +807,12 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-high-cut-sporty-crop-floral-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-high-cut-sporty-crop-floral-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-high-cut-sporty-crop-floral-005",
                 },
               ],
@@ -1088,24 +824,12 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-high-waist-sporty-crop-floral-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-high-waist-sporty-crop-floral-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-high-waist-sporty-crop-floral-003",
                 },
               ],
@@ -1117,38 +841,18 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-brazilian-twisted-bandeau-tropical-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-brazilian-twisted-bandeau-tropical-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-brazilian-twisted-bandeau-tropical-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-brazilian-twisted-bandeau-tropical-004",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-set-brazilian-twisted-bandeau-tropical-details-001",
                 },
               ],
@@ -1173,24 +877,12 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-high-waist-bow-blue-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-high-waist-bow-blue-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-high-waist-bow-blue-details-001",
                 },
               ],
@@ -1202,31 +894,15 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-high-waist-crossover-black-002",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-high-waist-crossover-black-006",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-high-waist-crossover-black-003",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-high-waist-crossover-black-details-001",
                 },
               ],
@@ -1238,17 +914,9 @@ const projects = {
               },
               images: [
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-tie-side-floral-001",
                 },
                 {
-                  caption: {
-                    pt: "",
-                    en: "",
-                  },
                   name: "bikini-bottom-tie-side-floral-004",
                 },
               ],
