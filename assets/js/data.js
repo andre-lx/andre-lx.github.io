@@ -413,22 +413,22 @@ const projects = {
             //  },
             //  images: [
             //    {
-            //      name: "patterned-blouse-006.png",
+            //      name: "patterned-blouse-006",
             //    },
             //    {
-            //      name: "patterned-blouse-001.png",
+            //      name: "patterned-blouse-001",
             //    },
             //    {
-            //      name: "patterned-blouse-002.png",
+            //      name: "patterned-blouse-002",
             //    },
             //    {
-            //      name: "patterned-blouse-003.png",
+            //      name: "patterned-blouse-003",
             //    },
             //    {
-            //      name: "patterned-blouse-004.png",
+            //      name: "patterned-blouse-004",
             //    },
             //    {
-            //      name: "patterned-blouse-005.png",
+            //      name: "patterned-blouse-005",
             //    },
             //  ],
             //},
