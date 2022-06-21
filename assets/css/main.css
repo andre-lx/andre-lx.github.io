@@ -3768,18 +3768,27 @@ body {
 }
 
 #contact_list {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 #link_gallery {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 .carousel__button svg {
-	stroke-width: 1;
-	filter: none;
+  stroke-width: 1;
+  filter: none;
 }
 
 .fancybox__toolbar {
-	text-shadow: none;
+  text-shadow: none;
+}
+
+ul.icons li .icon {
+  border-radius: 0;
+  line-height: 0;
+}
+
+.icon:before {
+  line-height: 0;
 }

@@ -270,7 +270,6 @@ const main = {
     },
   },
   get_in_touch: {
-    image: "../assets/images/homepage/pic03.jpg",
     email: "sonia.r.94@gmail.com",
     addresstitle: {
       pt: "Localização",
@@ -283,10 +282,6 @@ const main = {
     title: {
       pt: "CONTACTOS",
       en: "GET IN TOUCH",
-    },
-    text: {
-      pt: "Fique à vontade para entrar em contacto comigo. Estou sempre à disposição para discutir novos projetos, ideias criativas ou oportunidades para fazer parte das suas visões.",
-      en: "Feel free to get in touch with me. I am always open to discuss new projects, creative ideas or opportunities to be part of your visions.",
     },
     elsewhere: {
       pt: "Outros",
@@ -411,6 +406,32 @@ const projects = {
             },
           },
           pieces: [
+            //{
+            //  name: {
+            //    pt: "Blusa com Padrão",
+            //    en: "Patterned Blouse",
+            //  },
+            //  images: [
+            //    {
+            //      name: "patterned-blouse-006.png",
+            //    },
+            //    {
+            //      name: "patterned-blouse-001.png",
+            //    },
+            //    {
+            //      name: "patterned-blouse-002.png",
+            //    },
+            //    {
+            //      name: "patterned-blouse-003.png",
+            //    },
+            //    {
+            //      name: "patterned-blouse-004.png",
+            //    },
+            //    {
+            //      name: "patterned-blouse-005.png",
+            //    },
+            //  ],
+            //},
             {
               name: {
                 pt: "Blusa Camiseiro Floral",
@@ -434,17 +455,6 @@ const projects = {
                 },
               ],
             },
-            //{
-            //  name: {
-            //    pt: "Blusa com Padrão",
-            //    en: "Pattern Blouse",
-            //  },
-            //  images: [
-            //    {
-            //      name: "patter-blouse-001",
-            //    },
-            //  ],
-            //},
           ],
         },
         {

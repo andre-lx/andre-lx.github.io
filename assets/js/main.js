@@ -357,9 +357,7 @@
   $("#languages_ul").append(languages);
 
   //get_in_touch
-  $("#getintouch_image").attr("src", main.get_in_touch.image);
   $("#getintouch_title").html(main.get_in_touch.title[lang]);
-  $("#getintouch_text").html(main.get_in_touch.text[lang]);
   $("#getintouch_addresstitle").html(main.get_in_touch.addresstitle[lang]);
   $("#getintouch_elsewhere").html(main.get_in_touch.elsewhere[lang]);
   $("#getintouch_address").html(main.get_in_touch.address[lang]);
