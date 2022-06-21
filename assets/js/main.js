@@ -361,8 +361,22 @@
   $("#getintouch_addresstitle").html(main.get_in_touch.addresstitle[lang]);
   $("#getintouch_elsewhere").html(main.get_in_touch.elsewhere[lang]);
   $("#getintouch_address").html(main.get_in_touch.address[lang]);
-  $("#getintouch_linkedin").attr("href", main.get_in_touch.linkedin[lang]);
   $("#getintouch_email").html(main.get_in_touch.email);
+
+  if (main.get_in_touch.linkedin.visible) {
+    $("#getintouch_linkedin").attr(
+      "href",
+      main.get_in_touch.linkedin.url[lang]
+    );
+    $("#getintouch_linkedin_label").html(main.get_in_touch.linkedin.name);
+  }
+
+  if (main.get_in_touch.instagram.visible) {
+    $("#getintouch_instagram").attr("href", main.get_in_touch.instagram.url);
+    $("#getintouch_instagram_label").html(
+      main.get_in_touch.instagram.name[lang]
+    );
+  }
 })(jQuery);
 
 // favicon light and dark

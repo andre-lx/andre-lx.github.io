@@ -287,9 +287,21 @@ const main = {
       pt: "Outros",
       en: "Elsewhere",
     },
+    instagram: {
+      visible: true,
+      name: {
+        pt: "Alma Atelier de Costura",
+        en: "Alma Sewing Atelier",
+      },
+      url: "https://www.instagram.com/alma.atelierdecostura",
+    },
     linkedin: {
-      pt: "https://www.linkedin.com/in/soniasrribeiro/?locale=pt_BR",
-      en: "https://www.linkedin.com/in/soniasrribeiro/?locale=en_US",
+      visible: true,
+      name: "Sónia Ribeiro",
+      url: {
+        pt: "https://www.linkedin.com/in/soniasrribeiro/?locale=pt_BR",
+        en: "https://www.linkedin.com/in/soniasrribeiro/?locale=en_US",
+      },
     },
   },
 };

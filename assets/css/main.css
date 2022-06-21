@@ -3792,3 +3792,16 @@ ul.icons li .icon {
 .icon:before {
   line-height: 0;
 }
+
+.icons {
+  display: grid;
+}
+
+.icon > .label {
+  display: initial;
+  margin-left: 10px;
+}
+
+.labelSocial {
+  cursor: auto;
+}
