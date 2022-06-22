@@ -520,9 +520,6 @@ const projects = {
               },
               images: [
                 {
-                  name: "tie-dye-tshirt-002-mirrored",
-                },
-                {
                   name: "tie-dye-tshirt-001",
                 },
                 {
