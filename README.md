@@ -18,6 +18,16 @@ Gallery thumbnails: **270x225px** `[ 75% smaller than the original image* ]` - `
 Home page (caroussel) images: **540x450px** `[ 50% smaller than the original image* ]` - `image-name-50.png`
 ```
 
+## Mirror
+
+Gallery (original) images: **1080x900px** - `image-name.png`
+
+Gallery mirrored: **1080x900px** - `image-name-mirrored.png`
+
+
+`** use this tool to do the mirroring`
+
+https://www.resizepixel.com/
 
 `* use this tool to do the resizing`
 
