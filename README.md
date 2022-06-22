@@ -10,7 +10,7 @@ https://docs.google.com/spreadsheets/d/1TPz65Inpo5Rm9UsqVdHtOD9OYnj3ZPSdGRtNMN60
 
 Gallery (original) images: **1080x900px** - `image-name.png`
 
-Gallery thumbnails: **270x225px** `[ 75% smaller than the original image* ]` - `image-name-75.png`
+Gallery thumbnails: **270x225px** `[ 75% smaller than the original image ]` - `image-name-75.png`
 
 ```
 - this was removed to ensure max quality also in the homepage
@@ -18,7 +18,7 @@ Gallery thumbnails: **270x225px** `[ 75% smaller than the original image* ]` - `
 Home page (caroussel) images: **540x450px** `[ 50% smaller than the original image* ]` - `image-name-50.png`
 ```
 
-`* use this tool to do the resizing`
+Use this tool to do the resizing:
 
 https://www.iloveimg.com/resize-image
 
@@ -31,7 +31,7 @@ Gallery (original) images: **1080x900px** - `image-name.png`
 Gallery mirrored: **1080x900px** - `image-name-mirrored.png`
 
 
-`** use this tool to do the mirroring`
+Use this tool to do the mirroring:
 
 https://www.resizepixel.com/
 
