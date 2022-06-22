@@ -147,6 +147,9 @@
           if (i == 0) src_image = "src";
           else src_image = "data-lazy-src";
 
+          mirror = "";
+          if (image.mirror) mirror = "mirrorred_img";
+
           carousel_slides +=
             '<div id="' +
             piece_slug +
@@ -167,7 +170,9 @@
             "<br>" +
             //image_caption +
             '<br>">' +
-            '<img class="carousel_img"' +
+            '<img class="carousel_img ' +
+            mirror +
+            '"' +
             src_image +
             '="' +
             image_path +

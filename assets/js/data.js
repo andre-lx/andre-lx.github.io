@@ -418,32 +418,30 @@ const projects = {
             },
           },
           pieces: [
-            //{
-            //  name: {
-            //    pt: "Blusa com Padrão",
-            //    en: "Patterned Blouse",
-            //  },
-            //  images: [
-            //    {
-            //      name: "patterned-blouse-006",
-            //    },
-            //    {
-            //      name: "patterned-blouse-001",
-            //    },
-            //    {
-            //      name: "patterned-blouse-002",
-            //    },
-            //    {
-            //      name: "patterned-blouse-003",
-            //    },
-            //    {
-            //      name: "patterned-blouse-004",
-            //    },
-            //    {
-            //      name: "patterned-blouse-005",
-            //    },
-            //  ],
-            //},
+            {
+              name: {
+                pt: "Blusa com Padrão",
+                en: "Patterned Blouse",
+              },
+              images: [
+                {
+                  name: "patterned-blouse-002",
+                  mirror: true,
+                },
+                {
+                  name: "patterned-blouse-001",
+                },
+                {
+                  name: "patterned-blouse-002",
+                },
+                {
+                  name: "patterned-blouse-003",
+                },
+                {
+                  name: "patterned-blouse-004",
+                },
+              ],
+            },
             {
               name: {
                 pt: "Blusa Camiseiro Floral",
@@ -524,9 +522,13 @@ const projects = {
               images: [
                 {
                   name: "tie-dye-tshirt-002",
+                  mirror: true,
                 },
                 {
                   name: "tie-dye-tshirt-001",
+                },
+                {
+                  name: "tie-dye-tshirt-002",
                 },
                 {
                   name: "tie-dye-tshirt-003",
@@ -935,6 +937,10 @@ const projects = {
               images: [
                 {
                   name: "bikini-bottom-high-waist-bow-blue-002",
+                  mirror: true,
+                },
+                {
+                  name: "bikini-bottom-high-waist-bow-blue-002",
                 },
                 {
                   name: "bikini-bottom-high-waist-bow-blue-003",
@@ -951,10 +957,10 @@ const projects = {
               },
               images: [
                 {
-                  name: "bikini-bottom-high-waist-crossover-black-002",
+                  name: "bikini-bottom-high-waist-crossover-black-006",
                 },
                 {
-                  name: "bikini-bottom-high-waist-crossover-black-006",
+                  name: "bikini-bottom-high-waist-crossover-black-002",
                 },
                 {
                   name: "bikini-bottom-high-waist-crossover-black-003",
