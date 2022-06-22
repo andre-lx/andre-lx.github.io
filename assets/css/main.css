@@ -3805,7 +3805,3 @@ ul.icons li .icon {
 .labelSocial {
   cursor: auto;
 }
-
-.mirrorred_img {
-  transform: rotateY(180deg);
-}
