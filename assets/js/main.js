@@ -133,8 +133,6 @@
 
         var carousel_slides = "";
         $(piece.images).each(function (i, image) {
-          //var image_caption = image.caption[lang];
-
           var paths_images = category_path_images + subcategory_path_images;
           var image_path =
             window.location.href
@@ -146,9 +144,6 @@
 
           if (i == 0) src_image = "src";
           else src_image = "data-lazy-src";
-
-          mirror = "";
-          if (image.mirror) mirror = "mirrorred_img";
 
           carousel_slides +=
             '<div id="' +
@@ -168,11 +163,8 @@
             "</strong><br>" +
             piece_name +
             "<br>" +
-            //image_caption +
             '<br>">' +
-            '<img class="carousel_img ' +
-            mirror +
-            '"' +
+            '<img class="carousel_img" ' +
             src_image +
             '="' +
             image_path +

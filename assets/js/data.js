@@ -425,8 +425,7 @@ const projects = {
               },
               images: [
                 {
-                  name: "patterned-blouse-002",
-                  mirror: true,
+                  name: "patterned-blouse-002-mirrored",
                 },
                 {
                   name: "patterned-blouse-001",
@@ -521,8 +520,7 @@ const projects = {
               },
               images: [
                 {
-                  name: "tie-dye-tshirt-002",
-                  mirror: true,
+                  name: "tie-dye-tshirt-002-mirrored",
                 },
                 {
                   name: "tie-dye-tshirt-001",
@@ -936,8 +934,7 @@ const projects = {
               },
               images: [
                 {
-                  name: "bikini-bottom-high-waist-bow-blue-002",
-                  mirror: true,
+                  name: "bikini-bottom-high-waist-bow-blue-002-mirrored",
                 },
                 {
                   name: "bikini-bottom-high-waist-bow-blue-002",
