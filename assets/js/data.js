@@ -58,6 +58,13 @@ const main = {
           items: [
             {
               name: {
+                pt: "Licenciatura em Design de Moda - FAUL Lisboa [2022-presente]",
+                en: "Bachelor in Fashion Design - FAUL Lisbon [2022-present]",
+              },
+              favicon: "fa-graduation-cap",
+            },
+            {
+              name: {
                 pt: "Modelagem e Confeção de Vestuário - LSD - Lisbon School Design [2020-2021]",
                 en: "Patternmaker and Clothing Maker - LSD - Lisbon School Design [2020-2021]",
               },
